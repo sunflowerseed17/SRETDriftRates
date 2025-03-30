@@ -4,7 +4,7 @@
 ################
 
 from pyddm import Model, Fittable, Sample
-from pyddm.models import Drift, NoiseConstant, BoundConstant, OverlayChain, OverlayNonDecision, OverlayUniformMixture, ICUniform  # type: ignore
+from pyddm.models import DriftConstant, NoiseConstant, BoundConstant, OverlayChain, OverlayNonDecision, OverlayUniformMixture, ICUniform  # type: ignore
 from pyddm.functions import fit_adjust_model
 from config import drift_model_config
 import os
@@ -41,23 +41,12 @@ def suppress_stdout_stderr():
 # Model Definition #
 ####################
 
-class DriftScoreDependent(Drift):
-    name = "Drift varies with questionnaire score"
-    required_parameters = ["a", "b"]
-    required_conditions = ["score"]
-
-    def get_drift(self, x, conditions, **kwargs):
-        return self.a * conditions["score"] + self.b
-
 def create_drift_model(cfg=None):
     if cfg is None:
         cfg = drift_model_config()
 
     return Model(
-        drift=DriftScoreDependent(
-            a=Fittable(minval=-5, maxval=5),
-            b=Fittable(minval=-5, maxval=5)
-        ),
+        drift=DriftConstant(drift=Fittable(minval=cfg['drift']['minval'], maxval=cfg['drift']['maxval'])),
         noise=NoiseConstant(noise=cfg['noise']),
         bound=BoundConstant(B=Fittable(minval=cfg['bound']['minval'], maxval=cfg['bound']['maxval'])),
         overlay=OverlayChain(overlays=[
@@ -70,18 +59,15 @@ def create_drift_model(cfg=None):
     )
 
 def fit_model(model, data, rt_column, choice_column, score_column):
-    df = data.rename(columns={
-        rt_column: 'rt',
-        choice_column: 'choice',
-        score_column: 'score'
-    })
-
     sample = Sample.from_pandas_dataframe(
-        df[["rt", "choice"]],
+        data.rename(columns={
+            rt_column: 'rt',
+            choice_column: 'choice',
+            score_column: 'score'
+        }),
         rt_column_name='rt',
-        choice_column_name='choice'
+        choice_column_name='choice',
+        conditions_column_names=['score'] 
     )
-    sample.conditions["score"] = df["score"].values
-
     with suppress_stdout_stderr():
         return fit_adjust_model(sample=sample, model=model)
