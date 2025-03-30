@@ -1,120 +1,40 @@
-###################################
-# Configs for word categorization #
-###################################
+#################
+# Dependencies  #
+#################
 
-# Extracting the columns names from the data
+
+
+
+####################################################
+# Configs for word categorization and drift model  #
+####################################################
+
 
 def get_columns(data):
-    columns = data.columns.tolist()
-    return columns
+    return data.columns.tolist()
 
-# Extracting the words from the data and their groupings by affiliation and dominance
-
+# Dynamically extract words and their grouping from specified columns
 def get_words(data, word_column, affiliation_column, dominance_column):
-    words = data[word_column].tolist()
-    affiliations = data[affiliation_column].tolist()
-    dominances = data[dominance_column].tolist()
-    word_aff_doms = {}
-    for i in range(len(words)):
-        word_aff_doms[words[i]] = (affiliations[i], dominances[i])
-    return word_aff_doms
+    return dict(zip(data[word_column], zip(data[affiliation_column], data[dominance_column])))
 
+# Dynamically extract decisions and RTs
 def get_decisions_and_RT(data, decision_column, RT_column):
-    decision_RT = {}
-    decisions = data[decision_column].tolist()
-    RTs = data[RT_column].tolist()
-    for i in range(len(decisions)):
-        decision_RT[decisions[i]] = RTs[i]
-    return decision_RT
+    return dict(zip(data[decision_column], data[RT_column]))
 
-#####################################
-# Configs for clinical distribution #
-#####################################
+# Dynamically extract scores for any given measures
+def get_scores(data, participant_column, measure_columns):
+    scores = data.groupby(participant_column)[measure_columns].first()
+    return scores.to_dict(orient='index')
 
-# Extracting the scores for each participants for depression-related measures
-
-def get_depression_scores(data, participant_column, *args):
-    participant_depression_scores = {}
-    unique_participants = data[participant_column].unique()
-    for participant in unique_participants:
-        first_idx = data[data[participant_column] == participant].index[0]
-        scores = [data[arg][first_idx] for arg in args]
-        participant_depression_scores[participant] = scores
-    return participant_depression_scores
-
-# Extracting the scores for each participants for anxiety-related measures
-
-def get_anxiety_scores(data, participant_column, *args):
-    participant_anxiety_scores = {}
-    unique_participants = data[participant_column].unique()
-    for participant in unique_participants:
-        first_idx = data[data[participant_column] == participant].index[0]
-        scores = [data[arg][first_idx] for arg in args]
-        participant_anxiety_scores[participant] = scores
-    return participant_anxiety_scores
-
-
-###########################
-# Configs for drift model #
-###########################
-
-drift_model_config = {
-    'drift': {
-        'type': 'DriftConstant',
-        'params': {
-            'drift': {
-                'fittable': True,
-                'minval': -10,
-                'maxval': 10
-            }
-        }
-    },
-    'noise': {
-        'type': 'NoiseConstant',
-        'params': {
-            'noise': 1  
-        }
-    },
-    'bound': {
-        'type': 'BoundConstant',
-        'params': {
-            'B': {
-                'fittable': True,
-                'minval': 0.5,
-                'maxval': 4.0
-            }
-        }
-    },
-    'overlay': {
-        'type': 'OverlayChain',
-        'overlays': [
-            {
-                'type': 'OverlayNonDecision',
-                'params': {
-                    'nondectime': {
-                        'fittable': True,
-                        'minval': 0,
-                        'maxval': 1.0
-                    }
-                }
-            },
-            {
-                'type': 'OverlayUniformMixture',
-                'params': {
-                    'umixturecoef': {
-                        'fittable': True,
-                        'minval': 0,
-                        'maxval': 0.1
-                    }
-                }
-            }
-        ]
-    },
-    'IC': {
-        'type': 'ICUniform'
-    },
-    'dt': 0.01,
-    'T_dur': 8.0
-}
-
+# Drift model configuration defaults 
+def drift_model_config():
+    return {
+        'drift': {'minval': -10, 'maxval': 10},
+        'noise': 1,
+        'bound': {'minval': 0.5, 'maxval': 4.0},
+        'nondectime': {'minval': 0, 'maxval': 1.0},
+        'umixturecoef': {'minval': 0, 'maxval': 0.1},
+        'dt': 0.01,
+        'T_dur': 8.0
+    }
 
