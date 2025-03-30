@@ -9,19 +9,19 @@
 # Configs for word categorization and drift model  #
 ####################################################
 
-
+# Gets the columns names from the data
 def get_columns(data):
     return data.columns.tolist()
 
-# Dynamically extract words and their grouping from specified columns
+# Extracts words and their grouping from specified columns
 def get_words(data, word_column, affiliation_column, dominance_column):
     return dict(zip(data[word_column], zip(data[affiliation_column], data[dominance_column])))
 
-# Dynamically extract decisions and RTs
+# Extract decisions and RTs
 def get_decisions_and_RT(data, decision_column, RT_column):
     return dict(zip(data[decision_column], data[RT_column]))
 
-# Dynamically extract scores for any given measures
+# Extract scores for any given measures
 def get_scores(data, participant_column, measure_columns):
     scores = data.groupby(participant_column)[measure_columns].first()
     return scores.to_dict(orient='index')

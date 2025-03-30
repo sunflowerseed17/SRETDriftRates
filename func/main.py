@@ -6,7 +6,9 @@
 from utils import map_choices_to_binary,load_and_prepare_data, compute_drift_rates, plot_drift_rates
 from drift_model import create_drift_model, fit_model
 import logging
+import os
 logging.getLogger("pyddm").setLevel(logging.ERROR)
+os.environ["PYTHONWARNINGS"] = "ignore"
 
 #########################################
 # Running the model on specific dataset #
@@ -22,7 +24,6 @@ anxiety_measures = input("Enter anxiety measure column names (comma-separated, e
 depression_measures = input("Enter depression measure column names (comma-separated, e.g., BDI,RSES): ").split(',')
 
 # Load data
-
 df = load_and_prepare_data(data_path)
 df = map_choices_to_binary(df, choice_col)
 df[rt_col] = df[rt_col] / 1000 # Convert RT from ms to seconds
