@@ -1,1 +1,2741 @@
+<<<<<<< HEAD
 Dimension,Category,Measure,Type,ScoreBinMean,DriftRate
+=======
+Participant,Dimension,Category,Measure,Type,Score,DriftRate
+164,Valence,negative,LSAS,Anxiety,50,0.06842985702551745
+292,Valence,negative,LSAS,Anxiety,81,-0.8229788239073742
+344,Valence,negative,LSAS,Anxiety,38,-0.9903477314516528
+409,Valence,negative,LSAS,Anxiety,16,-3.2292829518096005
+438,Valence,negative,LSAS,Anxiety,14,-2.9308203556324894
+637,Valence,negative,LSAS,Anxiety,43,-3.8929147095677092
+808,Valence,negative,LSAS,Anxiety,20,-0.9051126684277148
+923,Valence,negative,LSAS,Anxiety,28,-0.6554741479191257
+1109,Valence,negative,LSAS,Anxiety,35,-6.107010663881927
+1119,Valence,negative,LSAS,Anxiety,49,-0.038640983815802395
+1418,Valence,negative,LSAS,Anxiety,37,-1.1192511397042997
+1611,Valence,negative,LSAS,Anxiety,24,-3.6438929331181362
+1688,Valence,negative,LSAS,Anxiety,62,-4.8718413959317814
+1761,Valence,negative,LSAS,Anxiety,17,-2.5539934743621244
+1800,Valence,negative,LSAS,Anxiety,2,-2.0594694411215357
+1902,Valence,negative,LSAS,Anxiety,67,-8.303779974522794
+2007,Valence,negative,LSAS,Anxiety,18,-3.7296058523975706
+2370,Valence,negative,LSAS,Anxiety,56,-0.26902654897735057
+2463,Valence,negative,LSAS,Anxiety,4,-5.954314404051201
+2480,Valence,negative,LSAS,Anxiety,16,-1.602191274449399
+2582,Valence,negative,LSAS,Anxiety,29,-2.514398669576825
+2717,Valence,negative,LSAS,Anxiety,35,-1.7672831820781554
+3219,Valence,negative,LSAS,Anxiety,42,-2.466908292500863
+3403,Valence,negative,LSAS,Anxiety,4,-10.0
+3515,Valence,negative,LSAS,Anxiety,51,-0.41218019651922794
+3893,Valence,negative,LSAS,Anxiety,34,-1.463199365812666
+3904,Valence,negative,LSAS,Anxiety,56,-0.5309813773919625
+4657,Valence,negative,LSAS,Anxiety,70,-1.3504648272613429
+4755,Valence,negative,LSAS,Anxiety,53,-0.6305732568261915
+4969,Valence,negative,LSAS,Anxiety,89,-0.6698088542156222
+5071,Valence,negative,LSAS,Anxiety,36,-4.421895161368186
+5344,Valence,negative,LSAS,Anxiety,18,-3.405363853195956
+5625,Valence,negative,LSAS,Anxiety,28,-10.0
+5658,Valence,negative,LSAS,Anxiety,91,-7.705845857310022
+6016,Valence,negative,LSAS,Anxiety,29,-10.0
+6047,Valence,negative,LSAS,Anxiety,17,-1.7767546759667834
+6184,Valence,negative,LSAS,Anxiety,39,-2.2582124116998754
+6246,Valence,negative,LSAS,Anxiety,20,-0.015814356704011528
+6453,Valence,negative,LSAS,Anxiety,39,-1.7411751507644198
+6504,Valence,negative,LSAS,Anxiety,37,-0.3375824851318135
+6588,Valence,negative,LSAS,Anxiety,58,-2.3394062995322464
+7338,Valence,negative,LSAS,Anxiety,55,-0.7046661879159529
+7351,Valence,negative,LSAS,Anxiety,22,-8.072057733427895
+7452,Valence,negative,LSAS,Anxiety,41,-1.4316865421679847
+7542,Valence,negative,LSAS,Anxiety,27,-0.6563111262619404
+7583,Valence,negative,LSAS,Anxiety,19,-2.9713760762300168
+7796,Valence,negative,LSAS,Anxiety,82,-6.5002051568253885
+7827,Valence,negative,LSAS,Anxiety,57,-1.419223276269791
+7888,Valence,negative,LSAS,Anxiety,27,2.517675033503739
+7933,Valence,negative,LSAS,Anxiety,7,-7.342604354298624
+8197,Valence,negative,LSAS,Anxiety,15,-5.175596963531246
+8517,Valence,negative,LSAS,Anxiety,26,-0.8773265369575317
+8788,Valence,negative,LSAS,Anxiety,56,-0.5667213473477354
+8892,Valence,negative,LSAS,Anxiety,51,-1.155229528451641
+8995,Valence,negative,LSAS,Anxiety,54,-0.5729838930526
+9023,Valence,negative,LSAS,Anxiety,52,-1.6719807887762255
+9350,Valence,negative,LSAS,Anxiety,13,-2.2543296576370677
+164,Valence,negative,SPIN,Anxiety,22,0.0666518553339377
+292,Valence,negative,SPIN,Anxiety,40,-0.8288432431154632
+344,Valence,negative,SPIN,Anxiety,21,-0.9957667905186912
+409,Valence,negative,SPIN,Anxiety,0,-3.2820950087578886
+438,Valence,negative,SPIN,Anxiety,7,-2.9281743932427173
+637,Valence,negative,SPIN,Anxiety,22,-3.8511359660931097
+808,Valence,negative,SPIN,Anxiety,4,-0.9145647949920515
+923,Valence,negative,SPIN,Anxiety,12,-0.6579014979110654
+1109,Valence,negative,SPIN,Anxiety,16,-5.968267729604731
+1119,Valence,negative,SPIN,Anxiety,24,-0.04091866746766906
+1418,Valence,negative,SPIN,Anxiety,9,-1.1081694101908464
+1611,Valence,negative,SPIN,Anxiety,3,-3.5850196348441563
+1688,Valence,negative,SPIN,Anxiety,6,-4.694437259124672
+1761,Valence,negative,SPIN,Anxiety,3,-2.553996111340177
+1800,Valence,negative,SPIN,Anxiety,2,-2.059465501029743
+1902,Valence,negative,SPIN,Anxiety,42,-7.602422581811557
+2007,Valence,negative,SPIN,Anxiety,14,-3.611040013940502
+2370,Valence,negative,SPIN,Anxiety,26,-0.2683189826163388
+2463,Valence,negative,SPIN,Anxiety,1,-6.369781311424832
+2480,Valence,negative,SPIN,Anxiety,6,-1.59499474906583
+2582,Valence,negative,SPIN,Anxiety,9,-2.5334921355919127
+2717,Valence,negative,SPIN,Anxiety,18,-1.7758919386760414
+3219,Valence,negative,SPIN,Anxiety,20,-2.4734304709719854
+3403,Valence,negative,SPIN,Anxiety,1,-10.0
+3515,Valence,negative,SPIN,Anxiety,28,-0.41801894533232786
+3893,Valence,negative,SPIN,Anxiety,10,-1.4580538692982454
+3904,Valence,negative,SPIN,Anxiety,32,-0.530989377502912
+4657,Valence,negative,SPIN,Anxiety,50,-1.259638361246102
+4755,Valence,negative,SPIN,Anxiety,12,-0.6435628412222955
+4969,Valence,negative,SPIN,Anxiety,47,-0.6631832280201294
+5071,Valence,negative,SPIN,Anxiety,7,-4.3731819259643165
+5344,Valence,negative,SPIN,Anxiety,8,-3.489859293446378
+5625,Valence,negative,SPIN,Anxiety,14,-10.0
+5658,Valence,negative,SPIN,Anxiety,47,-6.787449810876726
+6016,Valence,negative,SPIN,Anxiety,16,-1.9517341090434426
+6047,Valence,negative,SPIN,Anxiety,9,-1.7688036040101587
+6184,Valence,negative,SPIN,Anxiety,22,-2.311577362597785
+6246,Valence,negative,SPIN,Anxiety,5,-0.024187977727197732
+6453,Valence,negative,SPIN,Anxiety,2,-1.7648845247579914
+6504,Valence,negative,SPIN,Anxiety,9,-0.33758529793485176
+6588,Valence,negative,SPIN,Anxiety,29,-2.3448533026400407
+7338,Valence,negative,SPIN,Anxiety,30,-0.7355062188816278
+7351,Valence,negative,SPIN,Anxiety,13,-8.11406534604185
+7452,Valence,negative,SPIN,Anxiety,21,-1.408008691979719
+7542,Valence,negative,SPIN,Anxiety,3,-0.6516138530664295
+7583,Valence,negative,SPIN,Anxiety,6,-2.8768455745594474
+7796,Valence,negative,SPIN,Anxiety,38,-6.540629142989681
+7827,Valence,negative,SPIN,Anxiety,28,-1.4097972491050794
+7888,Valence,negative,SPIN,Anxiety,7,2.5309802564862003
+7933,Valence,negative,SPIN,Anxiety,0,-7.508491358011546
+8197,Valence,negative,SPIN,Anxiety,4,-5.114629649727164
+8517,Valence,negative,SPIN,Anxiety,7,-0.8732577998607772
+8788,Valence,negative,SPIN,Anxiety,24,-0.561109458963365
+8892,Valence,negative,SPIN,Anxiety,25,-1.1408504617929676
+8995,Valence,negative,SPIN,Anxiety,40,-0.5730143392584195
+9023,Valence,negative,SPIN,Anxiety,12,-9.926698235678126
+9350,Valence,negative,SPIN,Anxiety,2,-2.316244220614584
+164,Valence,negative,BFNE,Anxiety,27,0.07464154462461188
+292,Valence,negative,BFNE,Anxiety,44,-0.8180559153247835
+344,Valence,negative,BFNE,Anxiety,24,-1.0036514559456609
+409,Valence,negative,BFNE,Anxiety,16,-3.2557521730490673
+438,Valence,negative,BFNE,Anxiety,28,-3.000306729373438
+637,Valence,negative,BFNE,Anxiety,19,-3.9067695872984567
+808,Valence,negative,BFNE,Anxiety,7,-5.069113857052122
+923,Valence,negative,BFNE,Anxiety,24,-0.6530453137587287
+1109,Valence,negative,BFNE,Anxiety,44,-6.287918809681879
+1119,Valence,negative,BFNE,Anxiety,36,-0.04316826019929544
+1418,Valence,negative,BFNE,Anxiety,11,-1.104416787736342
+1611,Valence,negative,BFNE,Anxiety,18,-3.690243780487764
+1688,Valence,negative,BFNE,Anxiety,28,-9.622191097994493
+1761,Valence,negative,BFNE,Anxiety,13,-9.992756786028718
+1800,Valence,negative,BFNE,Anxiety,9,-5.364499223675843
+1902,Valence,negative,BFNE,Anxiety,35,-7.890349765571762
+2007,Valence,negative,BFNE,Anxiety,31,-3.6959229407968404
+2370,Valence,negative,BFNE,Anxiety,26,-0.2683000500868119
+2463,Valence,negative,BFNE,Anxiety,5,-6.535223772430725
+2480,Valence,negative,BFNE,Anxiety,16,-1.5949754928095257
+2582,Valence,negative,BFNE,Anxiety,29,-3.9856423000793746
+2717,Valence,negative,BFNE,Anxiety,29,-1.7586512864267958
+3219,Valence,negative,BFNE,Anxiety,27,-2.3996852958011474
+3403,Valence,negative,BFNE,Anxiety,10,-9.98463256685911
+3515,Valence,negative,BFNE,Anxiety,26,-0.4138646300936068
+3893,Valence,negative,BFNE,Anxiety,15,-1.4887717983144013
+3904,Valence,negative,BFNE,Anxiety,32,-0.5321989306943037
+4657,Valence,negative,BFNE,Anxiety,45,-1.3469850405932096
+4755,Valence,negative,BFNE,Anxiety,35,-0.6305689676685887
+4969,Valence,negative,BFNE,Anxiety,32,-0.6698133907705793
+5071,Valence,negative,BFNE,Anxiety,41,-4.323784128975476
+5344,Valence,negative,BFNE,Anxiety,16,-3.318185346163027
+5625,Valence,negative,BFNE,Anxiety,21,-10.0
+5658,Valence,negative,BFNE,Anxiety,35,-7.208162249952238
+6016,Valence,negative,BFNE,Anxiety,27,-9.955746131267325
+6047,Valence,negative,BFNE,Anxiety,10,-1.7527859771099794
+6184,Valence,negative,BFNE,Anxiety,27,-2.31158131883512
+6246,Valence,negative,BFNE,Anxiety,28,-0.01956621837521765
+6453,Valence,negative,BFNE,Anxiety,31,-5.106570054042893
+6504,Valence,negative,BFNE,Anxiety,17,-0.3384986465514634
+6588,Valence,negative,BFNE,Anxiety,29,-2.367221723793925
+7338,Valence,negative,BFNE,Anxiety,26,-0.7279191179261933
+7351,Valence,negative,BFNE,Anxiety,17,-8.421391430159701
+7452,Valence,negative,BFNE,Anxiety,35,-1.4473914488741195
+7542,Valence,negative,BFNE,Anxiety,13,-0.6450425807235337
+7583,Valence,negative,BFNE,Anxiety,12,-2.9713869366328938
+7796,Valence,negative,BFNE,Anxiety,30,-6.484092748691141
+7827,Valence,negative,BFNE,Anxiety,15,-1.3850017446660252
+7888,Valence,negative,BFNE,Anxiety,8,2.530997250712297
+7933,Valence,negative,BFNE,Anxiety,6,-7.508438637698184
+8197,Valence,negative,BFNE,Anxiety,23,-5.206025068257923
+8517,Valence,negative,BFNE,Anxiety,21,-0.8724907915181046
+8788,Valence,negative,BFNE,Anxiety,35,-0.5666981568362861
+8892,Valence,negative,BFNE,Anxiety,17,-1.147620253278846
+8995,Valence,negative,BFNE,Anxiety,37,-0.5751003801030306
+9023,Valence,negative,BFNE,Anxiety,21,-9.969746045388876
+9350,Valence,negative,BFNE,Anxiety,12,-2.24394911862405
+164,Valence,negative,STAI-S,Anxiety,33,0.07198611734356822
+292,Valence,negative,STAI-S,Anxiety,59,-0.829716991563898
+344,Valence,negative,STAI-S,Anxiety,35,-1.0010084910675217
+409,Valence,negative,STAI-S,Anxiety,24,-3.2557572387959937
+438,Valence,negative,STAI-S,Anxiety,27,-2.9399996528434427
+637,Valence,negative,STAI-S,Anxiety,23,-3.8790332587286303
+808,Valence,negative,STAI-S,Anxiety,24,-0.8987929230129186
+923,Valence,negative,STAI-S,Anxiety,43,-0.6481583869362512
+1109,Valence,negative,STAI-S,Anxiety,33,-6.02781802040406
+1119,Valence,negative,STAI-S,Anxiety,37,-0.03864057903510084
+1418,Valence,negative,STAI-S,Anxiety,31,-1.1558032550418886
+1611,Valence,negative,STAI-S,Anxiety,40,-3.7135296044634014
+1688,Valence,negative,STAI-S,Anxiety,27,-9.993515361134184
+1761,Valence,negative,STAI-S,Anxiety,23,-2.5400019851441136
+1800,Valence,negative,STAI-S,Anxiety,28,-5.288681808866954
+1902,Valence,negative,STAI-S,Anxiety,26,-7.431696732759594
+2007,Valence,negative,STAI-S,Anxiety,37,-3.6281038371237138
+2370,Valence,negative,STAI-S,Anxiety,29,-0.25915105558614093
+2463,Valence,negative,STAI-S,Anxiety,21,-6.617513771063731
+2480,Valence,negative,STAI-S,Anxiety,40,-1.5877660693041378
+2582,Valence,negative,STAI-S,Anxiety,27,-2.533505634276221
+2717,Valence,negative,STAI-S,Anxiety,49,-1.7758849751687844
+3219,Valence,negative,STAI-S,Anxiety,33,-2.4222154777375047
+3403,Valence,negative,STAI-S,Anxiety,23,-10.0
+3515,Valence,negative,STAI-S,Anxiety,52,-0.41218220454754073
+3893,Valence,negative,STAI-S,Anxiety,36,-1.4734481665335142
+3904,Valence,negative,STAI-S,Anxiety,29,-0.5297282240135265
+4657,Valence,negative,STAI-S,Anxiety,22,-1.3086738835992928
+4755,Valence,negative,STAI-S,Anxiety,35,-0.6331580387300974
+4969,Valence,negative,STAI-S,Anxiety,55,-0.666465409694943
+5071,Valence,negative,STAI-S,Anxiety,36,-4.42192586862499
+5344,Valence,negative,STAI-S,Anxiety,23,-3.4779974366040385
+5625,Valence,negative,STAI-S,Anxiety,24,-9.841384615184099
+5658,Valence,negative,STAI-S,Anxiety,53,-7.032626131380529
+6016,Valence,negative,STAI-S,Anxiety,28,-9.973270829008847
+6047,Valence,negative,STAI-S,Anxiety,33,-1.7608224297669364
+6184,Valence,negative,STAI-S,Anxiety,39,-2.2244981927123533
+6246,Valence,negative,STAI-S,Anxiety,33,-0.022338040357564114
+6453,Valence,negative,STAI-S,Anxiety,41,-5.156916308170319
+6504,Valence,negative,STAI-S,Anxiety,28,-0.339518188174911
+6588,Valence,negative,STAI-S,Anxiety,34,-2.317650713584244
+7338,Valence,negative,STAI-S,Anxiety,43,-0.730512660748245
+7351,Valence,negative,STAI-S,Anxiety,26,-8.877999198974457
+7452,Valence,negative,STAI-S,Anxiety,37,-1.4159853801420783
+7542,Valence,negative,STAI-S,Anxiety,26,-0.6467094738184546
+7583,Valence,negative,STAI-S,Anxiety,33,-7.999216656504254
+7796,Valence,negative,STAI-S,Anxiety,30,-6.587124936500395
+7827,Valence,negative,STAI-S,Anxiety,33,-1.4097675113318067
+7888,Valence,negative,STAI-S,Anxiety,37,2.530990888943235
+7933,Valence,negative,STAI-S,Anxiety,20,-7.50848540291517
+8197,Valence,negative,STAI-S,Anxiety,25,-5.1298985340148215
+8517,Valence,negative,STAI-S,Anxiety,24,-0.8742197823349692
+8788,Valence,negative,STAI-S,Anxiety,54,-0.5611218187736452
+8892,Valence,negative,STAI-S,Anxiety,28,-1.16368172389418
+8995,Valence,negative,STAI-S,Anxiety,58,-0.5708343138850064
+9023,Valence,negative,STAI-S,Anxiety,32,-1.6955255970588445
+9350,Valence,negative,STAI-S,Anxiety,22,-2.233566737635229
+164,Valence,negative,STAI-T,Anxiety,35,0.07190757530481517
+292,Valence,negative,STAI-T,Anxiety,57,-0.7731998488803726
+344,Valence,negative,STAI-T,Anxiety,39,-0.9930472489282902
+409,Valence,negative,STAI-T,Anxiety,29,-3.2292909649517263
+438,Valence,negative,STAI-T,Anxiety,33,-2.9629063192828524
+637,Valence,negative,STAI-T,Anxiety,29,-3.9206100858891837
+808,Valence,negative,STAI-T,Anxiety,24,-0.8988951353295758
+923,Valence,negative,STAI-T,Anxiety,43,-0.6530543739287354
+1109,Valence,negative,STAI-T,Anxiety,35,-6.25374709982744
+1119,Valence,negative,STAI-T,Anxiety,35,-0.04316760621252687
+1418,Valence,negative,STAI-T,Anxiety,31,-1.0857547320542889
+1611,Valence,negative,STAI-T,Anxiety,40,-3.658759811342503
+1688,Valence,negative,STAI-T,Anxiety,40,-4.844016532888781
+1761,Valence,negative,STAI-T,Anxiety,29,-2.5420584123770213
+1800,Valence,negative,STAI-T,Anxiety,32,-5.401151306151666
+1902,Valence,negative,STAI-T,Anxiety,30,-8.166006980490826
+2007,Valence,negative,STAI-T,Anxiety,41,-3.611021177292293
+2370,Valence,negative,STAI-T,Anxiety,55,-0.26901082312568747
+2463,Valence,negative,STAI-T,Anxiety,27,-6.700173248206004
+2480,Valence,negative,STAI-T,Anxiety,42,-1.5877535382440102
+2582,Valence,negative,STAI-T,Anxiety,31,-2.520603524101875
+2717,Valence,negative,STAI-T,Anxiety,44,-1.7672600049580205
+3219,Valence,negative,STAI-T,Anxiety,33,-2.4371072988119247
+3403,Valence,negative,STAI-T,Anxiety,29,-9.983978477203419
+3515,Valence,negative,STAI-T,Anxiety,52,-0.4130338002646576
+3893,Valence,negative,STAI-T,Anxiety,33,-1.4836785070535536
+3904,Valence,negative,STAI-T,Anxiety,33,-0.5309753965226247
+4657,Valence,negative,STAI-T,Anxiety,32,-1.2842574219597869
+4755,Valence,negative,STAI-T,Anxiety,41,-0.6312837916882019
+4969,Valence,negative,STAI-T,Anxiety,50,-0.6535317141160468
+5071,Valence,negative,STAI-T,Anxiety,34,-4.34858657418102
+5344,Valence,negative,STAI-T,Anxiety,29,-3.465942859451896
+5625,Valence,negative,STAI-T,Anxiety,30,-9.933379481945535
+5658,Valence,negative,STAI-T,Anxiety,51,-7.046190212871439
+6016,Valence,negative,STAI-T,Anxiety,30,-9.969597978219332
+6047,Valence,negative,STAI-T,Anxiety,35,-1.77675270006515
+6184,Valence,negative,STAI-T,Anxiety,41,-2.3114860497755196
+6246,Valence,negative,STAI-T,Anxiety,37,-0.026992222702193716
+6453,Valence,negative,STAI-T,Anxiety,39,-5.226999674493842
+6504,Valence,negative,STAI-T,Anxiety,32,-0.33858085608527505
+6588,Valence,negative,STAI-T,Anxiety,36,-2.356559449840907
+7338,Valence,negative,STAI-T,Anxiety,43,-0.7278928693854346
+7351,Valence,negative,STAI-T,Anxiety,32,-8.517018033043268
+7452,Valence,negative,STAI-T,Anxiety,39,-1.3561679788934538
+7542,Valence,negative,STAI-T,Anxiety,28,-0.6516270242752342
+7583,Valence,negative,STAI-T,Anxiety,33,-2.9040414650243727
+7796,Valence,negative,STAI-T,Anxiety,34,-6.705361849455644
+7827,Valence,negative,STAI-T,Anxiety,35,-1.387745514435525
+7888,Valence,negative,STAI-T,Anxiety,37,2.515649854195847
+7933,Valence,negative,STAI-T,Anxiety,26,-7.453254210118658
+8197,Valence,negative,STAI-T,Anxiety,31,-5.0383387824866475
+8517,Valence,negative,STAI-T,Anxiety,30,-0.8773695081515932
+8788,Valence,negative,STAI-T,Anxiety,51,-0.552706657273383
+8892,Valence,negative,STAI-T,Anxiety,32,-1.1352748171071714
+8995,Valence,negative,STAI-T,Anxiety,56,-0.5751181271896809
+9023,Valence,negative,STAI-T,Anxiety,34,-9.537499872218296
+9350,Valence,negative,STAI-T,Anxiety,28,-2.238726832495834
+164,Valence,negative,FPES,Anxiety,37,0.0666484986369361
+292,Valence,negative,FPES,Anxiety,27,-0.8012674137626741
+344,Valence,negative,FPES,Anxiety,47,-0.9983745258430688
+409,Valence,negative,FPES,Anxiety,27,-3.2292720517762117
+438,Valence,negative,FPES,Anxiety,39,-2.9616529942110734
+637,Valence,negative,FPES,Anxiety,15,-3.8790125583754933
+808,Valence,negative,FPES,Anxiety,30,-0.9008847487089205
+923,Valence,negative,FPES,Anxiety,41,-0.6554847794521091
+1109,Valence,negative,FPES,Anxiety,14,-6.197514233097802
+1119,Valence,negative,FPES,Anxiety,37,-0.036344974001540055
+1418,Valence,negative,FPES,Anxiety,14,-1.1192921462166796
+1611,Valence,negative,FPES,Anxiety,13,-3.5644396600362658
+1688,Valence,negative,FPES,Anxiety,59,-4.79912270681221
+1761,Valence,negative,FPES,Anxiety,8,-2.542065267664098
+1800,Valence,negative,FPES,Anxiety,11,-2.0412753849588197
+1902,Valence,negative,FPES,Anxiety,50,-8.112863141346223
+2007,Valence,negative,FPES,Anxiety,31,-3.645112570431314
+2370,Valence,negative,FPES,Anxiety,12,-0.26830474267571136
+2463,Valence,negative,FPES,Anxiety,16,-6.30771745588298
+2480,Valence,negative,FPES,Anxiety,14,-1.5949819840352728
+2582,Valence,negative,FPES,Anxiety,8,-2.5334811805891992
+2717,Valence,negative,FPES,Anxiety,46,-1.7930388019068626
+3219,Valence,negative,FPES,Anxiety,26,-2.47432383928272
+3403,Valence,negative,FPES,Anxiety,9,-9.976405830089487
+3515,Valence,negative,FPES,Anxiety,52,-0.4138577232317616
+3893,Valence,negative,FPES,Anxiety,50,-1.4374881423849768
+3904,Valence,negative,FPES,Anxiety,44,-0.5297353287600776
+4657,Valence,negative,FPES,Anxiety,41,-1.2981445827356433
+4755,Valence,negative,FPES,Anxiety,38,-0.6200791396941343
+4969,Valence,negative,FPES,Anxiety,35,-0.6404654442112856
+5071,Valence,negative,FPES,Anxiety,21,-4.421950688393787
+5344,Valence,negative,FPES,Anxiety,2,-3.5835939278506532
+5625,Valence,negative,FPES,Anxiety,32,-9.933606709629181
+5658,Valence,negative,FPES,Anxiety,48,-7.194793447854369
+6016,Valence,negative,FPES,Anxiety,27,-9.990683223668153
+6047,Valence,negative,FPES,Anxiety,9,-1.77676173417582
+6184,Valence,negative,FPES,Anxiety,40,-2.2132239754188165
+6246,Valence,negative,FPES,Anxiety,28,-0.0251640370671128
+6453,Valence,negative,FPES,Anxiety,28,-5.127118642040264
+6504,Valence,negative,FPES,Anxiety,20,-0.3375867006655622
+6588,Valence,negative,FPES,Anxiety,50,-2.335115622550017
+7338,Valence,negative,FPES,Anxiety,28,-0.7176439739161017
+7351,Valence,negative,FPES,Anxiety,21,-7.555319343719088
+7452,Valence,negative,FPES,Anxiety,39,-1.3642575416942015
+7542,Valence,negative,FPES,Anxiety,18,-0.6532092234183918
+7583,Valence,negative,FPES,Anxiety,16,-8.408787323672222
+7796,Valence,negative,FPES,Anxiety,26,-6.511414480663226
+7827,Valence,negative,FPES,Anxiety,51,-1.4035105023283574
+7888,Valence,negative,FPES,Anxiety,8,2.5462901080165046
+7933,Valence,negative,FPES,Anxiety,16,-7.976216179964343
+8197,Valence,negative,FPES,Anxiety,35,-5.190874432803199
+8517,Valence,negative,FPES,Anxiety,10,-0.8766820078702489
+8788,Valence,negative,FPES,Anxiety,47,-0.5583113777750253
+8892,Valence,negative,FPES,Anxiety,24,-1.1293158002010495
+8995,Valence,negative,FPES,Anxiety,45,-0.5772280323689499
+9023,Valence,negative,FPES,Anxiety,17,-9.864598082960967
+9350,Valence,negative,FPES,Anxiety,38,-2.196879735799109
+164,Valence,negative,BDI,Depression,10,0.0684366913646954
+292,Valence,negative,BDI,Depression,19,-0.817087050740767
+344,Valence,negative,BDI,Depression,9,-0.9876554396388044
+409,Valence,negative,BDI,Depression,1,-3.242547275505158
+438,Valence,negative,BDI,Depression,4,-2.999586787516969
+637,Valence,negative,BDI,Depression,4,-3.8230480024756925
+808,Valence,negative,BDI,Depression,3,-0.9171735733353386
+923,Valence,negative,BDI,Depression,9,-0.6554742635901128
+1109,Valence,negative,BDI,Depression,8,-6.604167040034928
+1119,Valence,negative,BDI,Depression,5,-0.04091457402211434
+1418,Valence,negative,BDI,Depression,3,-1.126623654266796
+1611,Valence,negative,BDI,Depression,9,-3.6381886090166757
+1688,Valence,negative,BDI,Depression,0,-4.7580958071426664
+1761,Valence,negative,BDI,Depression,6,-10.0
+1800,Valence,negative,BDI,Depression,8,-2.035219515662871
+1902,Valence,negative,BDI,Depression,0,-7.90008489592334
+2007,Valence,negative,BDI,Depression,4,-3.645127934982839
+2370,Valence,negative,BDI,Depression,14,-0.2692726445551495
+2463,Valence,negative,BDI,Depression,1,-6.514385061115231
+2480,Valence,negative,BDI,Depression,9,-1.5877552444780472
+2582,Valence,negative,BDI,Depression,5,-2.5334771278553143
+2717,Valence,negative,BDI,Depression,13,-1.7844754080340242
+3219,Valence,negative,BDI,Depression,5,-2.5039566070976313
+3403,Valence,negative,BDI,Depression,0,-10.0
+3515,Valence,negative,BDI,Depression,10,-0.4147088503685389
+3893,Valence,negative,BDI,Depression,2,-1.468329423274275
+3904,Valence,negative,BDI,Depression,25,-0.5309566890262131
+4657,Valence,negative,BDI,Depression,5,-1.301721707271106
+4755,Valence,negative,BDI,Depression,6,-0.6331491219457505
+4969,Valence,negative,BDI,Depression,7,-0.6650559829115299
+5071,Valence,negative,BDI,Depression,4,-4.421921404538507
+5344,Valence,negative,BDI,Depression,5,-3.4539168408301855
+5625,Valence,negative,BDI,Depression,1,-9.902794603083123
+5658,Valence,negative,BDI,Depression,14,-7.262181566483427
+6016,Valence,negative,BDI,Depression,5,-10.0
+6047,Valence,negative,BDI,Depression,4,-1.7688219542902366
+6184,Valence,negative,BDI,Depression,3,-2.2871626795966806
+6246,Valence,negative,BDI,Depression,8,-0.02235351721560346
+6453,Valence,negative,BDI,Depression,3,-5.086941745567177
+6504,Valence,negative,BDI,Depression,4,-0.3604676221366643
+6588,Valence,negative,BDI,Depression,14,-2.326363452781646
+7338,Valence,negative,BDI,Depression,18,-0.7202329735154623
+7351,Valence,negative,BDI,Depression,1,-8.400246236181175
+7452,Valence,negative,BDI,Depression,3,-1.3961294503454136
+7542,Valence,negative,BDI,Depression,3,-0.6450651407617807
+7583,Valence,negative,BDI,Depression,3,-2.999696568083255
+7796,Valence,negative,BDI,Depression,6,-6.445833927422009
+7827,Valence,negative,BDI,Depression,0,-1.4035103844686372
+7888,Valence,negative,BDI,Depression,20,2.530995774371331
+7933,Valence,negative,BDI,Depression,5,-8.058521996456692
+8197,Valence,negative,BDI,Depression,2,-5.00779989957289
+8517,Valence,negative,BDI,Depression,4,-0.8737120515214014
+8788,Valence,negative,BDI,Depression,11,-0.5722543173690045
+8892,Valence,negative,BDI,Depression,6,-1.164716480227233
+8995,Valence,negative,BDI,Depression,14,-0.5761639678942252
+9023,Valence,negative,BDI,Depression,13,-9.277923137190433
+9350,Valence,negative,BDI,Depression,0,-2.2750465407266693
+164,Valence,negative,RSES,Depression,39,0.06929339914514461
+292,Valence,negative,RSES,Depression,29,-0.8240084395816294
+344,Valence,negative,RSES,Depression,46,-0.9930578521485705
+409,Valence,negative,RSES,Depression,68,-3.255752644550795
+438,Valence,negative,RSES,Depression,60,-3.0104063566312353
+637,Valence,negative,RSES,Depression,68,-3.920616104068231
+808,Valence,negative,RSES,Depression,63,-0.9072887797552759
+923,Valence,negative,RSES,Depression,58,-0.6530499809657557
+1109,Valence,negative,RSES,Depression,61,-6.368221279821342
+1119,Valence,negative,RSES,Depression,65,-0.03863859539308018
+1418,Valence,negative,RSES,Depression,67,-1.1192650345858837
+1611,Valence,negative,RSES,Depression,45,-3.570890433895062
+1688,Valence,negative,RSES,Depression,60,-9.955143388792106
+1761,Valence,negative,RSES,Depression,61,-2.542102599263187
+1800,Valence,negative,RSES,Depression,58,-2.047354927157287
+1902,Valence,negative,RSES,Depression,69,-7.6768210953806815
+2007,Valence,negative,RSES,Depression,62,-3.7630900681639137
+2370,Valence,negative,RSES,Depression,39,-0.2682827193311106
+2463,Valence,negative,RSES,Depression,70,-6.514560095117887
+2480,Valence,negative,RSES,Depression,59,-1.5877530690205675
+2582,Valence,negative,RSES,Depression,63,-2.546362211870023
+2717,Valence,negative,RSES,Depression,39,-1.767287438781669
+3219,Valence,negative,RSES,Depression,65,-2.4296190696677975
+3403,Valence,negative,RSES,Depression,70,-9.994260462064116
+3515,Valence,negative,RSES,Depression,53,-0.4138540192306223
+3893,Valence,negative,RSES,Depression,67,-1.4836755265745218
+3904,Valence,negative,RSES,Depression,34,-0.5309839323007739
+4657,Valence,negative,RSES,Depression,64,-1.326116773915113
+4755,Valence,negative,RSES,Depression,64,-0.6357295816205843
+4969,Valence,negative,RSES,Depression,41,-0.6664496751553945
+5071,Valence,negative,RSES,Depression,67,-4.3976623863084745
+5344,Valence,negative,RSES,Depression,70,-3.47793913187886
+5625,Valence,negative,RSES,Depression,70,-10.0
+5658,Valence,negative,RSES,Depression,38,-7.69241454178241
+6016,Valence,negative,RSES,Depression,60,-9.990889883320964
+6047,Valence,negative,RSES,Depression,66,-1.7527903865502361
+6184,Valence,negative,RSES,Depression,55,-2.3034421327601886
+6246,Valence,negative,RSES,Depression,56,-0.02234769491241496
+6453,Valence,negative,RSES,Depression,55,-1.7648918920377787
+6504,Valence,negative,RSES,Depression,70,-0.3390502323571445
+6588,Valence,negative,RSES,Depression,61,-2.326365583975809
+7338,Valence,negative,RSES,Depression,54,-0.7304560425194885
+7351,Valence,negative,RSES,Depression,53,-8.707755584893
+7452,Valence,negative,RSES,Depression,54,-1.4591214829306351
+7542,Valence,negative,RSES,Depression,62,-0.6532427229962079
+7583,Valence,negative,RSES,Depression,70,-2.9585822780732154
+7796,Valence,negative,RSES,Depression,58,-6.540678516065399
+7827,Valence,negative,RSES,Depression,66,-1.397287852077537
+7888,Valence,negative,RSES,Depression,50,2.5462953708010914
+7933,Valence,negative,RSES,Depression,69,-7.5361821597314345
+8197,Valence,negative,RSES,Depression,64,-5.1146864401117185
+8517,Valence,negative,RSES,Depression,63,-0.8747500160337406
+8788,Valence,negative,RSES,Depression,44,-0.5611191112140655
+8892,Valence,negative,RSES,Depression,70,-1.187214943642706
+8995,Valence,negative,RSES,Depression,45,-0.571887801037769
+9023,Valence,negative,RSES,Depression,42,-1.6720061231762557
+9350,Valence,negative,RSES,Depression,70,-2.1916532517558065
+164,Valence,positive,LSAS,Anxiety,50,0.07170471983579896
+292,Valence,positive,LSAS,Anxiety,81,0.8052580303003113
+344,Valence,positive,LSAS,Anxiety,38,1.9787492147910195
+409,Valence,positive,LSAS,Anxiety,16,2.7342173451776954
+438,Valence,positive,LSAS,Anxiety,14,1.642779126988237
+637,Valence,positive,LSAS,Anxiety,43,3.7635537267308066
+808,Valence,positive,LSAS,Anxiety,20,0.4472799653170113
+923,Valence,positive,LSAS,Anxiety,28,1.1505474842580792
+1109,Valence,positive,LSAS,Anxiety,35,1.4166668240883258
+1119,Valence,positive,LSAS,Anxiety,49,0.4894296507409207
+1418,Valence,positive,LSAS,Anxiety,37,2.2101564372120657
+1611,Valence,positive,LSAS,Anxiety,24,0.5289141451203969
+1688,Valence,positive,LSAS,Anxiety,62,0.6227053000582213
+1761,Valence,positive,LSAS,Anxiety,17,3.2748629899774317
+1800,Valence,positive,LSAS,Anxiety,2,1.5193743201748928
+1902,Valence,positive,LSAS,Anxiety,67,0.31680970367930295
+2007,Valence,positive,LSAS,Anxiety,18,0.8822721078089417
+2370,Valence,positive,LSAS,Anxiety,56,0.27797603178246993
+2463,Valence,positive,LSAS,Anxiety,4,2.5815358998119575
+2480,Valence,positive,LSAS,Anxiety,16,2.6263921151235707
+2582,Valence,positive,LSAS,Anxiety,29,6.217118846672251
+2717,Valence,positive,LSAS,Anxiety,35,0.9909668431049982
+3219,Valence,positive,LSAS,Anxiety,42,0.047080014029707136
+3403,Valence,positive,LSAS,Anxiety,4,2.4054810607127353
+3515,Valence,positive,LSAS,Anxiety,51,-0.054767994893787274
+3893,Valence,positive,LSAS,Anxiety,34,1.8331792739665536
+3904,Valence,positive,LSAS,Anxiety,56,-0.4104998652655634
+4657,Valence,positive,LSAS,Anxiety,70,0.2485086542631858
+4755,Valence,positive,LSAS,Anxiety,53,1.9078806960281052
+4969,Valence,positive,LSAS,Anxiety,89,-0.32113545147341294
+5071,Valence,positive,LSAS,Anxiety,36,1.290241926762125
+5344,Valence,positive,LSAS,Anxiety,18,9.99255184823906
+5625,Valence,positive,LSAS,Anxiety,28,9.1306957835072
+5658,Valence,positive,LSAS,Anxiety,91,0.3957786456026618
+6016,Valence,positive,LSAS,Anxiety,29,0.7190674934887008
+6047,Valence,positive,LSAS,Anxiety,17,2.7019149772159814
+6184,Valence,positive,LSAS,Anxiety,39,0.47102553197201524
+6246,Valence,positive,LSAS,Anxiety,20,0.4725114841049281
+6453,Valence,positive,LSAS,Anxiety,39,-0.06877668758969187
+6504,Valence,positive,LSAS,Anxiety,37,2.7546823575919834
+6588,Valence,positive,LSAS,Anxiety,58,10.0
+7338,Valence,positive,LSAS,Anxiety,55,0.9524943299432588
+7351,Valence,positive,LSAS,Anxiety,22,2.523953589167814
+7452,Valence,positive,LSAS,Anxiety,41,0.22686808069962794
+7542,Valence,positive,LSAS,Anxiety,27,1.2388984051481282
+7583,Valence,positive,LSAS,Anxiety,19,1.0045853420865276
+7796,Valence,positive,LSAS,Anxiety,82,0.4552044292871837
+7827,Valence,positive,LSAS,Anxiety,57,1.4039921549033663
+7888,Valence,positive,LSAS,Anxiety,27,-6.25905902885527
+7933,Valence,positive,LSAS,Anxiety,7,9.398852313664348
+8197,Valence,positive,LSAS,Anxiety,15,6.436632308914808
+8517,Valence,positive,LSAS,Anxiety,26,3.7579367792074247
+8788,Valence,positive,LSAS,Anxiety,56,0.8157149312020383
+8892,Valence,positive,LSAS,Anxiety,51,2.492557548686272
+8995,Valence,positive,LSAS,Anxiety,54,-0.038152805203541286
+9023,Valence,positive,LSAS,Anxiety,52,-0.03926516292959676
+9350,Valence,positive,LSAS,Anxiety,13,2.436230872201134
+164,Valence,positive,SPIN,Anxiety,22,0.12698728005399568
+292,Valence,positive,SPIN,Anxiety,40,0.7871019013232141
+344,Valence,positive,SPIN,Anxiety,21,2.121862961977026
+409,Valence,positive,SPIN,Anxiety,0,2.7342250295180635
+438,Valence,positive,SPIN,Anxiety,7,1.6427794688954778
+637,Valence,positive,SPIN,Anxiety,22,4.414067890812761
+808,Valence,positive,SPIN,Anxiety,4,0.42746598965263216
+923,Valence,positive,SPIN,Anxiety,12,1.155759630648348
+1109,Valence,positive,SPIN,Anxiety,16,1.421305581858137
+1119,Valence,positive,SPIN,Anxiety,24,0.483687889180708
+1418,Valence,positive,SPIN,Anxiety,9,2.229321247244199
+1611,Valence,positive,SPIN,Anxiety,3,0.5289117069988474
+1688,Valence,positive,SPIN,Anxiety,6,0.6190796367732317
+1761,Valence,positive,SPIN,Anxiety,3,3.3133739652852556
+1800,Valence,positive,SPIN,Anxiety,2,1.6285216726501925
+1902,Valence,positive,SPIN,Anxiety,42,0.3148060608390468
+2007,Valence,positive,SPIN,Anxiety,14,0.8743864593274127
+2370,Valence,positive,SPIN,Anxiety,26,0.27715104258254647
+2463,Valence,positive,SPIN,Anxiety,1,2.595668915718113
+2480,Valence,positive,SPIN,Anxiety,6,2.612519201882335
+2582,Valence,positive,SPIN,Anxiety,9,6.086871802773571
+2717,Valence,positive,SPIN,Anxiety,18,0.9742676612245569
+3219,Valence,positive,SPIN,Anxiety,20,0.04707187949664848
+3403,Valence,positive,SPIN,Anxiety,1,2.3960455838573718
+3515,Valence,positive,SPIN,Anxiety,28,-0.05477865442748485
+3893,Valence,positive,SPIN,Anxiety,10,1.8892237673380987
+3904,Valence,positive,SPIN,Anxiety,32,-0.4045348419467809
+4657,Valence,positive,SPIN,Anxiety,50,0.2428785457555348
+4755,Valence,positive,SPIN,Anxiety,12,1.926530944063909
+4969,Valence,positive,SPIN,Anxiety,47,-0.3208845940410135
+5071,Valence,positive,SPIN,Anxiety,7,1.3081412307318072
+5344,Valence,positive,SPIN,Anxiety,8,9.982447111204262
+5625,Valence,positive,SPIN,Anxiety,14,9.202942009585342
+5658,Valence,positive,SPIN,Anxiety,47,0.39455493200716296
+6016,Valence,positive,SPIN,Anxiety,16,0.7112534525016891
+6047,Valence,positive,SPIN,Anxiety,9,2.6863162108812633
+6184,Valence,positive,SPIN,Anxiety,22,0.46585449168653786
+6246,Valence,positive,SPIN,Anxiety,5,0.4714447671464817
+6453,Valence,positive,SPIN,Anxiety,2,-0.06745416712458074
+6504,Valence,positive,SPIN,Anxiety,9,2.7157278550506927
+6588,Valence,positive,SPIN,Anxiety,29,0.5268606781797759
+7338,Valence,positive,SPIN,Anxiety,30,0.9407061388163306
+7351,Valence,positive,SPIN,Anxiety,13,2.5239539526978287
+7452,Valence,positive,SPIN,Anxiety,21,0.22656788014972745
+7542,Valence,positive,SPIN,Anxiety,3,1.2082374274037093
+7583,Valence,positive,SPIN,Anxiety,6,1.0123304324392803
+7796,Valence,positive,SPIN,Anxiety,38,0.452968050835604
+7827,Valence,positive,SPIN,Anxiety,28,1.405762110958421
+7888,Valence,positive,SPIN,Anxiety,7,-6.076303974221198
+7933,Valence,positive,SPIN,Anxiety,0,9.578971044975388
+8197,Valence,positive,SPIN,Anxiety,4,6.4762120368912655
+8517,Valence,positive,SPIN,Anxiety,7,3.6985925007961806
+8788,Valence,positive,SPIN,Anxiety,24,0.8119361862965
+8892,Valence,positive,SPIN,Anxiety,25,2.40831581370923
+8995,Valence,positive,SPIN,Anxiety,40,-0.03875916414836172
+9023,Valence,positive,SPIN,Anxiety,12,-0.03927566821034068
+9350,Valence,positive,SPIN,Anxiety,2,2.4252417747237502
+164,Valence,positive,BFNE,Anxiety,27,0.11920844675724968
+292,Valence,positive,BFNE,Anxiety,44,0.7798233544047403
+344,Valence,positive,BFNE,Anxiety,24,2.188531861139112
+409,Valence,positive,BFNE,Anxiety,16,2.7342088980066372
+438,Valence,positive,BFNE,Anxiety,28,1.650782269562969
+637,Valence,positive,BFNE,Anxiety,19,4.3316711116196425
+808,Valence,positive,BFNE,Anxiety,7,0.4428643777571734
+923,Valence,positive,BFNE,Anxiety,24,1.1557553589482439
+1109,Valence,positive,BFNE,Anxiety,44,1.4085183013997438
+1119,Valence,positive,BFNE,Anxiety,36,0.48942730399245254
+1418,Valence,positive,BFNE,Anxiety,11,2.161506238972841
+1611,Valence,positive,BFNE,Anxiety,18,0.5296785865768305
+1688,Valence,positive,BFNE,Anxiety,28,0.6118621464484199
+1761,Valence,positive,BFNE,Anxiety,13,3.2792172583587575
+1800,Valence,positive,BFNE,Anxiety,9,1.5942965062933827
+1902,Valence,positive,BFNE,Anxiety,35,0.31683698411945493
+2007,Valence,positive,BFNE,Anxiety,31,0.8783384840711174
+2370,Valence,positive,BFNE,Anxiety,26,0.2746852994701533
+2463,Valence,positive,BFNE,Anxiety,5,2.5851900872817457
+2480,Valence,positive,BFNE,Anxiety,16,2.598633973681431
+2582,Valence,positive,BFNE,Anxiety,29,6.402998885597584
+2717,Valence,positive,BFNE,Anxiety,29,0.9986098805467437
+3219,Valence,positive,BFNE,Anxiety,27,0.051524801128346724
+3403,Valence,positive,BFNE,Anxiety,10,2.4054700857568996
+3515,Valence,positive,BFNE,Anxiety,26,-0.05888677072312291
+3893,Valence,positive,BFNE,Anxiety,15,1.866859830491669
+3904,Valence,positive,BFNE,Anxiety,32,-0.41081865523162214
+4657,Valence,positive,BFNE,Anxiety,45,0.24378503759074438
+4755,Valence,positive,BFNE,Anxiety,35,1.9542898367701302
+4969,Valence,positive,BFNE,Anxiety,32,-0.3211383849012696
+5071,Valence,positive,BFNE,Anxiety,41,1.3081386436293583
+5344,Valence,positive,BFNE,Anxiety,16,10.0
+5625,Valence,positive,BFNE,Anxiety,21,9.08217086433873
+5658,Valence,positive,BFNE,Anxiety,35,0.39578303004648047
+6016,Valence,positive,BFNE,Anxiety,27,0.715167830083061
+6047,Valence,positive,BFNE,Anxiety,10,2.7052648740061724
+6184,Valence,positive,BFNE,Anxiety,27,0.4762025195510442
+6246,Valence,positive,BFNE,Anxiety,28,0.4725125007942361
+6453,Valence,positive,BFNE,Anxiety,31,-0.06878173106969351
+6504,Valence,positive,BFNE,Anxiety,17,2.6608028150029024
+6588,Valence,positive,BFNE,Anxiety,29,9.986098168719893
+7338,Valence,positive,BFNE,Anxiety,26,0.976088898473108
+7351,Valence,positive,BFNE,Anxiety,17,2.5864650068008097
+7452,Valence,positive,BFNE,Anxiety,35,0.22756553875436605
+7542,Valence,positive,BFNE,Anxiety,13,1.2159264598896817
+7583,Valence,positive,BFNE,Anxiety,12,1.0161819403605807
+7796,Valence,positive,BFNE,Anxiety,30,0.45353544940880575
+7827,Valence,positive,BFNE,Anxiety,15,1.2638408040915745
+7888,Valence,positive,BFNE,Anxiety,8,-6.128706513180396
+7933,Valence,positive,BFNE,Anxiety,6,9.803028992269345
+8197,Valence,positive,BFNE,Anxiety,23,6.464932261185822
+8517,Valence,positive,BFNE,Anxiety,21,3.745769233789784
+8788,Valence,positive,BFNE,Anxiety,35,0.8157128684805623
+8892,Valence,positive,BFNE,Anxiety,17,10.0
+8995,Valence,positive,BFNE,Anxiety,37,-0.04251075558201903
+9023,Valence,positive,BFNE,Anxiety,21,-0.036622723575042315
+9350,Valence,positive,BFNE,Anxiety,12,2.3922975205132433
+164,Valence,positive,STAI-S,Anxiety,33,0.12017325964387593
+292,Valence,positive,STAI-S,Anxiety,59,0.7834263857702352
+344,Valence,positive,STAI-S,Anxiety,35,2.2031886799140348
+409,Valence,positive,STAI-S,Anxiety,24,2.734249935808563
+438,Valence,positive,STAI-S,Anxiety,27,1.6347747237923278
+637,Valence,positive,STAI-S,Anxiety,23,4.315132976152303
+808,Valence,positive,STAI-S,Anxiety,24,0.45617829532201504
+923,Valence,positive,STAI-S,Anxiety,43,1.1505581492041457
+1109,Valence,positive,STAI-S,Anxiety,33,1.421254114916048
+1119,Valence,positive,STAI-S,Anxiety,37,0.48655300227232035
+1418,Valence,positive,STAI-S,Anxiety,31,2.2292595124141394
+1611,Valence,positive,STAI-S,Anxiety,40,0.5312856792389722
+1688,Valence,positive,STAI-S,Anxiety,27,0.6154684592862931
+1761,Valence,positive,STAI-S,Anxiety,23,3.2621895541306576
+1800,Valence,positive,STAI-S,Anxiety,28,1.618095659261086
+1902,Valence,positive,STAI-S,Anxiety,26,0.31284877633805563
+2007,Valence,positive,STAI-S,Anxiety,37,0.8783297712233227
+2370,Valence,positive,STAI-S,Anxiety,29,0.27467644785381684
+2463,Valence,positive,STAI-S,Anxiety,21,2.585154165219341
+2480,Valence,positive,STAI-S,Anxiety,40,2.612520534433372
+2582,Valence,positive,STAI-S,Anxiety,27,6.458786709656438
+2717,Valence,positive,STAI-S,Anxiety,49,0.965166946862519
+3219,Valence,positive,STAI-S,Anxiety,33,0.047075326763188076
+3403,Valence,positive,STAI-S,Anxiety,23,2.3960251482522685
+3515,Valence,positive,STAI-S,Anxiety,52,-0.05477929957196063
+3893,Valence,positive,STAI-S,Anxiety,36,1.8612399746025765
+3904,Valence,positive,STAI-S,Anxiety,29,-0.3960870763488422
+4657,Valence,positive,STAI-S,Anxiety,22,0.2513086737092436
+4755,Valence,positive,STAI-S,Anxiety,35,1.926499773977903
+4969,Valence,positive,STAI-S,Anxiety,55,-0.3214631581654712
+5071,Valence,positive,STAI-S,Anxiety,36,1.312590183766574
+5344,Valence,positive,STAI-S,Anxiety,23,9.994963636433575
+5625,Valence,positive,STAI-S,Anxiety,24,9.00982240903609
+5658,Valence,positive,STAI-S,Anxiety,53,0.39577911411855604
+6016,Valence,positive,STAI-S,Anxiety,28,0.6152493211585139
+6047,Valence,positive,STAI-S,Anxiety,33,2.7018403763532204
+6184,Valence,positive,STAI-S,Anxiety,39,0.48418229484531006
+6246,Valence,positive,STAI-S,Anxiety,33,0.47690196297634874
+6453,Valence,positive,STAI-S,Anxiety,41,-0.0687737939274177
+6504,Valence,positive,STAI-S,Anxiety,28,2.633624962817573
+6588,Valence,positive,STAI-S,Anxiety,34,0.5266210865521211
+7338,Valence,positive,STAI-S,Anxiety,43,0.9406894841691975
+7351,Valence,positive,STAI-S,Anxiety,26,2.6210421068507226
+7452,Valence,positive,STAI-S,Anxiety,37,0.22725955957642352
+7542,Valence,positive,STAI-S,Anxiety,26,1.2082577086717303
+7583,Valence,positive,STAI-S,Anxiety,33,1.0084506588039392
+7796,Valence,positive,STAI-S,Anxiety,30,0.4551996984979844
+7827,Valence,positive,STAI-S,Anxiety,33,1.3210677601107867
+7888,Valence,positive,STAI-S,Anxiety,37,-5.785597406407622
+7933,Valence,positive,STAI-S,Anxiety,20,9.218968120775669
+8197,Valence,positive,STAI-S,Anxiety,25,6.4919048122774345
+8517,Valence,positive,STAI-S,Anxiety,24,3.6254795012534013
+8788,Valence,positive,STAI-S,Anxiety,54,0.842071264189926
+8892,Valence,positive,STAI-S,Anxiety,28,10.0
+8995,Valence,positive,STAI-S,Anxiety,58,-0.03946632068427483
+9023,Valence,positive,STAI-S,Anxiety,32,-0.03662084081987877
+9350,Valence,positive,STAI-S,Anxiety,22,2.3977447372926646
+164,Valence,positive,STAI-T,Anxiety,35,0.1202126633323229
+292,Valence,positive,STAI-T,Anxiety,57,0.7907383000651388
+344,Valence,positive,STAI-T,Anxiety,39,2.144187032244393
+409,Valence,positive,STAI-T,Anxiety,29,2.7342518242727487
+438,Valence,positive,STAI-T,Anxiety,33,1.6507936038571545
+637,Valence,positive,STAI-T,Anxiety,29,4.332860316865497
+808,Valence,positive,STAI-T,Anxiety,24,0.41867744906653154
+923,Valence,positive,STAI-T,Anxiety,43,1.1557442894715755
+1109,Valence,positive,STAI-T,Anxiety,35,1.4391194295381826
+1119,Valence,positive,STAI-T,Anxiety,35,0.4951789454775817
+1418,Valence,positive,STAI-T,Anxiety,31,2.191258887614766
+1611,Valence,positive,STAI-T,Anxiety,40,0.5272823916754638
+1688,Valence,positive,STAI-T,Anxiety,40,0.6190834071759921
+1761,Valence,positive,STAI-T,Anxiety,29,3.2690730338981044
+1800,Valence,positive,STAI-T,Anxiety,32,2.097058184586434
+1902,Valence,positive,STAI-T,Anxiety,30,0.3148588329300077
+2007,Valence,positive,STAI-T,Anxiety,41,0.8822706968597892
+2370,Valence,positive,STAI-T,Anxiety,55,0.28445716080437833
+2463,Valence,positive,STAI-T,Anxiety,27,2.5837202252011626
+2480,Valence,positive,STAI-T,Anxiety,42,2.5847178173080283
+2582,Valence,positive,STAI-T,Anxiety,31,5.80767140321148
+2717,Valence,positive,STAI-T,Anxiety,44,0.9828622270564867
+3219,Valence,positive,STAI-T,Anxiety,33,0.039611375824047626
+3403,Valence,positive,STAI-T,Anxiety,29,2.3865296774628697
+3515,Valence,positive,STAI-T,Anxiety,52,-0.0568354101263548
+3893,Valence,positive,STAI-T,Anxiety,33,1.8276462579856316
+3904,Valence,positive,STAI-T,Anxiety,33,-0.41079860664659007
+4657,Valence,positive,STAI-T,Anxiety,32,0.24197744944571284
+4755,Valence,positive,STAI-T,Anxiety,41,1.963448857578359
+4969,Valence,positive,STAI-T,Anxiety,50,-0.32089017353440075
+5071,Valence,positive,STAI-T,Anxiety,34,1.3169722233411698
+5344,Valence,positive,STAI-T,Anxiety,29,9.99767314189938
+5625,Valence,positive,STAI-T,Anxiety,30,8.985621740004781
+5658,Valence,positive,STAI-T,Anxiety,51,0.39639795427920704
+6016,Valence,positive,STAI-T,Anxiety,30,0.7190813061237422
+6047,Valence,positive,STAI-T,Anxiety,35,2.6936699727942037
+6184,Valence,positive,STAI-T,Anxiety,41,0.46329565019731545
+6246,Valence,positive,STAI-T,Anxiety,37,0.4703085801601307
+6453,Valence,positive,STAI-T,Anxiety,39,-0.20920088574427279
+6504,Valence,positive,STAI-T,Anxiety,32,2.6335130769430934
+6588,Valence,positive,STAI-T,Anxiety,36,10.0
+7338,Valence,positive,STAI-T,Anxiety,43,0.9642922772262092
+7351,Valence,positive,STAI-T,Anxiety,32,2.6071636888125327
+7452,Valence,positive,STAI-T,Anxiety,39,0.22689650195918099
+7542,Valence,positive,STAI-T,Anxiety,28,1.2350633554112036
+7583,Valence,positive,STAI-T,Anxiety,33,1.0200393262531096
+7796,Valence,positive,STAI-T,Anxiety,34,0.45298144238237287
+7827,Valence,positive,STAI-T,Anxiety,35,1.332989062883185
+7888,Valence,positive,STAI-T,Anxiety,37,-5.944739471049372
+7933,Valence,positive,STAI-T,Anxiety,26,9.556110648473474
+8197,Valence,positive,STAI-T,Anxiety,31,6.491851261866198
+8517,Valence,positive,STAI-T,Anxiety,30,3.6923973429344494
+8788,Valence,positive,STAI-T,Anxiety,51,0.8157195513062618
+8892,Valence,positive,STAI-T,Anxiety,32,2.4423410914877213
+8995,Valence,positive,STAI-T,Anxiety,56,-0.036858129628216364
+9023,Valence,positive,STAI-T,Anxiety,34,-0.04059174606282951
+9350,Valence,positive,STAI-T,Anxiety,28,2.3757597967867468
+164,Valence,positive,FPES,Anxiety,37,0.12965974882540587
+292,Valence,positive,FPES,Anxiety,27,0.7979972862825313
+344,Valence,positive,FPES,Anxiety,47,2.1069515375757932
+409,Valence,positive,FPES,Anxiety,27,2.744932840169886
+438,Valence,positive,FPES,Anxiety,39,1.6347735446910119
+637,Valence,positive,FPES,Anxiety,15,4.315146302984953
+808,Valence,positive,FPES,Anxiety,30,0.4539237291737077
+923,Valence,positive,FPES,Anxiety,41,1.1505404889346686
+1109,Valence,positive,FPES,Anxiety,14,1.40806660263876
+1119,Valence,positive,FPES,Anxiety,37,0.489419237300974
+1418,Valence,positive,FPES,Anxiety,14,2.1913011363058796
+1611,Valence,positive,FPES,Anxiety,13,0.5281190332790301
+1688,Valence,positive,FPES,Anxiety,59,0.615460676257702
+1761,Valence,positive,FPES,Anxiety,8,3.2368480402993662
+1800,Valence,positive,FPES,Anxiety,11,1.5564713189047126
+1902,Valence,positive,FPES,Anxiety,50,0.3128105842153407
+2007,Valence,positive,FPES,Anxiety,31,0.8783410556125059
+2370,Valence,positive,FPES,Anxiety,12,0.27222584178209075
+2463,Valence,positive,FPES,Anxiety,16,2.5851752784100315
+2480,Valence,positive,FPES,Anxiety,14,2.6125318776289546
+2582,Valence,positive,FPES,Anxiety,8,6.086813636966191
+2717,Valence,positive,FPES,Anxiety,46,1.005858950447141
+3219,Valence,positive,FPES,Anxiety,26,0.038113089744431145
+3403,Valence,positive,FPES,Anxiety,9,2.3770159230405987
+3515,Valence,positive,FPES,Anxiety,52,-0.056830745805818546
+3893,Valence,positive,FPES,Anxiety,50,1.8332514546283138
+3904,Valence,positive,FPES,Anxiety,44,-0.41690508121263736
+4657,Valence,positive,FPES,Anxiety,41,0.24755461027891673
+4755,Valence,positive,FPES,Anxiety,38,1.9357391736559375
+4969,Valence,positive,FPES,Anxiety,35,-0.3208918262854738
+5071,Valence,positive,FPES,Anxiety,21,1.3081273373546063
+5344,Valence,positive,FPES,Anxiety,2,9.99617248460871
+5625,Valence,positive,FPES,Anxiety,32,9.202903933646478
+5658,Valence,positive,FPES,Anxiety,48,0.3957749065356066
+6016,Valence,positive,FPES,Anxiety,27,0.6152563907246382
+6047,Valence,positive,FPES,Anxiety,9,2.656410056701508
+6184,Valence,positive,FPES,Anxiety,40,0.4736513259803826
+6246,Valence,positive,FPES,Anxiety,28,0.47691381543959016
+6453,Valence,positive,FPES,Anxiety,28,-0.0713936954787895
+6504,Valence,positive,FPES,Anxiety,20,2.707876199673907
+6588,Valence,positive,FPES,Anxiety,50,0.5271035217588051
+7338,Valence,positive,FPES,Anxiety,28,0.9878478314290642
+7351,Valence,positive,FPES,Anxiety,21,7.217743314317565
+7452,Valence,positive,FPES,Anxiety,39,0.22549496449887288
+7542,Valence,positive,FPES,Anxiety,18,1.2159218754482806
+7583,Valence,positive,FPES,Anxiety,16,1.0084395126428143
+7796,Valence,positive,FPES,Anxiety,26,0.4518825101143546
+7827,Valence,positive,FPES,Anxiety,51,1.3885052189782239
+7888,Valence,positive,FPES,Anxiety,8,-5.997449444273428
+7933,Valence,positive,FPES,Anxiety,16,9.601101725976784
+8197,Valence,positive,FPES,Anxiety,35,6.4051265713488865
+8517,Valence,positive,FPES,Anxiety,10,2.227123909460988
+8788,Valence,positive,FPES,Anxiety,47,0.8157208382515551
+8892,Valence,positive,FPES,Anxiety,24,2.4423457833328115
+8995,Valence,positive,FPES,Anxiety,45,-0.038150365403944106
+9023,Valence,positive,FPES,Anxiety,17,-0.03928865042954466
+9350,Valence,positive,FPES,Anxiety,38,2.45274713207102
+164,Valence,positive,BDI,Depression,10,0.12884364904137183
+292,Valence,positive,BDI,Depression,19,0.8222173138335753
+344,Valence,positive,BDI,Depression,9,1.9702403408353957
+409,Valence,positive,BDI,Depression,1,2.734250754320969
+438,Valence,positive,BDI,Depression,4,1.6427755871626883
+637,Valence,positive,BDI,Depression,4,4.364079065458542
+808,Valence,positive,BDI,Depression,3,0.43624024719962506
+923,Valence,positive,BDI,Depression,9,1.1505511604096306
+1109,Valence,positive,BDI,Depression,8,1.4963868224561836
+1119,Valence,positive,BDI,Depression,5,0.49229440142525627
+1418,Valence,positive,BDI,Depression,3,2.2941165414174547
+1611,Valence,positive,BDI,Depression,9,0.5312850223129888
+1688,Valence,positive,BDI,Depression,0,0.6154760980879482
+1761,Valence,positive,BDI,Depression,6,3.2524459888994395
+1800,Valence,positive,BDI,Depression,8,1.6130010943535737
+1902,Valence,positive,BDI,Depression,0,0.3157951159239452
+2007,Valence,positive,BDI,Depression,4,0.8704480743796564
+2370,Valence,positive,BDI,Depression,14,0.2763311958600872
+2463,Valence,positive,BDI,Depression,1,2.5851895926611435
+2480,Valence,positive,BDI,Depression,9,2.5986325766096687
+2582,Valence,positive,BDI,Depression,5,6.1240043155368244
+2717,Valence,positive,BDI,Depression,13,0.9828721371338173
+3219,Valence,positive,BDI,Depression,5,0.04111158431043136
+3403,Valence,positive,BDI,Depression,0,2.386552318486223
+3515,Valence,positive,BDI,Depression,10,-0.056835121305071956
+3893,Valence,positive,BDI,Depression,2,1.9003326079911675
+3904,Valence,positive,BDI,Depression,25,-0.41080383834506695
+4657,Valence,positive,BDI,Depression,5,0.2428766207316312
+4755,Valence,positive,BDI,Depression,6,1.963502085191045
+4969,Valence,positive,BDI,Depression,7,-0.3211266008994594
+5071,Valence,positive,BDI,Depression,4,1.3169656832504044
+5344,Valence,positive,BDI,Depression,5,9.995506990840056
+5625,Valence,positive,BDI,Depression,1,9.082186490297705
+5658,Valence,positive,BDI,Depression,14,0.39577167134652613
+6016,Valence,positive,BDI,Depression,5,0.6191937894925644
+6047,Valence,positive,BDI,Depression,4,2.710138457932205
+6184,Valence,positive,BDI,Depression,3,0.4632605426653794
+6246,Valence,positive,BDI,Depression,8,0.4724940010170615
+6453,Valence,positive,BDI,Depression,3,-0.1906372091538444
+6504,Valence,positive,BDI,Depression,4,2.6138792906020645
+6588,Valence,positive,BDI,Depression,14,0.5263471797657232
+7338,Valence,positive,BDI,Depression,18,0.9643343528300341
+7351,Valence,positive,BDI,Depression,1,2.6003077998637147
+7452,Valence,positive,BDI,Depression,3,0.22584887216944552
+7542,Valence,positive,BDI,Depression,3,1.250342454444901
+7583,Valence,positive,BDI,Depression,3,1.0045558546452742
+7796,Valence,positive,BDI,Depression,6,0.45245432876533354
+7827,Valence,positive,BDI,Depression,0,1.242809965828986
+7888,Valence,positive,BDI,Depression,20,-6.076310265806424
+7933,Valence,positive,BDI,Depression,5,9.534129992657444
+8197,Valence,positive,BDI,Depression,2,6.499611653320314
+8517,Valence,positive,BDI,Depression,4,2.2115956483799324
+8788,Valence,positive,BDI,Depression,11,0.8232522888949381
+8892,Valence,positive,BDI,Depression,6,10.0
+8995,Valence,positive,BDI,Depression,14,-0.07447939477204679
+9023,Valence,positive,BDI,Depression,13,-0.03661315409890286
+9350,Valence,positive,BDI,Depression,0,2.36473099517566
+164,Valence,positive,RSES,Depression,39,0.1197018276891276
+292,Valence,positive,RSES,Depression,29,0.7725424330015923
+344,Valence,positive,RSES,Depression,46,2.1589644322895603
+409,Valence,positive,RSES,Depression,68,2.734219845307321
+438,Valence,positive,RSES,Depression,60,1.6427822088991713
+637,Valence,positive,RSES,Depression,68,4.331624121479798
+808,Valence,positive,RSES,Depression,63,0.4318857362453675
+923,Valence,positive,RSES,Depression,58,1.1505492279970095
+1109,Valence,positive,RSES,Depression,61,1.4259332456996823
+1119,Valence,positive,RSES,Depression,65,0.486561270005573
+1418,Valence,positive,RSES,Depression,67,2.2101339193044933
+1611,Valence,positive,RSES,Depression,45,0.5328319200337919
+1688,Valence,positive,RSES,Depression,60,0.6154582394780814
+1761,Valence,positive,RSES,Depression,61,3.262175903693107
+1800,Valence,positive,RSES,Depression,58,2.0613434962625505
+1902,Valence,positive,RSES,Depression,69,0.3158462732544483
+2007,Valence,positive,RSES,Depression,62,0.8783463380786329
+2370,Valence,positive,RSES,Depression,39,0.270551922243734
+2463,Valence,positive,RSES,Depression,70,2.595671559170296
+2480,Valence,positive,RSES,Depression,59,2.6263610811780054
+2582,Valence,positive,RSES,Depression,63,5.863304049543914
+2717,Valence,positive,RSES,Depression,39,0.9651902346644688
+3219,Valence,positive,RSES,Depression,65,0.04555469061671407
+3403,Valence,positive,RSES,Depression,70,2.386562365574703
+3515,Valence,positive,RSES,Depression,53,-0.05275223425593673
+3893,Valence,positive,RSES,Depression,67,1.8668879610716869
+3904,Valence,positive,RSES,Depression,34,-0.4128501823467179
+4657,Valence,positive,RSES,Depression,64,0.24852878230204767
+4755,Valence,positive,RSES,Depression,64,1.9357934615917203
+4969,Valence,positive,RSES,Depression,41,-0.32060278678530035
+5071,Valence,positive,RSES,Depression,67,1.2857770514046654
+5344,Valence,positive,RSES,Depression,70,9.988629424917985
+5625,Valence,positive,RSES,Depression,70,8.985672894337785
+5658,Valence,positive,RSES,Depression,38,0.39766161107028886
+6016,Valence,positive,RSES,Depression,60,0.7112477649465966
+6047,Valence,positive,RSES,Depression,66,2.6483023633173293
+6184,Valence,positive,RSES,Depression,55,0.4632698161564574
+6246,Valence,positive,RSES,Depression,56,0.4769352496053744
+6453,Valence,positive,RSES,Depression,55,-0.07008679588628902
+6504,Valence,positive,RSES,Depression,70,2.7233513067353923
+6588,Valence,positive,RSES,Depression,61,0.5279903170383627
+7338,Valence,positive,RSES,Depression,54,0.9878512255068121
+7351,Valence,positive,RSES,Depression,53,2.5587335537633193
+7452,Valence,positive,RSES,Depression,54,0.2247883027811762
+7542,Valence,positive,RSES,Depression,62,1.2274271481130403
+7583,Valence,positive,RSES,Depression,70,1.0045784378120528
+7796,Valence,positive,RSES,Depression,58,0.45406954348878326
+7827,Valence,positive,RSES,Depression,66,1.3740587586278614
+7888,Valence,positive,RSES,Depression,50,-6.128711265360219
+7933,Valence,positive,RSES,Depression,69,9.466360249541943
+8197,Valence,positive,RSES,Depression,64,6.499783138564247
+8517,Valence,positive,RSES,Depression,63,3.5805298683060016
+8788,Valence,positive,RSES,Depression,44,0.8307858642189303
+8892,Valence,positive,RSES,Depression,70,2.5010718104987495
+8995,Valence,positive,RSES,Depression,45,-0.04192705142891845
+9023,Valence,positive,RSES,Depression,42,-0.03795472563351892
+9350,Valence,positive,RSES,Depression,70,2.4279648716260587
+164,Circumplex,low affiliation,LSAS,Anxiety,50,0.9092962172294433
+292,Circumplex,low affiliation,LSAS,Anxiety,81,-0.6351983214527926
+344,Circumplex,low affiliation,LSAS,Anxiety,38,-0.413912289685707
+409,Circumplex,low affiliation,LSAS,Anxiety,16,-5.232083555571415
+438,Circumplex,low affiliation,LSAS,Anxiety,14,-2.096639889831938
+637,Circumplex,low affiliation,LSAS,Anxiety,43,-3.8634171070019194
+808,Circumplex,low affiliation,LSAS,Anxiety,20,-0.07093742676857108
+923,Circumplex,low affiliation,LSAS,Anxiety,28,0.08255622107650189
+1109,Circumplex,low affiliation,LSAS,Anxiety,35,-4.892911241917968
+1119,Circumplex,low affiliation,LSAS,Anxiety,49,0.6930194117574838
+1418,Circumplex,low affiliation,LSAS,Anxiety,37,-0.6448783301181155
+1611,Circumplex,low affiliation,LSAS,Anxiety,24,-2.6200418572542996
+1688,Circumplex,low affiliation,LSAS,Anxiety,62,-10.0
+1761,Circumplex,low affiliation,LSAS,Anxiety,17,-9.999272552413572
+1800,Circumplex,low affiliation,LSAS,Anxiety,2,-1.6089707490128615
+1902,Circumplex,low affiliation,LSAS,Anxiety,67,-1.1651491417774236
+2007,Circumplex,low affiliation,LSAS,Anxiety,18,-10.0
+2370,Circumplex,low affiliation,LSAS,Anxiety,56,0.17932457491302295
+2463,Circumplex,low affiliation,LSAS,Anxiety,4,-0.30888904273802276
+2480,Circumplex,low affiliation,LSAS,Anxiety,16,-1.214415529091564
+2582,Circumplex,low affiliation,LSAS,Anxiety,29,-5.351184317430048
+2717,Circumplex,low affiliation,LSAS,Anxiety,35,-1.1377176022542126
+3219,Circumplex,low affiliation,LSAS,Anxiety,42,-0.5942354671710722
+3403,Circumplex,low affiliation,LSAS,Anxiety,4,-10.0
+3515,Circumplex,low affiliation,LSAS,Anxiety,51,0.44174503744143795
+3893,Circumplex,low affiliation,LSAS,Anxiety,34,-1.2752954547440893
+3904,Circumplex,low affiliation,LSAS,Anxiety,56,0.6117872763982678
+4657,Circumplex,low affiliation,LSAS,Anxiety,70,-0.9999029021000156
+4755,Circumplex,low affiliation,LSAS,Anxiety,53,0.06209356222145655
+4969,Circumplex,low affiliation,LSAS,Anxiety,89,-0.3053810838570095
+5071,Circumplex,low affiliation,LSAS,Anxiety,36,-1.8286062506038812
+5344,Circumplex,low affiliation,LSAS,Anxiety,18,-1.018434810097843
+5625,Circumplex,low affiliation,LSAS,Anxiety,28,-10.0
+5658,Circumplex,low affiliation,LSAS,Anxiety,91,-2.0600350188457415
+6016,Circumplex,low affiliation,LSAS,Anxiety,29,-1.2089394658624468
+6047,Circumplex,low affiliation,LSAS,Anxiety,17,-1.1195293615947082
+6184,Circumplex,low affiliation,LSAS,Anxiety,39,-5.920461286569352
+6246,Circumplex,low affiliation,LSAS,Anxiety,20,0.42007121735247804
+6453,Circumplex,low affiliation,LSAS,Anxiety,39,-1.6439363396156579
+6504,Circumplex,low affiliation,LSAS,Anxiety,37,-5.866312138641926
+6588,Circumplex,low affiliation,LSAS,Anxiety,58,-2.184436075027506
+7338,Circumplex,low affiliation,LSAS,Anxiety,55,-0.5057495667301799
+7351,Circumplex,low affiliation,LSAS,Anxiety,22,-0.05852886835721454
+7452,Circumplex,low affiliation,LSAS,Anxiety,41,-1.9036096935400293
+7542,Circumplex,low affiliation,LSAS,Anxiety,27,-0.039935668992574974
+7583,Circumplex,low affiliation,LSAS,Anxiety,19,-1.8523329179139558
+7796,Circumplex,low affiliation,LSAS,Anxiety,82,-3.967642100888149
+7827,Circumplex,low affiliation,LSAS,Anxiety,57,-0.5614833501714854
+7888,Circumplex,low affiliation,LSAS,Anxiety,27,1.8577547058357065
+7933,Circumplex,low affiliation,LSAS,Anxiety,7,-10.0
+8197,Circumplex,low affiliation,LSAS,Anxiety,15,-9.03803101085122
+8517,Circumplex,low affiliation,LSAS,Anxiety,26,-0.3508422614102469
+8788,Circumplex,low affiliation,LSAS,Anxiety,56,-0.6168019666318678
+8892,Circumplex,low affiliation,LSAS,Anxiety,51,-0.726304471950102
+8995,Circumplex,low affiliation,LSAS,Anxiety,54,-0.308951480630472
+9023,Circumplex,low affiliation,LSAS,Anxiety,52,-10.0
+9350,Circumplex,low affiliation,LSAS,Anxiety,13,-2.0077791741979008
+164,Circumplex,low affiliation,SPIN,Anxiety,22,0.8970773159820445
+292,Circumplex,low affiliation,SPIN,Anxiety,40,-0.6485256947531938
+344,Circumplex,low affiliation,SPIN,Anxiety,21,-0.41386983365581925
+409,Circumplex,low affiliation,SPIN,Anxiety,0,-5.4002720334827865
+438,Circumplex,low affiliation,SPIN,Anxiety,7,-2.1115239808421196
+637,Circumplex,low affiliation,SPIN,Anxiety,22,-3.916042845604714
+808,Circumplex,low affiliation,SPIN,Anxiety,4,-0.07160279327568356
+923,Circumplex,low affiliation,SPIN,Anxiety,12,0.08256399910791025
+1109,Circumplex,low affiliation,SPIN,Anxiety,16,-4.652754670627645
+1119,Circumplex,low affiliation,SPIN,Anxiety,24,0.6982926871837001
+1418,Circumplex,low affiliation,SPIN,Anxiety,9,-0.624220211139994
+1611,Circumplex,low affiliation,SPIN,Anxiety,3,-2.6330394460869786
+1688,Circumplex,low affiliation,SPIN,Anxiety,6,-10.0
+1761,Circumplex,low affiliation,SPIN,Anxiety,3,-9.991552137467703
+1800,Circumplex,low affiliation,SPIN,Anxiety,2,-1.599731006497231
+1902,Circumplex,low affiliation,SPIN,Anxiety,42,-7.209373691133889
+2007,Circumplex,low affiliation,SPIN,Anxiety,14,-10.0
+2370,Circumplex,low affiliation,SPIN,Anxiety,26,0.17552836331958752
+2463,Circumplex,low affiliation,SPIN,Anxiety,1,-0.310247610154423
+2480,Circumplex,low affiliation,SPIN,Anxiety,6,-1.2197367060948772
+2582,Circumplex,low affiliation,SPIN,Anxiety,9,-1.9073201026106
+2717,Circumplex,low affiliation,SPIN,Anxiety,18,-1.137714404576182
+3219,Circumplex,low affiliation,SPIN,Anxiety,20,-0.5976502000846671
+3403,Circumplex,low affiliation,SPIN,Anxiety,1,-9.96411459971289
+3515,Circumplex,low affiliation,SPIN,Anxiety,28,0.43773773032920543
+3893,Circumplex,low affiliation,SPIN,Anxiety,10,-1.316861707873108
+3904,Circumplex,low affiliation,SPIN,Anxiety,32,0.6117885371967617
+4657,Circumplex,low affiliation,SPIN,Anxiety,50,-1.0098473478519532
+4755,Circumplex,low affiliation,SPIN,Anxiety,12,-0.03995469780101951
+4969,Circumplex,low affiliation,SPIN,Anxiety,47,-0.29290311130874674
+5071,Circumplex,low affiliation,SPIN,Anxiety,7,-1.8285920726594893
+5344,Circumplex,low affiliation,SPIN,Anxiety,8,-1.0258657471122168
+5625,Circumplex,low affiliation,SPIN,Anxiety,14,-10.0
+5658,Circumplex,low affiliation,SPIN,Anxiety,47,-2.0377009085671967
+6016,Circumplex,low affiliation,SPIN,Anxiety,16,-1.2027852284577865
+6047,Circumplex,low affiliation,SPIN,Anxiety,9,-1.1459299019611429
+6184,Circumplex,low affiliation,SPIN,Anxiety,22,-6.734368123294625
+6246,Circumplex,low affiliation,SPIN,Anxiety,5,0.41653998581948937
+6453,Circumplex,low affiliation,SPIN,Anxiety,2,-1.6439288874771747
+6504,Circumplex,low affiliation,SPIN,Anxiety,9,-5.537576444280306
+6588,Circumplex,low affiliation,SPIN,Anxiety,29,-2.2071808674176685
+7338,Circumplex,low affiliation,SPIN,Anxiety,30,-0.5020833354350377
+7351,Circumplex,low affiliation,SPIN,Anxiety,13,-0.059795573077782944
+7452,Circumplex,low affiliation,SPIN,Anxiety,21,-1.944388751225119
+7542,Circumplex,low affiliation,SPIN,Anxiety,3,-0.03862728671213004
+7583,Circumplex,low affiliation,SPIN,Anxiety,6,-1.827076062961316
+7796,Circumplex,low affiliation,SPIN,Anxiety,38,-3.855908574487568
+7827,Circumplex,low affiliation,SPIN,Anxiety,28,-0.5710406061751288
+7888,Circumplex,low affiliation,SPIN,Anxiety,7,1.8577590626269898
+7933,Circumplex,low affiliation,SPIN,Anxiety,0,-10.0
+8197,Circumplex,low affiliation,SPIN,Anxiety,4,-9.632606371606293
+8517,Circumplex,low affiliation,SPIN,Anxiety,7,-0.3585771882101691
+8788,Circumplex,low affiliation,SPIN,Anxiety,24,-0.6126536948685971
+8892,Circumplex,low affiliation,SPIN,Anxiety,25,-0.7537330063170855
+8995,Circumplex,low affiliation,SPIN,Anxiety,40,-0.30017285187812204
+9023,Circumplex,low affiliation,SPIN,Anxiety,12,-10.0
+9350,Circumplex,low affiliation,SPIN,Anxiety,2,-2.0025901978083396
+164,Circumplex,low affiliation,BFNE,Anxiety,27,0.889028867438581
+292,Circumplex,low affiliation,BFNE,Anxiety,44,-0.6529631683622759
+344,Circumplex,low affiliation,BFNE,Anxiety,24,-0.4093494197354639
+409,Circumplex,low affiliation,BFNE,Anxiety,16,-5.722282211822117
+438,Circumplex,low affiliation,BFNE,Anxiety,28,-2.0818459298514664
+637,Circumplex,low affiliation,BFNE,Anxiety,19,-3.9029134907963883
+808,Circumplex,low affiliation,BFNE,Anxiety,7,-0.0699017685956887
+923,Circumplex,low affiliation,BFNE,Anxiety,24,0.0844125071185098
+1109,Circumplex,low affiliation,BFNE,Anxiety,44,-4.714522236671408
+1119,Circumplex,low affiliation,BFNE,Anxiety,36,0.6982952193174448
+1418,Circumplex,low affiliation,BFNE,Anxiety,11,-0.6066889802660954
+1611,Circumplex,low affiliation,BFNE,Anxiety,18,-2.794169053139276
+1688,Circumplex,low affiliation,BFNE,Anxiety,28,-9.909534272514438
+1761,Circumplex,low affiliation,BFNE,Anxiety,13,-10.0
+1800,Circumplex,low affiliation,BFNE,Anxiety,9,-1.595124024338855
+1902,Circumplex,low affiliation,BFNE,Anxiety,35,-7.086924703188185
+2007,Circumplex,low affiliation,BFNE,Anxiety,31,-10.0
+2370,Circumplex,low affiliation,BFNE,Anxiety,26,0.18318930576538064
+2463,Circumplex,low affiliation,BFNE,Anxiety,5,-0.3098956660591011
+2480,Circumplex,low affiliation,BFNE,Anxiety,16,-1.2197406805210687
+2582,Circumplex,low affiliation,BFNE,Anxiety,29,-1.907319013604004
+2717,Circumplex,low affiliation,BFNE,Anxiety,29,-1.1428269608588326
+3219,Circumplex,low affiliation,BFNE,Anxiety,27,-0.602522709732316
+3403,Circumplex,low affiliation,BFNE,Anxiety,10,-10.0
+3515,Circumplex,low affiliation,BFNE,Anxiety,26,0.45368344143548045
+3893,Circumplex,low affiliation,BFNE,Anxiety,15,-1.2752943675883326
+3904,Circumplex,low affiliation,BFNE,Anxiety,32,0.611801391600041
+4657,Circumplex,low affiliation,BFNE,Anxiety,45,-0.9834993545057651
+4755,Circumplex,low affiliation,BFNE,Anxiety,35,0.062401212297091564
+4969,Circumplex,low affiliation,BFNE,Anxiety,32,-0.2928932959459239
+5071,Circumplex,low affiliation,BFNE,Anxiety,41,-1.8285983127066887
+5344,Circumplex,low affiliation,BFNE,Anxiety,16,-1.0071449690836372
+5625,Circumplex,low affiliation,BFNE,Anxiety,21,-10.0
+5658,Circumplex,low affiliation,BFNE,Anxiety,35,-2.048878783757197
+6016,Circumplex,low affiliation,BFNE,Anxiety,27,-10.0
+6047,Circumplex,low affiliation,BFNE,Anxiety,10,-1.140668863402548
+6184,Circumplex,low affiliation,BFNE,Anxiety,27,-6.152509490208287
+6246,Circumplex,low affiliation,BFNE,Anxiety,28,0.4147146713920048
+6453,Circumplex,low affiliation,BFNE,Anxiety,31,-1.6658493230086988
+6504,Circumplex,low affiliation,BFNE,Anxiety,17,-5.9318758403521725
+6588,Circumplex,low affiliation,BFNE,Anxiety,29,-2.207186892348561
+7338,Circumplex,low affiliation,BFNE,Anxiety,26,-0.49653448153141805
+7351,Circumplex,low affiliation,BFNE,Anxiety,17,-0.06296033718061765
+7452,Circumplex,low affiliation,BFNE,Anxiety,35,-1.8671378852682003
+7542,Circumplex,low affiliation,BFNE,Anxiety,13,-0.039943841802332326
+7583,Circumplex,low affiliation,BFNE,Anxiety,12,-1.852295213688241
+7796,Circumplex,low affiliation,BFNE,Anxiety,30,-3.879063864398472
+7827,Circumplex,low affiliation,BFNE,Anxiety,15,-0.5549855294592673
+7888,Circumplex,low affiliation,BFNE,Anxiety,8,1.857754676286384
+7933,Circumplex,low affiliation,BFNE,Anxiety,6,-10.0
+8197,Circumplex,low affiliation,BFNE,Anxiety,23,-9.822766293737564
+8517,Circumplex,low affiliation,BFNE,Anxiety,21,-0.35474190701565594
+8788,Circumplex,low affiliation,BFNE,Anxiety,35,-0.6042992685167349
+8892,Circumplex,low affiliation,BFNE,Anxiety,17,-0.7301799437747953
+8995,Circumplex,low affiliation,BFNE,Anxiety,37,-0.30501282120465156
+9023,Circumplex,low affiliation,BFNE,Anxiety,21,-10.0
+9350,Circumplex,low affiliation,BFNE,Anxiety,12,-2.0440536031082766
+164,Circumplex,low affiliation,STAI-S,Anxiety,33,0.872795930964826
+292,Circumplex,low affiliation,STAI-S,Anxiety,59,-0.6440842182792499
+344,Circumplex,low affiliation,STAI-S,Anxiety,35,-0.4139256122200093
+409,Circumplex,low affiliation,STAI-S,Anxiety,24,-5.16199043626651
+438,Circumplex,low affiliation,STAI-S,Anxiety,27,-2.096676025620869
+637,Circumplex,low affiliation,STAI-S,Anxiety,23,-3.876677901032044
+808,Circumplex,low affiliation,STAI-S,Anxiety,24,-0.07124911553782123
+923,Circumplex,low affiliation,STAI-S,Anxiety,43,0.08631396352358682
+1109,Circumplex,low affiliation,STAI-S,Anxiety,33,-4.716242151496754
+1119,Circumplex,low affiliation,STAI-S,Anxiety,37,0.6982862529758936
+1418,Circumplex,low affiliation,STAI-S,Anxiety,31,-0.6154197896080482
+1611,Circumplex,low affiliation,STAI-S,Anxiety,40,-2.7755823835577473
+1688,Circumplex,low affiliation,STAI-S,Anxiety,27,-9.844317222168124
+1761,Circumplex,low affiliation,STAI-S,Anxiety,23,-10.0
+1800,Circumplex,low affiliation,STAI-S,Anxiety,28,-1.590497454866827
+1902,Circumplex,low affiliation,STAI-S,Anxiety,26,-7.494563299620732
+2007,Circumplex,low affiliation,STAI-S,Anxiety,37,-10.0
+2370,Circumplex,low affiliation,STAI-S,Anxiety,29,0.17805484081976544
+2463,Circumplex,low affiliation,STAI-S,Anxiety,21,-0.3102201644566155
+2480,Circumplex,low affiliation,STAI-S,Anxiety,40,-1.2197421685342045
+2582,Circumplex,low affiliation,STAI-S,Anxiety,27,-1.9059593668575592
+2717,Circumplex,low affiliation,STAI-S,Anxiety,49,-1.1428314440647764
+3219,Circumplex,low affiliation,STAI-S,Anxiety,33,-0.5953176060539942
+3403,Circumplex,low affiliation,STAI-S,Anxiety,23,-10.0
+3515,Circumplex,low affiliation,STAI-S,Anxiety,52,0.4336978321842939
+3893,Circumplex,low affiliation,STAI-S,Anxiety,36,-1.2501186216693962
+3904,Circumplex,low affiliation,STAI-S,Anxiety,29,0.6117911180297658
+4657,Circumplex,low affiliation,STAI-S,Anxiety,22,-3.443513064952299
+4755,Circumplex,low affiliation,STAI-S,Anxiety,35,0.060531642283355544
+4969,Circumplex,low affiliation,STAI-S,Anxiety,55,-0.2991776082059564
+5071,Circumplex,low affiliation,STAI-S,Anxiety,36,-1.8285949151201717
+5344,Circumplex,low affiliation,STAI-S,Anxiety,23,-1.0295322582914386
+5625,Circumplex,low affiliation,STAI-S,Anxiety,24,-10.0
+5658,Circumplex,low affiliation,STAI-S,Anxiety,53,-2.0264940208064766
+6016,Circumplex,low affiliation,STAI-S,Anxiety,28,-10.0
+6047,Circumplex,low affiliation,STAI-S,Anxiety,33,-1.1459236509405082
+6184,Circumplex,low affiliation,STAI-S,Anxiety,39,-5.544516704891609
+6246,Circumplex,low affiliation,STAI-S,Anxiety,33,0.4146863130452184
+6453,Circumplex,low affiliation,STAI-S,Anxiety,41,-1.6512520565059177
+6504,Circumplex,low affiliation,STAI-S,Anxiety,28,-5.881376748347824
+6588,Circumplex,low affiliation,STAI-S,Anxiety,34,-2.2071713241689057
+7338,Circumplex,low affiliation,STAI-S,Anxiety,43,-0.5002365437930817
+7351,Circumplex,low affiliation,STAI-S,Anxiety,26,-0.05912967627624798
+7452,Circumplex,low affiliation,STAI-S,Anxiety,37,-1.8990675916678956
+7542,Circumplex,low affiliation,STAI-S,Anxiety,26,-0.03960664265606884
+7583,Circumplex,low affiliation,STAI-S,Anxiety,33,-1.8438412855144743
+7796,Circumplex,low affiliation,STAI-S,Anxiety,30,-3.8437836561969063
+7827,Circumplex,low affiliation,STAI-S,Anxiety,33,-0.5593093025499316
+7888,Circumplex,low affiliation,STAI-S,Anxiety,37,1.8577677197879925
+7933,Circumplex,low affiliation,STAI-S,Anxiety,20,-10.0
+8197,Circumplex,low affiliation,STAI-S,Anxiety,25,-9.860932626423184
+8517,Circumplex,low affiliation,STAI-S,Anxiety,24,-0.35602366030058136
+8788,Circumplex,low affiliation,STAI-S,Anxiety,54,-0.6209482399163742
+8892,Circumplex,low affiliation,STAI-S,Anxiety,28,-0.7498335666592049
+8995,Circumplex,low affiliation,STAI-S,Anxiety,58,-0.3063265137737645
+9023,Circumplex,low affiliation,STAI-S,Anxiety,32,-10.0
+9350,Circumplex,low affiliation,STAI-S,Anxiety,22,-2.0492193776931327
+164,Circumplex,low affiliation,STAI-T,Anxiety,35,0.8645962161768035
+292,Circumplex,low affiliation,STAI-T,Anxiety,57,-0.6440822335202954
+344,Circumplex,low affiliation,STAI-T,Anxiety,39,-0.41330030744045615
+409,Circumplex,low affiliation,STAI-T,Anxiety,29,-5.526072211954179
+438,Circumplex,low affiliation,STAI-T,Anxiety,33,-2.067214766292911
+637,Circumplex,low affiliation,STAI-T,Anxiety,29,-3.823751212420242
+808,Circumplex,low affiliation,STAI-T,Anxiety,24,-0.07133041191888574
+923,Circumplex,low affiliation,STAI-T,Anxiety,43,0.08536958990591391
+1109,Circumplex,low affiliation,STAI-T,Anxiety,35,-4.754151577491348
+1119,Circumplex,low affiliation,STAI-T,Anxiety,35,0.6824944698503003
+1418,Circumplex,low affiliation,STAI-T,Anxiety,31,-0.6330236015118111
+1611,Circumplex,low affiliation,STAI-T,Anxiety,40,-2.6070483418839947
+1688,Circumplex,low affiliation,STAI-T,Anxiety,40,-9.948690217681772
+1761,Circumplex,low affiliation,STAI-T,Anxiety,29,-9.990366208445957
+1800,Circumplex,low affiliation,STAI-T,Anxiety,32,-1.61813667789809
+1902,Circumplex,low affiliation,STAI-T,Anxiety,30,-7.586028448730243
+2007,Circumplex,low affiliation,STAI-T,Anxiety,41,-10.0
+2370,Circumplex,low affiliation,STAI-T,Anxiety,55,0.18187156245973893
+2463,Circumplex,low affiliation,STAI-T,Anxiety,27,-0.3089513136769564
+2480,Circumplex,low affiliation,STAI-T,Anxiety,42,-1.219732503555621
+2582,Circumplex,low affiliation,STAI-T,Anxiety,31,-1.9073273207873374
+2717,Circumplex,low affiliation,STAI-T,Anxiety,44,-1.14286309974944
+3219,Circumplex,low affiliation,STAI-T,Anxiety,33,-0.5953215558498219
+3403,Circumplex,low affiliation,STAI-T,Anxiety,29,-10.0
+3515,Circumplex,low affiliation,STAI-T,Anxiety,52,0.43774267381942433
+3893,Circumplex,low affiliation,STAI-T,Anxiety,33,-1.2669216594252104
+3904,Circumplex,low affiliation,STAI-T,Anxiety,33,0.6117900099512159
+4657,Circumplex,low affiliation,STAI-T,Anxiety,32,-1.0098323992521827
+4755,Circumplex,low affiliation,STAI-T,Anxiety,41,0.06212097857895113
+4969,Circumplex,low affiliation,STAI-T,Anxiety,50,-0.2928875088501864
+5071,Circumplex,low affiliation,STAI-T,Anxiety,34,-1.8285934479563095
+5344,Circumplex,low affiliation,STAI-T,Anxiety,29,-1.0295260904125971
+5625,Circumplex,low affiliation,STAI-T,Anxiety,30,-10.0
+5658,Circumplex,low affiliation,STAI-T,Anxiety,51,-5.336392777936455
+6016,Circumplex,low affiliation,STAI-T,Anxiety,30,-10.0
+6047,Circumplex,low affiliation,STAI-T,Anxiety,35,-1.1301339043248162
+6184,Circumplex,low affiliation,STAI-T,Anxiety,41,-6.925602439969502
+6246,Circumplex,low affiliation,STAI-T,Anxiety,37,0.428977587660801
+6453,Circumplex,low affiliation,STAI-T,Anxiety,39,-1.6365994575070013
+6504,Circumplex,low affiliation,STAI-T,Anxiety,32,-5.703564318923478
+6588,Circumplex,low affiliation,STAI-T,Anxiety,36,-2.1976684970260636
+7338,Circumplex,low affiliation,STAI-T,Anxiety,43,-0.5076106210351473
+7351,Circumplex,low affiliation,STAI-T,Anxiety,32,-0.06170169475347364
+7452,Circumplex,low affiliation,STAI-T,Anxiety,39,-1.8625759263063209
+7542,Circumplex,low affiliation,STAI-T,Anxiety,28,-0.040993111515563965
+7583,Circumplex,low affiliation,STAI-T,Anxiety,33,-1.8609785904476577
+7796,Circumplex,low affiliation,STAI-T,Anxiety,34,-3.856345587565195
+7827,Circumplex,low affiliation,STAI-T,Anxiety,35,-0.5449744313078265
+7888,Circumplex,low affiliation,STAI-T,Anxiety,37,1.8577520597791186
+7933,Circumplex,low affiliation,STAI-T,Anxiety,26,-10.0
+8197,Circumplex,low affiliation,STAI-T,Anxiety,31,-9.441936330108891
+8517,Circumplex,low affiliation,STAI-T,Anxiety,30,-0.36349574368781673
+8788,Circumplex,low affiliation,STAI-T,Anxiety,51,-0.6043102665337128
+8892,Circumplex,low affiliation,STAI-T,Anxiety,32,-0.718399224577999
+8995,Circumplex,low affiliation,STAI-T,Anxiety,56,-0.30573327378261195
+9023,Circumplex,low affiliation,STAI-T,Anxiety,34,-10.0
+9350,Circumplex,low affiliation,STAI-T,Anxiety,28,-1.971230449739522
+164,Circumplex,low affiliation,FPES,Anxiety,37,0.8849664339992517
+292,Circumplex,low affiliation,FPES,Anxiety,27,-0.6396414364079573
+344,Circumplex,low affiliation,FPES,Anxiety,47,-0.4132898117359353
+409,Circumplex,low affiliation,FPES,Anxiety,27,-5.021656999991248
+438,Circumplex,low affiliation,FPES,Anxiety,39,-2.1114838257743447
+637,Circumplex,low affiliation,FPES,Anxiety,15,-3.876594372333764
+808,Circumplex,low affiliation,FPES,Anxiety,30,-0.06922961583668798
+923,Circumplex,low affiliation,FPES,Anxiety,41,0.08346957922549739
+1109,Circumplex,low affiliation,FPES,Anxiety,14,-4.779473752117672
+1119,Circumplex,low affiliation,FPES,Anxiety,37,0.6982956381998412
+1418,Circumplex,low affiliation,FPES,Anxiety,14,-0.6419184247365075
+1611,Circumplex,low affiliation,FPES,Anxiety,13,-2.5939844949017794
+1688,Circumplex,low affiliation,FPES,Anxiety,59,-9.922405342982051
+1761,Circumplex,low affiliation,FPES,Anxiety,8,-10.0
+1800,Circumplex,low affiliation,FPES,Anxiety,11,-1.659326535285014
+1902,Circumplex,low affiliation,FPES,Anxiety,50,-1.1469288998108929
+2007,Circumplex,low affiliation,FPES,Anxiety,31,-10.0
+2370,Circumplex,low affiliation,FPES,Anxiety,12,0.18318756712410436
+2463,Circumplex,low affiliation,FPES,Anxiety,16,-0.3089519169836642
+2480,Circumplex,low affiliation,FPES,Anxiety,14,-1.219736133039039
+2582,Circumplex,low affiliation,FPES,Anxiety,8,-1.907324905483915
+2717,Circumplex,low affiliation,FPES,Anxiety,46,-1.1529836504058486
+3219,Circumplex,low affiliation,FPES,Anxiety,26,-0.5880807083235534
+3403,Circumplex,low affiliation,FPES,Anxiety,9,-10.0
+3515,Circumplex,low affiliation,FPES,Anxiety,52,0.4377285014670349
+3893,Circumplex,low affiliation,FPES,Anxiety,50,-1.2459045945146985
+3904,Circumplex,low affiliation,FPES,Anxiety,44,0.6117826446348626
+4657,Circumplex,low affiliation,FPES,Anxiety,41,-1.0065519149407474
+4755,Circumplex,low affiliation,FPES,Anxiety,38,-0.037808597693830145
+4969,Circumplex,low affiliation,FPES,Anxiety,35,-0.2960456046496192
+5071,Circumplex,low affiliation,FPES,Anxiety,21,-1.8285947889557135
+5344,Circumplex,low affiliation,FPES,Anxiety,2,-0.9994374906700885
+5625,Circumplex,low affiliation,FPES,Anxiety,32,-10.0
+5658,Circumplex,low affiliation,FPES,Anxiety,48,-2.0377003704546928
+6016,Circumplex,low affiliation,FPES,Anxiety,27,-1.2027798397521334
+6047,Circumplex,low affiliation,FPES,Anxiety,9,-1.1301246174249293
+6184,Circumplex,low affiliation,FPES,Anxiety,40,-6.2330926184177935
+6246,Circumplex,low affiliation,FPES,Anxiety,28,0.42012241945679657
+6453,Circumplex,low affiliation,FPES,Anxiety,28,-1.6219456634913005
+6504,Circumplex,low affiliation,FPES,Anxiety,20,-5.830649429970302
+6588,Circumplex,low affiliation,FPES,Anxiety,50,-2.197630640151841
+7338,Circumplex,low affiliation,FPES,Anxiety,28,-0.49839876707036507
+7351,Circumplex,low affiliation,FPES,Anxiety,21,-0.06041324969515002
+7452,Circumplex,low affiliation,FPES,Anxiety,39,-1.8990325634676506
+7542,Circumplex,low affiliation,FPES,Anxiety,18,-0.04063634350116308
+7583,Circumplex,low affiliation,FPES,Anxiety,16,-1.8696514124503367
+7796,Circumplex,low affiliation,FPES,Anxiety,26,-3.868935739592445
+7827,Circumplex,low affiliation,FPES,Anxiety,51,-0.5685788348530632
+7888,Circumplex,low affiliation,FPES,Anxiety,8,1.8577592243480494
+7933,Circumplex,low affiliation,FPES,Anxiety,16,-10.0
+8197,Circumplex,low affiliation,FPES,Anxiety,35,-9.822863461798539
+8517,Circumplex,low affiliation,FPES,Anxiety,10,-0.36108810945115877
+8788,Circumplex,low affiliation,FPES,Anxiety,47,-0.612650761980882
+8892,Circumplex,low affiliation,FPES,Anxiety,24,-0.7105299796519495
+8995,Circumplex,low affiliation,FPES,Anxiety,45,-0.3050302454187688
+9023,Circumplex,low affiliation,FPES,Anxiety,17,-10.0
+9350,Circumplex,low affiliation,FPES,Anxiety,38,-1.9607865318424382
+164,Circumplex,low affiliation,BDI,Depression,10,0.9193981140315755
+292,Circumplex,low affiliation,BDI,Depression,19,-0.635199362857791
+344,Circumplex,low affiliation,BDI,Depression,9,-0.4139283215971543
+409,Circumplex,low affiliation,BDI,Depression,1,-5.489789364214641
+438,Circumplex,low affiliation,BDI,Depression,4,-2.0818649393832485
+637,Circumplex,low affiliation,BDI,Depression,4,-3.8897719883166006
+808,Circumplex,low affiliation,BDI,Depression,3,-0.06954947820788325
+923,Circumplex,low affiliation,BDI,Depression,9,0.08349689687950018
+1109,Circumplex,low affiliation,BDI,Depression,8,-4.880333437181095
+1119,Circumplex,low affiliation,BDI,Depression,5,0.693006624568456
+1418,Circumplex,low affiliation,BDI,Depression,3,-0.6448872344499893
+1611,Circumplex,low affiliation,BDI,Depression,9,-2.6200686811006677
+1688,Circumplex,low affiliation,BDI,Depression,0,-10.0
+1761,Circumplex,low affiliation,BDI,Depression,6,-9.984834907754847
+1800,Circumplex,low affiliation,BDI,Depression,8,-1.5951523352518753
+1902,Circumplex,low affiliation,BDI,Depression,0,-1.1469298453615016
+2007,Circumplex,low affiliation,BDI,Depression,4,-10.0
+2370,Circumplex,low affiliation,BDI,Depression,14,0.1742528120999338
+2463,Circumplex,low affiliation,BDI,Depression,1,-0.3102961705789434
+2480,Circumplex,low affiliation,BDI,Depression,9,-1.2197345617183195
+2582,Circumplex,low affiliation,BDI,Depression,5,-1.9073259562311378
+2717,Circumplex,low affiliation,BDI,Depression,13,-1.1479241219399157
+3219,Circumplex,low affiliation,BDI,Depression,5,-0.5929442703906475
+3403,Circumplex,low affiliation,BDI,Depression,0,-9.998052737779705
+3515,Circumplex,low affiliation,BDI,Depression,10,0.44973578164884304
+3893,Circumplex,low affiliation,BDI,Depression,2,-1.2585323991086113
+3904,Circumplex,low affiliation,BDI,Depression,25,0.611791743622425
+4657,Circumplex,low affiliation,BDI,Depression,5,-3.393378193504427
+4755,Circumplex,low affiliation,BDI,Depression,6,0.0615162046987345
+4969,Circumplex,low affiliation,BDI,Depression,7,-0.29917726050250976
+5071,Circumplex,low affiliation,BDI,Depression,4,-1.828599567339354
+5344,Circumplex,low affiliation,BDI,Depression,5,-1.0071314798023825
+5625,Circumplex,low affiliation,BDI,Depression,1,-10.0
+5658,Circumplex,low affiliation,BDI,Depression,14,-5.461870791166049
+6016,Circumplex,low affiliation,BDI,Depression,5,-1.19660415853025
+6047,Circumplex,low affiliation,BDI,Depression,4,-1.1406721652117258
+6184,Circumplex,low affiliation,BDI,Depression,3,-6.925663642364878
+6246,Circumplex,low affiliation,BDI,Depression,8,0.41646278814676235
+6453,Circumplex,low affiliation,BDI,Depression,3,-1.5998442712540688
+6504,Circumplex,low affiliation,BDI,Depression,4,-5.716223920633292
+6588,Circumplex,low affiliation,BDI,Depression,14,-2.2166910355842195
+7338,Circumplex,low affiliation,BDI,Depression,18,-0.49654377087658347
+7351,Circumplex,low affiliation,BDI,Depression,1,-0.059835483672728194
+7452,Circumplex,low affiliation,BDI,Depression,3,-1.8854039729274008
+7542,Circumplex,low affiliation,BDI,Depression,3,-0.04098653195851732
+7583,Circumplex,low affiliation,BDI,Depression,3,-1.8609593021487982
+7796,Circumplex,low affiliation,BDI,Depression,6,-3.8029766453848097
+7827,Circumplex,low affiliation,BDI,Depression,0,-0.5686045794340993
+7888,Circumplex,low affiliation,BDI,Depression,20,1.8577462013188066
+7933,Circumplex,low affiliation,BDI,Depression,5,-10.0
+8197,Circumplex,low affiliation,BDI,Depression,2,-9.53734910759433
+8517,Circumplex,low affiliation,BDI,Depression,4,-0.35731633844977595
+8788,Circumplex,low affiliation,BDI,Depression,11,-0.6250737009731667
+8892,Circumplex,low affiliation,BDI,Depression,6,-0.7420402739054519
+8995,Circumplex,low affiliation,BDI,Depression,14,-0.3056579721928656
+9023,Circumplex,low affiliation,BDI,Depression,13,-10.0
+9350,Circumplex,low affiliation,BDI,Depression,0,-2.028558840199244
+164,Circumplex,low affiliation,RSES,Depression,39,0.8686845120903691
+292,Circumplex,low affiliation,RSES,Depression,29,-0.6440823447077985
+344,Circumplex,low affiliation,RSES,Depression,46,-0.4106869392932657
+409,Circumplex,low affiliation,RSES,Depression,68,-5.540248315953397
+438,Circumplex,low affiliation,RSES,Depression,60,-2.1115233957631148
+637,Circumplex,low affiliation,RSES,Depression,68,-3.8897703197533553
+808,Circumplex,low affiliation,RSES,Depression,63,-0.07156210315554923
+923,Circumplex,low affiliation,RSES,Depression,58,0.08348975363011106
+1109,Circumplex,low affiliation,RSES,Depression,61,-4.829966281278311
+1119,Circumplex,low affiliation,RSES,Depression,65,0.6930316302536085
+1418,Circumplex,low affiliation,RSES,Depression,67,-0.6330232182820117
+1611,Circumplex,low affiliation,RSES,Depression,45,-2.6200669980938214
+1688,Circumplex,low affiliation,RSES,Depression,60,-10.0
+1761,Circumplex,low affiliation,RSES,Depression,61,-9.99038558401843
+1800,Circumplex,low affiliation,RSES,Depression,58,-1.5951261695410164
+1902,Circumplex,low affiliation,RSES,Depression,69,-1.195330758921419
+2007,Circumplex,low affiliation,RSES,Depression,62,-10.0
+2370,Circumplex,low affiliation,RSES,Depression,39,0.18317272041553243
+2463,Circumplex,low affiliation,RSES,Depression,70,-0.31056605677567517
+2480,Circumplex,low affiliation,RSES,Depression,59,-1.2197369751689742
+2582,Circumplex,low affiliation,RSES,Depression,63,-1.907327016027535
+2717,Circumplex,low affiliation,RSES,Depression,39,-1.1428299176531758
+3219,Circumplex,low affiliation,RSES,Depression,65,-0.5953108702862979
+3403,Circumplex,low affiliation,RSES,Depression,70,-10.0
+3515,Circumplex,low affiliation,RSES,Depression,53,0.4417456692849854
+3893,Circumplex,low affiliation,RSES,Depression,67,-1.2374622934437132
+3904,Circumplex,low affiliation,RSES,Depression,34,0.6117887596186936
+4657,Circumplex,low affiliation,RSES,Depression,64,-1.016450784280851
+4755,Circumplex,low affiliation,RSES,Depression,64,0.06211012707125667
+4969,Circumplex,low affiliation,RSES,Depression,41,-0.3053851085944809
+5071,Circumplex,low affiliation,RSES,Depression,67,-1.8285980467518348
+5344,Circumplex,low affiliation,RSES,Depression,70,-1.0295202999627524
+5625,Circumplex,low affiliation,RSES,Depression,70,-10.0
+5658,Circumplex,low affiliation,RSES,Depression,38,-2.0711361657334235
+6016,Circumplex,low affiliation,RSES,Depression,60,-1.202793731036138
+6047,Circumplex,low affiliation,RSES,Depression,66,-1.1354012202741215
+6184,Circumplex,low affiliation,RSES,Depression,55,-8.099429214122457
+6246,Circumplex,low affiliation,RSES,Depression,56,0.42902071671078457
+6453,Circumplex,low affiliation,RSES,Depression,55,-1.636609240099258
+6504,Circumplex,low affiliation,RSES,Depression,70,-5.703510538520628
+6588,Circumplex,low affiliation,RSES,Depression,61,-2.216703417269579
+7338,Circumplex,low affiliation,RSES,Depression,54,-0.4965478913813768
+7351,Circumplex,low affiliation,RSES,Depression,53,-0.05979794833028537
+7452,Circumplex,low affiliation,RSES,Depression,54,-1.9127026359247945
+7542,Circumplex,low affiliation,RSES,Depression,62,-0.04064123631954219
+7583,Circumplex,low affiliation,RSES,Depression,70,-1.8784484559180439
+7796,Circumplex,low affiliation,RSES,Depression,58,-3.814369572410088
+7827,Circumplex,low affiliation,RSES,Depression,66,-0.5509070551298149
+7888,Circumplex,low affiliation,RSES,Depression,50,1.8577542444437574
+7933,Circumplex,low affiliation,RSES,Depression,69,-10.0
+8197,Circumplex,low affiliation,RSES,Depression,64,-9.632778698790933
+8517,Circumplex,low affiliation,RSES,Depression,63,-0.3598424238982349
+8788,Circumplex,low affiliation,RSES,Depression,44,-0.6126482059469478
+8892,Circumplex,low affiliation,RSES,Depression,70,-0.7380368397675343
+8995,Circumplex,low affiliation,RSES,Depression,45,-0.30567515627982184
+9023,Circumplex,low affiliation,RSES,Depression,42,-10.0
+9350,Circumplex,low affiliation,RSES,Depression,70,-2.0440464359325907
+164,Circumplex,high affiliation,LSAS,Anxiety,50,2.6322068620584416
+292,Circumplex,high affiliation,LSAS,Anxiety,81,1.6999216870210994
+344,Circumplex,high affiliation,LSAS,Anxiety,38,3.6813210049256297
+409,Circumplex,high affiliation,LSAS,Anxiety,16,10.0
+438,Circumplex,high affiliation,LSAS,Anxiety,14,9.96881998764384
+637,Circumplex,high affiliation,LSAS,Anxiety,43,2.66226199606508
+808,Circumplex,high affiliation,LSAS,Anxiety,20,1.0107458121553554
+923,Circumplex,high affiliation,LSAS,Anxiety,28,3.6641217550310374
+1109,Circumplex,high affiliation,LSAS,Anxiety,35,10.0
+1119,Circumplex,high affiliation,LSAS,Anxiety,49,2.661466411097077
+1418,Circumplex,high affiliation,LSAS,Anxiety,37,0.6459117201647954
+1611,Circumplex,high affiliation,LSAS,Anxiety,24,5.016118314997609
+1688,Circumplex,high affiliation,LSAS,Anxiety,62,2.743355611151094
+1761,Circumplex,high affiliation,LSAS,Anxiety,17,2.5476780842077904
+1800,Circumplex,high affiliation,LSAS,Anxiety,2,10.0
+1902,Circumplex,high affiliation,LSAS,Anxiety,67,6.925923188886011
+2007,Circumplex,high affiliation,LSAS,Anxiety,18,10.0
+2370,Circumplex,high affiliation,LSAS,Anxiety,56,1.181118495411695
+2463,Circumplex,high affiliation,LSAS,Anxiety,4,9.902913038097019
+2480,Circumplex,high affiliation,LSAS,Anxiety,16,9.978375937074869
+2582,Circumplex,high affiliation,LSAS,Anxiety,29,8.107817787665532
+2717,Circumplex,high affiliation,LSAS,Anxiety,35,7.036218373359078
+3219,Circumplex,high affiliation,LSAS,Anxiety,42,3.9450885342592024
+3403,Circumplex,high affiliation,LSAS,Anxiety,4,2.826516248323938
+3515,Circumplex,high affiliation,LSAS,Anxiety,51,4.97081443589912
+3893,Circumplex,high affiliation,LSAS,Anxiety,34,2.7023460382965667
+3904,Circumplex,high affiliation,LSAS,Anxiety,56,1.8441101075737756
+4657,Circumplex,high affiliation,LSAS,Anxiety,70,3.825520418514874
+4755,Circumplex,high affiliation,LSAS,Anxiety,53,3.9809730443556712
+4969,Circumplex,high affiliation,LSAS,Anxiety,89,1.688115639766321
+5071,Circumplex,high affiliation,LSAS,Anxiety,36,6.383217652373207
+5344,Circumplex,high affiliation,LSAS,Anxiety,18,10.0
+5625,Circumplex,high affiliation,LSAS,Anxiety,28,6.598006790486253
+5658,Circumplex,high affiliation,LSAS,Anxiety,91,6.6057060524195075
+6016,Circumplex,high affiliation,LSAS,Anxiety,29,5.8017378768345385
+6047,Circumplex,high affiliation,LSAS,Anxiety,17,2.239242557902794
+6184,Circumplex,high affiliation,LSAS,Anxiety,39,8.22153781048674
+6246,Circumplex,high affiliation,LSAS,Anxiety,20,5.288913244997282
+6453,Circumplex,high affiliation,LSAS,Anxiety,39,1.8113178238645995
+6504,Circumplex,high affiliation,LSAS,Anxiety,37,3.2172387470598314
+6588,Circumplex,high affiliation,LSAS,Anxiety,58,9.948607018202562
+7338,Circumplex,high affiliation,LSAS,Anxiety,55,9.863405797969435
+7351,Circumplex,high affiliation,LSAS,Anxiety,22,2.465036340060872
+7452,Circumplex,high affiliation,LSAS,Anxiety,41,2.7311770730142992
+7542,Circumplex,high affiliation,LSAS,Anxiety,27,10.0
+7583,Circumplex,high affiliation,LSAS,Anxiety,19,4.936757713333729
+7796,Circumplex,high affiliation,LSAS,Anxiety,82,10.0
+7827,Circumplex,high affiliation,LSAS,Anxiety,57,5.115005838875039
+7888,Circumplex,high affiliation,LSAS,Anxiety,27,-10.0
+7933,Circumplex,high affiliation,LSAS,Anxiety,7,4.504792257556548
+8197,Circumplex,high affiliation,LSAS,Anxiety,15,6.606031954129834
+8517,Circumplex,high affiliation,LSAS,Anxiety,26,10.0
+8788,Circumplex,high affiliation,LSAS,Anxiety,56,8.517593254558655
+8892,Circumplex,high affiliation,LSAS,Anxiety,51,10.0
+8995,Circumplex,high affiliation,LSAS,Anxiety,54,8.480344852231774
+9023,Circumplex,high affiliation,LSAS,Anxiety,52,9.906220888032792
+9350,Circumplex,high affiliation,LSAS,Anxiety,13,4.849413768460814
+164,Circumplex,high affiliation,SPIN,Anxiety,22,2.573439286668496
+292,Circumplex,high affiliation,SPIN,Anxiety,40,1.6904163052054675
+344,Circumplex,high affiliation,SPIN,Anxiety,21,3.86340921271419
+409,Circumplex,high affiliation,SPIN,Anxiety,0,10.0
+438,Circumplex,high affiliation,SPIN,Anxiety,7,9.994744864567632
+637,Circumplex,high affiliation,SPIN,Anxiety,22,2.662228100339847
+808,Circumplex,high affiliation,SPIN,Anxiety,4,1.0046717062420472
+923,Circumplex,high affiliation,SPIN,Anxiety,12,3.610493104597202
+1109,Circumplex,high affiliation,SPIN,Anxiety,16,10.0
+1119,Circumplex,high affiliation,SPIN,Anxiety,24,10.0
+1418,Circumplex,high affiliation,SPIN,Anxiety,9,0.6624077677107123
+1611,Circumplex,high affiliation,SPIN,Anxiety,3,4.9663103464182825
+1688,Circumplex,high affiliation,SPIN,Anxiety,6,2.6913442335852023
+1761,Circumplex,high affiliation,SPIN,Anxiety,3,2.547672457863727
+1800,Circumplex,high affiliation,SPIN,Anxiety,2,10.0
+1902,Circumplex,high affiliation,SPIN,Anxiety,42,6.805996377339212
+2007,Circumplex,high affiliation,SPIN,Anxiety,14,10.0
+2370,Circumplex,high affiliation,SPIN,Anxiety,26,1.154055627497554
+2463,Circumplex,high affiliation,SPIN,Anxiety,1,10.0
+2480,Circumplex,high affiliation,SPIN,Anxiety,6,10.0
+2582,Circumplex,high affiliation,SPIN,Anxiety,9,8.12883586343455
+2717,Circumplex,high affiliation,SPIN,Anxiety,18,7.126713360953724
+3219,Circumplex,high affiliation,SPIN,Anxiety,20,4.078302391597187
+3403,Circumplex,high affiliation,SPIN,Anxiety,1,2.8430377774482594
+3515,Circumplex,high affiliation,SPIN,Anxiety,28,4.954110393043053
+3893,Circumplex,high affiliation,SPIN,Anxiety,10,2.702346381431622
+3904,Circumplex,high affiliation,SPIN,Anxiety,32,1.8441060254686923
+4657,Circumplex,high affiliation,SPIN,Anxiety,50,2.8976690032507446
+4755,Circumplex,high affiliation,SPIN,Anxiety,12,3.953911385505675
+4969,Circumplex,high affiliation,SPIN,Anxiety,47,1.7027097972714293
+5071,Circumplex,high affiliation,SPIN,Anxiety,7,6.410460462304136
+5344,Circumplex,high affiliation,SPIN,Anxiety,8,10.0
+5625,Circumplex,high affiliation,SPIN,Anxiety,14,6.662207915102509
+5658,Circumplex,high affiliation,SPIN,Anxiety,47,6.923412593776607
+6016,Circumplex,high affiliation,SPIN,Anxiety,16,5.562636870629078
+6047,Circumplex,high affiliation,SPIN,Anxiety,9,2.2294231579513926
+6184,Circumplex,high affiliation,SPIN,Anxiety,22,8.08638850551907
+6246,Circumplex,high affiliation,SPIN,Anxiety,5,5.621516725428292
+6453,Circumplex,high affiliation,SPIN,Anxiety,2,1.8289313512606558
+6504,Circumplex,high affiliation,SPIN,Anxiety,9,3.318743501571966
+6588,Circumplex,high affiliation,SPIN,Anxiety,29,10.0
+7338,Circumplex,high affiliation,SPIN,Anxiety,30,10.0
+7351,Circumplex,high affiliation,SPIN,Anxiety,13,2.4881555011818204
+7452,Circumplex,high affiliation,SPIN,Anxiety,21,2.731188841054582
+7542,Circumplex,high affiliation,SPIN,Anxiety,3,10.0
+7583,Circumplex,high affiliation,SPIN,Anxiety,6,4.936733800598379
+7796,Circumplex,high affiliation,SPIN,Anxiety,38,10.0
+7827,Circumplex,high affiliation,SPIN,Anxiety,28,5.121557003913084
+7888,Circumplex,high affiliation,SPIN,Anxiety,7,-10.0
+7933,Circumplex,high affiliation,SPIN,Anxiety,0,4.504812263237768
+8197,Circumplex,high affiliation,SPIN,Anxiety,4,6.5741726448344275
+8517,Circumplex,high affiliation,SPIN,Anxiety,7,9.976952770348696
+8788,Circumplex,high affiliation,SPIN,Anxiety,24,8.51801613040004
+8892,Circumplex,high affiliation,SPIN,Anxiety,25,9.965701439068761
+8995,Circumplex,high affiliation,SPIN,Anxiety,40,8.363958801763633
+9023,Circumplex,high affiliation,SPIN,Anxiety,12,9.96782888870999
+9350,Circumplex,high affiliation,SPIN,Anxiety,2,4.952660531345957
+164,Circumplex,high affiliation,BFNE,Anxiety,27,3.1851934829091633
+292,Circumplex,high affiliation,BFNE,Anxiety,44,1.6856258991180593
+344,Circumplex,high affiliation,BFNE,Anxiety,24,3.6958713853120346
+409,Circumplex,high affiliation,BFNE,Anxiety,16,10.0
+438,Circumplex,high affiliation,BFNE,Anxiety,28,9.999107724556154
+637,Circumplex,high affiliation,BFNE,Anxiety,19,2.6795700382423564
+808,Circumplex,high affiliation,BFNE,Anxiety,7,0.9959717483452768
+923,Circumplex,high affiliation,BFNE,Anxiety,24,3.637215203032465
+1109,Circumplex,high affiliation,BFNE,Anxiety,44,10.0
+1119,Circumplex,high affiliation,BFNE,Anxiety,36,2.6614620508820686
+1418,Circumplex,high affiliation,BFNE,Anxiety,11,0.6514925079988307
+1611,Circumplex,high affiliation,BFNE,Anxiety,18,4.983995327893407
+1688,Circumplex,high affiliation,BFNE,Anxiety,28,2.7174107199251716
+1761,Circumplex,high affiliation,BFNE,Anxiety,13,2.5476484813164313
+1800,Circumplex,high affiliation,BFNE,Anxiety,9,10.0
+1902,Circumplex,high affiliation,BFNE,Anxiety,35,6.634830809877153
+2007,Circumplex,high affiliation,BFNE,Anxiety,31,10.0
+2370,Circumplex,high affiliation,BFNE,Anxiety,26,1.1720807672908684
+2463,Circumplex,high affiliation,BFNE,Anxiety,5,9.963453997061247
+2480,Circumplex,high affiliation,BFNE,Anxiety,16,10.0
+2582,Circumplex,high affiliation,BFNE,Anxiety,29,8.243475933093261
+2717,Circumplex,high affiliation,BFNE,Anxiety,29,7.194569179393187
+3219,Circumplex,high affiliation,BFNE,Anxiety,27,4.011949173176627
+3403,Circumplex,high affiliation,BFNE,Anxiety,10,2.8430564410632377
+3515,Circumplex,high affiliation,BFNE,Anxiety,26,4.887241935722818
+3893,Circumplex,high affiliation,BFNE,Anxiety,15,2.718174382364616
+3904,Circumplex,high affiliation,BFNE,Anxiety,32,1.857221391516519
+4657,Circumplex,high affiliation,BFNE,Anxiety,45,3.292105504999063
+4755,Circumplex,high affiliation,BFNE,Anxiety,35,3.9539083862967335
+4969,Circumplex,high affiliation,BFNE,Anxiety,32,1.6881533192373377
+5071,Circumplex,high affiliation,BFNE,Anxiety,41,6.572269184952791
+5344,Circumplex,high affiliation,BFNE,Anxiety,16,10.0
+5625,Circumplex,high affiliation,BFNE,Anxiety,21,6.662485957607312
+5658,Circumplex,high affiliation,BFNE,Anxiety,35,7.214497860921072
+6016,Circumplex,high affiliation,BFNE,Anxiety,27,5.960412330070233
+6047,Circumplex,high affiliation,BFNE,Anxiety,10,2.2096747808008623
+6184,Circumplex,high affiliation,BFNE,Anxiety,27,2.287673526180672
+6246,Circumplex,high affiliation,BFNE,Anxiety,28,5.427791353002853
+6453,Circumplex,high affiliation,BFNE,Anxiety,31,1.837724108804028
+6504,Circumplex,high affiliation,BFNE,Anxiety,17,3.2084034149725613
+6588,Circumplex,high affiliation,BFNE,Anxiety,29,10.0
+7338,Circumplex,high affiliation,BFNE,Anxiety,26,10.0
+7351,Circumplex,high affiliation,BFNE,Anxiety,17,2.465032267494315
+7452,Circumplex,high affiliation,BFNE,Anxiety,35,2.7865270096302686
+7542,Circumplex,high affiliation,BFNE,Anxiety,13,10.0
+7583,Circumplex,high affiliation,BFNE,Anxiety,12,4.95641757292728
+7796,Circumplex,high affiliation,BFNE,Anxiety,30,9.995066914745056
+7827,Circumplex,high affiliation,BFNE,Anxiety,15,5.147682553641997
+7888,Circumplex,high affiliation,BFNE,Anxiety,8,-10.0
+7933,Circumplex,high affiliation,BFNE,Anxiety,6,4.610828081868806
+8197,Circumplex,high affiliation,BFNE,Anxiety,23,6.59777673636335
+8517,Circumplex,high affiliation,BFNE,Anxiety,21,9.920154644137043
+8788,Circumplex,high affiliation,BFNE,Anxiety,35,8.517885294481458
+8892,Circumplex,high affiliation,BFNE,Anxiety,17,10.0
+8995,Circumplex,high affiliation,BFNE,Anxiety,37,8.212879173377868
+9023,Circumplex,high affiliation,BFNE,Anxiety,21,10.0
+9350,Circumplex,high affiliation,BFNE,Anxiety,12,4.995538871959932
+164,Circumplex,high affiliation,STAI-S,Anxiety,33,2.581943584566132
+292,Circumplex,high affiliation,STAI-S,Anxiety,59,1.7048059784283625
+344,Circumplex,high affiliation,STAI-S,Anxiety,35,3.6887460047705822
+409,Circumplex,high affiliation,STAI-S,Anxiety,24,10.0
+438,Circumplex,high affiliation,STAI-S,Anxiety,27,9.992862531373001
+637,Circumplex,high affiliation,STAI-S,Anxiety,23,2.6817475843370375
+808,Circumplex,high affiliation,STAI-S,Anxiety,24,1.007715157010056
+923,Circumplex,high affiliation,STAI-S,Anxiety,43,3.610476659917486
+1109,Circumplex,high affiliation,STAI-S,Anxiety,33,10.0
+1119,Circumplex,high affiliation,STAI-S,Anxiety,37,2.6614713852833263
+1418,Circumplex,high affiliation,STAI-S,Anxiety,31,0.6542525781319788
+1611,Circumplex,high affiliation,STAI-S,Anxiety,40,5.044890087212515
+1688,Circumplex,high affiliation,STAI-S,Anxiety,27,2.717416535123315
+1761,Circumplex,high affiliation,STAI-S,Anxiety,23,2.5477069449402503
+1800,Circumplex,high affiliation,STAI-S,Anxiety,28,10.0
+1902,Circumplex,high affiliation,STAI-S,Anxiety,26,7.3699021737788195
+2007,Circumplex,high affiliation,STAI-S,Anxiety,37,10.0
+2370,Circumplex,high affiliation,STAI-S,Anxiety,29,1.1585444112402337
+2463,Circumplex,high affiliation,STAI-S,Anxiety,21,9.976038645334011
+2480,Circumplex,high affiliation,STAI-S,Anxiety,40,9.974131900293546
+2582,Circumplex,high affiliation,STAI-S,Anxiety,27,8.212054729725367
+2717,Circumplex,high affiliation,STAI-S,Anxiety,49,7.036197564148555
+3219,Circumplex,high affiliation,STAI-S,Anxiety,33,3.9784491993671285
+3403,Circumplex,high affiliation,STAI-S,Anxiety,23,2.809937933052464
+3515,Circumplex,high affiliation,STAI-S,Anxiety,52,4.786463401875452
+3893,Circumplex,high affiliation,STAI-S,Anxiety,36,2.718188191222996
+3904,Circumplex,high affiliation,STAI-S,Anxiety,29,1.8441264744140968
+4657,Circumplex,high affiliation,STAI-S,Anxiety,22,3.395691637238955
+4755,Circumplex,high affiliation,STAI-S,Anxiety,35,3.994477802366903
+4969,Circumplex,high affiliation,STAI-S,Anxiety,55,1.680785597750859
+5071,Circumplex,high affiliation,STAI-S,Anxiety,36,6.220726008248085
+5344,Circumplex,high affiliation,STAI-S,Anxiety,23,10.0
+5625,Circumplex,high affiliation,STAI-S,Anxiety,24,6.8334731944204785
+5658,Circumplex,high affiliation,STAI-S,Anxiety,53,7.093435891433857
+6016,Circumplex,high affiliation,STAI-S,Anxiety,28,5.865235081646791
+6047,Circumplex,high affiliation,STAI-S,Anxiety,33,2.23923679546879
+6184,Circumplex,high affiliation,STAI-S,Anxiety,39,8.318869043890306
+6246,Circumplex,high affiliation,STAI-S,Anxiety,33,5.787171750311102
+6453,Circumplex,high affiliation,STAI-S,Anxiety,41,1.8377269141395671
+6504,Circumplex,high affiliation,STAI-S,Anxiety,28,3.2614306340472674
+6588,Circumplex,high affiliation,STAI-S,Anxiety,34,9.880755495585849
+7338,Circumplex,high affiliation,STAI-S,Anxiety,43,9.660511816111233
+7351,Circumplex,high affiliation,STAI-S,Anxiety,26,2.46505943670603
+7452,Circumplex,high affiliation,STAI-S,Anxiety,37,2.6261647859116204
+7542,Circumplex,high affiliation,STAI-S,Anxiety,26,9.984453546552139
+7583,Circumplex,high affiliation,STAI-S,Anxiety,33,4.956470372934834
+7796,Circumplex,high affiliation,STAI-S,Anxiety,30,10.0
+7827,Circumplex,high affiliation,STAI-S,Anxiety,33,5.121556433346047
+7888,Circumplex,high affiliation,STAI-S,Anxiety,37,-10.0
+7933,Circumplex,high affiliation,STAI-S,Anxiety,20,4.419538602454998
+8197,Circumplex,high affiliation,STAI-S,Anxiety,25,6.597941172722958
+8517,Circumplex,high affiliation,STAI-S,Anxiety,24,9.906021097706661
+8788,Circumplex,high affiliation,STAI-S,Anxiety,54,8.517912118701453
+8892,Circumplex,high affiliation,STAI-S,Anxiety,28,10.0
+8995,Circumplex,high affiliation,STAI-S,Anxiety,58,8.469898141264757
+9023,Circumplex,high affiliation,STAI-S,Anxiety,32,9.967854071252724
+9350,Circumplex,high affiliation,STAI-S,Anxiety,22,5.030070364754813
+164,Circumplex,high affiliation,STAI-T,Anxiety,35,2.5608897872723198
+292,Circumplex,high affiliation,STAI-T,Anxiety,57,1.6520164776305288
+344,Circumplex,high affiliation,STAI-T,Anxiety,39,3.8053267462036873
+409,Circumplex,high affiliation,STAI-T,Anxiety,29,10.0
+438,Circumplex,high affiliation,STAI-T,Anxiety,33,9.980349437973572
+637,Circumplex,high affiliation,STAI-T,Anxiety,29,2.688215230611652
+808,Circumplex,high affiliation,STAI-T,Anxiety,24,1.0016461860250372
+923,Circumplex,high affiliation,STAI-T,Anxiety,43,3.5567891240419383
+1109,Circumplex,high affiliation,STAI-T,Anxiety,35,10.0
+1119,Circumplex,high affiliation,STAI-T,Anxiety,35,9.901554407179422
+1418,Circumplex,high affiliation,STAI-T,Anxiety,31,0.6458772413880985
+1611,Circumplex,high affiliation,STAI-T,Anxiety,40,5.001919988585604
+1688,Circumplex,high affiliation,STAI-T,Anxiety,40,2.704399118935455
+1761,Circumplex,high affiliation,STAI-T,Anxiety,29,2.5477280627469145
+1800,Circumplex,high affiliation,STAI-T,Anxiety,32,10.0
+1902,Circumplex,high affiliation,STAI-T,Anxiety,30,7.079824711404572
+2007,Circumplex,high affiliation,STAI-T,Anxiety,41,9.688142367290595
+2370,Circumplex,high affiliation,STAI-T,Anxiety,55,1.1270492047126555
+2463,Circumplex,high affiliation,STAI-T,Anxiety,27,10.0
+2480,Circumplex,high affiliation,STAI-T,Anxiety,42,10.0
+2582,Circumplex,high affiliation,STAI-T,Anxiety,31,8.232857586970612
+2717,Circumplex,high affiliation,STAI-T,Anxiety,44,7.186423393516419
+3219,Circumplex,high affiliation,STAI-T,Anxiety,33,4.078367625277774
+3403,Circumplex,high affiliation,STAI-T,Anxiety,29,2.84303918170026
+3515,Circumplex,high affiliation,STAI-T,Anxiety,52,4.987465203040902
+3893,Circumplex,high affiliation,STAI-T,Anxiety,33,2.6864607834610394
+3904,Circumplex,high affiliation,STAI-T,Anxiety,33,1.8572317071862516
+4657,Circumplex,high affiliation,STAI-T,Anxiety,32,3.341368902598427
+4755,Circumplex,high affiliation,STAI-T,Anxiety,41,3.8861052166420675
+4969,Circumplex,high affiliation,STAI-T,Anxiety,50,1.7322871985843546
+5071,Circumplex,high affiliation,STAI-T,Anxiety,34,6.464670784420904
+5344,Circumplex,high affiliation,STAI-T,Anxiety,29,10.0
+5625,Circumplex,high affiliation,STAI-T,Anxiety,30,6.4689755771310695
+5658,Circumplex,high affiliation,STAI-T,Anxiety,51,6.752458960860297
+6016,Circumplex,high affiliation,STAI-T,Anxiety,30,5.8812147753551995
+6047,Circumplex,high affiliation,STAI-T,Anxiety,35,2.258845473376567
+6184,Circumplex,high affiliation,STAI-T,Anxiety,41,8.160472823658848
+6246,Circumplex,high affiliation,STAI-T,Anxiety,37,5.538684945527319
+6453,Circumplex,high affiliation,STAI-T,Anxiety,39,1.837705162654084
+6504,Circumplex,high affiliation,STAI-T,Anxiety,32,3.2216661408937974
+6588,Circumplex,high affiliation,STAI-T,Anxiety,36,9.812775638374813
+7338,Circumplex,high affiliation,STAI-T,Anxiety,43,9.736726245500334
+7351,Circumplex,high affiliation,STAI-T,Anxiety,32,2.4766487375153883
+7452,Circumplex,high affiliation,STAI-T,Anxiety,39,2.6753927377139957
+7542,Circumplex,high affiliation,STAI-T,Anxiety,28,9.996010208212795
+7583,Circumplex,high affiliation,STAI-T,Anxiety,33,4.956862337418379
+7796,Circumplex,high affiliation,STAI-T,Anxiety,34,10.0
+7827,Circumplex,high affiliation,STAI-T,Anxiety,35,5.14758671412594
+7888,Circumplex,high affiliation,STAI-T,Anxiety,37,-10.0
+7933,Circumplex,high affiliation,STAI-T,Anxiety,26,4.440898750596437
+8197,Circumplex,high affiliation,STAI-T,Anxiety,31,6.598124465540633
+8517,Circumplex,high affiliation,STAI-T,Anxiety,30,9.777595068068841
+8788,Circumplex,high affiliation,STAI-T,Anxiety,51,8.51796183281198
+8892,Circumplex,high affiliation,STAI-T,Anxiety,32,9.996784600678852
+8995,Circumplex,high affiliation,STAI-T,Anxiety,56,8.387105425147894
+9023,Circumplex,high affiliation,STAI-T,Anxiety,34,10.0
+9350,Circumplex,high affiliation,STAI-T,Anxiety,28,4.987093867687958
+164,Circumplex,high affiliation,FPES,Anxiety,37,2.8210530551327
+292,Circumplex,high affiliation,FPES,Anxiety,27,1.7334856602066082
+344,Circumplex,high affiliation,FPES,Anxiety,47,3.6959145023320032
+409,Circumplex,high affiliation,FPES,Anxiety,27,9.913748881287278
+438,Circumplex,high affiliation,FPES,Anxiety,39,10.0
+637,Circumplex,high affiliation,FPES,Anxiety,15,2.7055378563202703
+808,Circumplex,high affiliation,FPES,Anxiety,30,1.0348889513253572
+923,Circumplex,high affiliation,FPES,Anxiety,41,3.570174173749107
+1109,Circumplex,high affiliation,FPES,Anxiety,14,9.978612948519434
+1119,Circumplex,high affiliation,FPES,Anxiety,37,10.0
+1418,Circumplex,high affiliation,FPES,Anxiety,14,0.6501265450056548
+1611,Circumplex,high affiliation,FPES,Anxiety,13,5.019788070390008
+1688,Circumplex,high affiliation,FPES,Anxiety,59,2.7303954790631404
+1761,Circumplex,high affiliation,FPES,Anxiety,8,2.547685728113712
+1800,Circumplex,high affiliation,FPES,Anxiety,11,10.0
+1902,Circumplex,high affiliation,FPES,Anxiety,50,6.9770818484058195
+2007,Circumplex,high affiliation,FPES,Anxiety,31,10.0
+2370,Circumplex,high affiliation,FPES,Anxiety,12,1.1585454427067503
+2463,Circumplex,high affiliation,FPES,Anxiety,16,10.0
+2480,Circumplex,high affiliation,FPES,Anxiety,14,10.0
+2582,Circumplex,high affiliation,FPES,Anxiety,8,8.212075444993964
+2717,Circumplex,high affiliation,FPES,Anxiety,46,7.1681852808840425
+3219,Circumplex,high affiliation,FPES,Anxiety,26,4.011940035713751
+3403,Circumplex,high affiliation,FPES,Anxiety,9,2.8265153325163
+3515,Circumplex,high affiliation,FPES,Anxiety,52,4.954113214247307
+3893,Circumplex,high affiliation,FPES,Anxiety,50,2.7023349054208703
+3904,Circumplex,high affiliation,FPES,Anxiety,44,1.844106071161479
+4657,Circumplex,high affiliation,FPES,Anxiety,41,3.5140226485904935
+4755,Circumplex,high affiliation,FPES,Anxiety,38,3.9268219731605543
+4969,Circumplex,high affiliation,FPES,Anxiety,35,1.7470884442095647
+5071,Circumplex,high affiliation,FPES,Anxiety,21,6.193613945426006
+5344,Circumplex,high affiliation,FPES,Anxiety,2,10.0
+5625,Circumplex,high affiliation,FPES,Anxiety,32,6.404234675725506
+5658,Circumplex,high affiliation,FPES,Anxiety,48,6.6056259180262575
+6016,Circumplex,high affiliation,FPES,Anxiety,27,5.434476939432376
+6047,Circumplex,high affiliation,FPES,Anxiety,9,2.2490725451604088
+6184,Circumplex,high affiliation,FPES,Anxiety,40,8.108604899003602
+6246,Circumplex,high affiliation,FPES,Anxiety,28,5.261077824184982
+6453,Circumplex,high affiliation,FPES,Anxiety,28,1.8465102718098876
+6504,Circumplex,high affiliation,FPES,Anxiety,20,3.2658390582002466
+6588,Circumplex,high affiliation,FPES,Anxiety,50,10.0
+7338,Circumplex,high affiliation,FPES,Anxiety,28,10.0
+7351,Circumplex,high affiliation,FPES,Anxiety,21,2.4766181057792904
+7452,Circumplex,high affiliation,FPES,Anxiety,39,2.6613631356190295
+7542,Circumplex,high affiliation,FPES,Anxiety,18,9.987748577457289
+7583,Circumplex,high affiliation,FPES,Anxiety,16,4.965674414204884
+7796,Circumplex,high affiliation,FPES,Anxiety,26,10.0
+7827,Circumplex,high affiliation,FPES,Anxiety,51,5.134469189715869
+7888,Circumplex,high affiliation,FPES,Anxiety,8,-10.0
+7933,Circumplex,high affiliation,FPES,Anxiety,16,4.526066667042068
+8197,Circumplex,high affiliation,FPES,Anxiety,35,6.582125789225147
+8517,Circumplex,high affiliation,FPES,Anxiety,10,9.906057834984646
+8788,Circumplex,high affiliation,FPES,Anxiety,47,8.517800343198951
+8892,Circumplex,high affiliation,FPES,Anxiety,24,2.959356143312601
+8995,Circumplex,high affiliation,FPES,Anxiety,45,8.259031204716525
+9023,Circumplex,high affiliation,FPES,Anxiety,17,9.926727951991953
+9350,Circumplex,high affiliation,FPES,Anxiety,38,4.763074345566074
+164,Circumplex,high affiliation,BDI,Depression,10,2.7749260540762672
+292,Circumplex,high affiliation,BDI,Depression,19,1.6520222155294657
+344,Circumplex,high affiliation,BDI,Depression,9,3.7542041521965763
+409,Circumplex,high affiliation,BDI,Depression,1,9.885947414130094
+438,Circumplex,high affiliation,BDI,Depression,4,9.988288069641857
+637,Circumplex,high affiliation,BDI,Depression,4,2.6795704956493784
+808,Circumplex,high affiliation,BDI,Depression,3,1.0016575683465887
+923,Circumplex,high affiliation,BDI,Depression,9,3.610531378509095
+1109,Circumplex,high affiliation,BDI,Depression,8,10.0
+1119,Circumplex,high affiliation,BDI,Depression,5,2.6614576090505295
+1418,Circumplex,high affiliation,BDI,Depression,3,0.6473138565219988
+1611,Circumplex,high affiliation,BDI,Depression,9,5.051959483560635
+1688,Circumplex,high affiliation,BDI,Depression,0,2.717442451882665
+1761,Circumplex,high affiliation,BDI,Depression,6,2.5476608337205366
+1800,Circumplex,high affiliation,BDI,Depression,8,10.0
+1902,Circumplex,high affiliation,BDI,Depression,0,6.857406912159327
+2007,Circumplex,high affiliation,BDI,Depression,4,10.0
+2370,Circumplex,high affiliation,BDI,Depression,14,1.1495621792946034
+2463,Circumplex,high affiliation,BDI,Depression,1,10.0
+2480,Circumplex,high affiliation,BDI,Depression,9,9.931845300001243
+2582,Circumplex,high affiliation,BDI,Depression,5,8.201835921883388
+2717,Circumplex,high affiliation,BDI,Depression,13,7.194464293355433
+3219,Circumplex,high affiliation,BDI,Depression,5,4.011867817933357
+3403,Circumplex,high affiliation,BDI,Depression,0,2.859515140569528
+3515,Circumplex,high affiliation,BDI,Depression,10,5.020865890626384
+3893,Circumplex,high affiliation,BDI,Depression,2,2.686457253869346
+3904,Circumplex,high affiliation,BDI,Depression,25,9.945388634524887
+4657,Circumplex,high affiliation,BDI,Depression,5,3.4794828888095926
+4755,Circumplex,high affiliation,BDI,Depression,6,3.926824382478793
+4969,Circumplex,high affiliation,BDI,Depression,7,1.6734206119623722
+5071,Circumplex,high affiliation,BDI,Depression,4,6.572268426240027
+5344,Circumplex,high affiliation,BDI,Depression,5,10.0
+5625,Circumplex,high affiliation,BDI,Depression,1,6.165891885786423
+5658,Circumplex,high affiliation,BDI,Depression,14,6.752879562019659
+6016,Circumplex,high affiliation,BDI,Depression,5,5.626557798714413
+6047,Circumplex,high affiliation,BDI,Depression,4,2.2392540681583197
+6184,Circumplex,high affiliation,BDI,Depression,3,2.24440819131772
+6246,Circumplex,high affiliation,BDI,Depression,8,5.538612062553958
+6453,Circumplex,high affiliation,BDI,Depression,3,1.8024288520522826
+6504,Circumplex,high affiliation,BDI,Depression,4,3.1109721948265214
+6588,Circumplex,high affiliation,BDI,Depression,14,9.982200123507967
+7338,Circumplex,high affiliation,BDI,Depression,18,9.914554287634845
+7351,Circumplex,high affiliation,BDI,Depression,1,2.511172159536379
+7452,Circumplex,high affiliation,BDI,Depression,3,2.703367571289802
+7542,Circumplex,high affiliation,BDI,Depression,3,10.0
+7583,Circumplex,high affiliation,BDI,Depression,3,4.917013548877577
+7796,Circumplex,high affiliation,BDI,Depression,6,9.996078582996343
+7827,Circumplex,high affiliation,BDI,Depression,0,5.095478123330569
+7888,Circumplex,high affiliation,BDI,Depression,20,-10.0
+7933,Circumplex,high affiliation,BDI,Depression,5,4.483532852064179
+8197,Circumplex,high affiliation,BDI,Depression,2,6.598122399323806
+8517,Circumplex,high affiliation,BDI,Depression,4,10.0
+8788,Circumplex,high affiliation,BDI,Depression,11,8.51779342102739
+8892,Circumplex,high affiliation,BDI,Depression,6,9.954250055144097
+8995,Circumplex,high affiliation,BDI,Depression,14,8.514926416762856
+9023,Circumplex,high affiliation,BDI,Depression,13,9.947312467628345
+9350,Circumplex,high affiliation,BDI,Depression,0,4.961328183698844
+164,Circumplex,high affiliation,RSES,Depression,39,2.678459765801067
+292,Circumplex,high affiliation,RSES,Depression,29,1.6904002990751963
+344,Circumplex,high affiliation,RSES,Depression,46,3.9142770504296247
+409,Circumplex,high affiliation,RSES,Depression,68,9.803266963924793
+438,Circumplex,high affiliation,RSES,Depression,60,10.0
+637,Circumplex,high affiliation,RSES,Depression,68,2.679580266938141
+808,Circumplex,high affiliation,RSES,Depression,63,1.004679893429884
+923,Circumplex,high affiliation,RSES,Depression,58,3.556766644309927
+1109,Circumplex,high affiliation,RSES,Depression,61,9.993662743520433
+1119,Circumplex,high affiliation,RSES,Depression,65,2.6614790160599937
+1418,Circumplex,high affiliation,RSES,Depression,67,0.6459265911254191
+1611,Circumplex,high affiliation,RSES,Depression,45,5.078848679896801
+1688,Circumplex,high affiliation,RSES,Depression,60,2.7174015333325126
+1761,Circumplex,high affiliation,RSES,Depression,61,2.547664351994732
+1800,Circumplex,high affiliation,RSES,Depression,58,10.0
+1902,Circumplex,high affiliation,RSES,Depression,69,6.119245313604179
+2007,Circumplex,high affiliation,RSES,Depression,62,10.0
+2370,Circumplex,high affiliation,RSES,Depression,39,1.1630434503187312
+2463,Circumplex,high affiliation,RSES,Depression,70,9.891750966848738
+2480,Circumplex,high affiliation,RSES,Depression,59,10.0
+2582,Circumplex,high affiliation,RSES,Depression,63,8.180928309274101
+2717,Circumplex,high affiliation,RSES,Depression,39,7.247340452592829
+3219,Circumplex,high affiliation,RSES,Depression,65,3.9283190466603326
+3403,Circumplex,high affiliation,RSES,Depression,70,2.859521191389717
+3515,Circumplex,high affiliation,RSES,Depression,53,4.970856416711253
+3893,Circumplex,high affiliation,RSES,Depression,67,2.71817139604854
+3904,Circumplex,high affiliation,RSES,Depression,34,10.0
+4657,Circumplex,high affiliation,RSES,Depression,64,3.0901358991598085
+4755,Circumplex,high affiliation,RSES,Depression,64,3.9809561121282826
+4969,Circumplex,high affiliation,RSES,Depression,41,1.7175909032197056
+5071,Circumplex,high affiliation,RSES,Depression,67,6.247931287096476
+5344,Circumplex,high affiliation,RSES,Depression,70,10.0
+5625,Circumplex,high affiliation,RSES,Depression,70,6.2094087106147615
+5658,Circumplex,high affiliation,RSES,Depression,38,7.0692641346112435
+6016,Circumplex,high affiliation,RSES,Depression,60,6.4027239680809735
+6047,Circumplex,high affiliation,RSES,Depression,66,2.219555731578486
+6184,Circumplex,high affiliation,RSES,Depression,55,8.110713993873329
+6246,Circumplex,high affiliation,RSES,Depression,56,5.704434215430123
+6453,Circumplex,high affiliation,RSES,Depression,55,1.820124535452816
+6504,Circumplex,high affiliation,RSES,Depression,70,3.2790530878590047
+6588,Circumplex,high affiliation,RSES,Depression,61,9.914647632791239
+7338,Circumplex,high affiliation,RSES,Depression,54,9.965373232433597
+7351,Circumplex,high affiliation,RSES,Depression,53,2.476629529654082
+7452,Circumplex,high affiliation,RSES,Depression,54,2.6894686325183828
+7542,Circumplex,high affiliation,RSES,Depression,62,10.0
+7583,Circumplex,high affiliation,RSES,Depression,70,4.936721312542306
+7796,Circumplex,high affiliation,RSES,Depression,58,9.99753908325568
+7827,Circumplex,high affiliation,RSES,Depression,66,5.134524038990628
+7888,Circumplex,high affiliation,RSES,Depression,50,-10.0
+7933,Circumplex,high affiliation,RSES,Depression,69,4.589652744070768
+8197,Circumplex,high affiliation,RSES,Depression,64,6.5820745182191756
+8517,Circumplex,high affiliation,RSES,Depression,63,9.727915038132991
+8788,Circumplex,high affiliation,RSES,Depression,44,8.517920853258781
+8892,Circumplex,high affiliation,RSES,Depression,70,9.999377072678561
+8995,Circumplex,high affiliation,RSES,Depression,45,8.296056607900466
+9023,Circumplex,high affiliation,RSES,Depression,42,10.0
+9350,Circumplex,high affiliation,RSES,Depression,70,4.883896429435879
+164,Circumplex,low domonance,LSAS,Anxiety,50,-0.60100225248129
+292,Circumplex,low domonance,LSAS,Anxiety,81,-0.9057294997648924
+344,Circumplex,low domonance,LSAS,Anxiety,38,-4.261705629373754
+409,Circumplex,low domonance,LSAS,Anxiety,16,-10.0
+438,Circumplex,low domonance,LSAS,Anxiety,14,-3.974737959636692
+637,Circumplex,low domonance,LSAS,Anxiety,43,-10.0
+808,Circumplex,low domonance,LSAS,Anxiety,20,-3.259278546747234
+923,Circumplex,low domonance,LSAS,Anxiety,28,-5.9738938637530605
+1109,Circumplex,low domonance,LSAS,Anxiety,35,-2.298672571226568
+1119,Circumplex,low domonance,LSAS,Anxiety,49,-7.518109324898602
+1418,Circumplex,low domonance,LSAS,Anxiety,37,-2.0389640448096724
+1611,Circumplex,low domonance,LSAS,Anxiety,24,-5.796793475263282
+1688,Circumplex,low domonance,LSAS,Anxiety,62,-10.0
+1761,Circumplex,low domonance,LSAS,Anxiety,17,-1.822818528367155
+1800,Circumplex,low domonance,LSAS,Anxiety,2,-6.094830095058234
+1902,Circumplex,low domonance,LSAS,Anxiety,67,-9.98990464190224
+2007,Circumplex,low domonance,LSAS,Anxiety,18,-4.2901718899604155
+2370,Circumplex,low domonance,LSAS,Anxiety,56,-1.0500326972480913
+2463,Circumplex,low domonance,LSAS,Anxiety,4,-6.50000320881863
+2480,Circumplex,low domonance,LSAS,Anxiety,16,-2.202820189324513
+2582,Circumplex,low domonance,LSAS,Anxiety,29,-3.800897559429362
+2717,Circumplex,low domonance,LSAS,Anxiety,35,-3.7902676416466723
+3219,Circumplex,low domonance,LSAS,Anxiety,42,-9.936607294203947
+3403,Circumplex,low domonance,LSAS,Anxiety,4,-2.6087537671929675
+3515,Circumplex,low domonance,LSAS,Anxiety,51,-1.0483014139847329
+3893,Circumplex,low domonance,LSAS,Anxiety,34,-9.995690518183636
+3904,Circumplex,low domonance,LSAS,Anxiety,56,-1.9425686047935946
+4657,Circumplex,low domonance,LSAS,Anxiety,70,-1.9012892935750325
+4755,Circumplex,low domonance,LSAS,Anxiety,53,-3.1763484540864155
+4969,Circumplex,low domonance,LSAS,Anxiety,89,-1.2277215862109891
+5071,Circumplex,low domonance,LSAS,Anxiety,36,-10.0
+5344,Circumplex,low domonance,LSAS,Anxiety,18,-2.658274401198127
+5625,Circumplex,low domonance,LSAS,Anxiety,28,-8.578508086129018
+5658,Circumplex,low domonance,LSAS,Anxiety,91,-9.670362870468573
+6016,Circumplex,low domonance,LSAS,Anxiety,29,-4.705498482741911
+6047,Circumplex,low domonance,LSAS,Anxiety,17,-10.0
+6184,Circumplex,low domonance,LSAS,Anxiety,39,-1.5572276247493033
+6246,Circumplex,low domonance,LSAS,Anxiety,20,-7.968282464417011
+6453,Circumplex,low domonance,LSAS,Anxiety,39,-5.95564090788677
+6504,Circumplex,low domonance,LSAS,Anxiety,37,-0.156954541615235
+6588,Circumplex,low domonance,LSAS,Anxiety,58,-5.5013486723014715
+7338,Circumplex,low domonance,LSAS,Anxiety,55,-0.8972915954966795
+7351,Circumplex,low domonance,LSAS,Anxiety,22,-4.486872426344334
+7452,Circumplex,low domonance,LSAS,Anxiety,41,-1.0781514659090945
+7542,Circumplex,low domonance,LSAS,Anxiety,27,-9.981789399577359
+7583,Circumplex,low domonance,LSAS,Anxiety,19,-9.98443410335886
+7796,Circumplex,low domonance,LSAS,Anxiety,82,-9.831372169162377
+7827,Circumplex,low domonance,LSAS,Anxiety,57,-4.890830758572516
+7888,Circumplex,low domonance,LSAS,Anxiety,27,4.104587861480219
+7933,Circumplex,low domonance,LSAS,Anxiety,7,-4.529113793157536
+8197,Circumplex,low domonance,LSAS,Anxiety,15,-4.138109346792437
+8517,Circumplex,low domonance,LSAS,Anxiety,26,-10.0
+8788,Circumplex,low domonance,LSAS,Anxiety,56,-0.5682143328455231
+8892,Circumplex,low domonance,LSAS,Anxiety,51,-2.210582735197097
+8995,Circumplex,low domonance,LSAS,Anxiety,54,-0.9020729770881232
+9023,Circumplex,low domonance,LSAS,Anxiety,52,-2.4407625995777096
+9350,Circumplex,low domonance,LSAS,Anxiety,13,-2.1408026106488087
+164,Circumplex,low domonance,SPIN,Anxiety,22,-0.6022579407497662
+292,Circumplex,low domonance,SPIN,Anxiety,40,-0.9174257653912614
+344,Circumplex,low domonance,SPIN,Anxiety,21,-4.266094253558194
+409,Circumplex,low domonance,SPIN,Anxiety,0,-10.0
+438,Circumplex,low domonance,SPIN,Anxiety,7,-3.9592880044918823
+637,Circumplex,low domonance,SPIN,Anxiety,22,-9.974278257238252
+808,Circumplex,low domonance,SPIN,Anxiety,4,-3.2834976510517904
+923,Circumplex,low domonance,SPIN,Anxiety,12,-5.960637506819768
+1109,Circumplex,low domonance,SPIN,Anxiety,16,-2.329854724876198
+1119,Circumplex,low domonance,SPIN,Anxiety,24,-8.024809927075642
+1418,Circumplex,low domonance,SPIN,Anxiety,9,-2.046981509981732
+1611,Circumplex,low domonance,SPIN,Anxiety,3,-5.8755028064130554
+1688,Circumplex,low domonance,SPIN,Anxiety,6,-9.921154831717576
+1761,Circumplex,low domonance,SPIN,Anxiety,3,-1.8228293406173097
+1800,Circumplex,low domonance,SPIN,Anxiety,2,-5.8786785831991875
+1902,Circumplex,low domonance,SPIN,Anxiety,42,-10.0
+2007,Circumplex,low domonance,SPIN,Anxiety,14,-4.137000630542299
+2370,Circumplex,low domonance,SPIN,Anxiety,26,-1.0280774151741838
+2463,Circumplex,low domonance,SPIN,Anxiety,1,-6.265260522229321
+2480,Circumplex,low domonance,SPIN,Anxiety,6,-2.2114124770017263
+2582,Circumplex,low domonance,SPIN,Anxiety,9,-3.8774562594525483
+2717,Circumplex,low domonance,SPIN,Anxiety,18,-3.705783064680859
+3219,Circumplex,low domonance,SPIN,Anxiety,20,-10.0
+3403,Circumplex,low domonance,SPIN,Anxiety,1,-2.620277949258629
+3515,Circumplex,low domonance,SPIN,Anxiety,28,-1.0546319452806296
+3893,Circumplex,low domonance,SPIN,Anxiety,10,-10.0
+3904,Circumplex,low domonance,SPIN,Anxiety,32,-1.9425621909499158
+4657,Circumplex,low domonance,SPIN,Anxiety,50,-1.9712779613705145
+4755,Circumplex,low domonance,SPIN,Anxiety,12,-3.1871324835589214
+4969,Circumplex,low domonance,SPIN,Anxiety,47,-1.223945440318343
+5071,Circumplex,low domonance,SPIN,Anxiety,7,-10.0
+5344,Circumplex,low domonance,SPIN,Anxiety,8,-2.668619442961113
+5625,Circumplex,low domonance,SPIN,Anxiety,14,-8.325542556816266
+5658,Circumplex,low domonance,SPIN,Anxiety,47,-9.888284229920652
+6016,Circumplex,low domonance,SPIN,Anxiety,16,-4.705477765961186
+6047,Circumplex,low domonance,SPIN,Anxiety,9,-10.0
+6184,Circumplex,low domonance,SPIN,Anxiety,22,-1.557245078083562
+6246,Circumplex,low domonance,SPIN,Anxiety,5,-8.786332985667103
+6453,Circumplex,low domonance,SPIN,Anxiety,2,-5.840973473644675
+6504,Circumplex,low domonance,SPIN,Anxiety,9,-0.15514509978273305
+6588,Circumplex,low domonance,SPIN,Anxiety,29,-5.635996080341937
+7338,Circumplex,low domonance,SPIN,Anxiety,30,-0.9259508261260219
+7351,Circumplex,low domonance,SPIN,Anxiety,13,-4.498608832147679
+7452,Circumplex,low domonance,SPIN,Anxiety,21,-1.081596420587611
+7542,Circumplex,low domonance,SPIN,Anxiety,3,-10.0
+7583,Circumplex,low domonance,SPIN,Anxiety,6,-10.0
+7796,Circumplex,low domonance,SPIN,Anxiety,38,-10.0
+7827,Circumplex,low domonance,SPIN,Anxiety,28,-5.068240384302146
+7888,Circumplex,low domonance,SPIN,Anxiety,7,4.071080832591797
+7933,Circumplex,low domonance,SPIN,Anxiety,0,-4.5575497315901154
+8197,Circumplex,low domonance,SPIN,Anxiety,4,-4.031586114201521
+8517,Circumplex,low domonance,SPIN,Anxiety,7,-10.0
+8788,Circumplex,low domonance,SPIN,Anxiety,24,-0.5801202641829662
+8892,Circumplex,low domonance,SPIN,Anxiety,25,-2.289142361125433
+8995,Circumplex,low domonance,SPIN,Anxiety,40,-0.8828485132042233
+9023,Circumplex,low domonance,SPIN,Anxiety,12,-9.756572693275977
+9350,Circumplex,low domonance,SPIN,Anxiety,2,-2.116859568768019
+164,Circumplex,low domonance,BFNE,Anxiety,27,-6.577954622006703
+292,Circumplex,low domonance,BFNE,Anxiety,44,-0.8940639379289892
+344,Circumplex,low domonance,BFNE,Anxiety,24,-4.3702426623322275
+409,Circumplex,low domonance,BFNE,Anxiety,16,-10.0
+438,Circumplex,low domonance,BFNE,Anxiety,28,-3.9129026959522277
+637,Circumplex,low domonance,BFNE,Anxiety,19,-9.925991792020277
+808,Circumplex,low domonance,BFNE,Anxiety,7,-3.2432471976778756
+923,Circumplex,low domonance,BFNE,Anxiety,24,-5.9796759998952
+1109,Circumplex,low domonance,BFNE,Anxiety,44,-2.306471290233141
+1119,Circumplex,low domonance,BFNE,Anxiety,36,-7.545218979695136
+1418,Circumplex,low domonance,BFNE,Anxiety,11,-2.1066694373892494
+1611,Circumplex,low domonance,BFNE,Anxiety,18,-5.7703858607563046
+1688,Circumplex,low domonance,BFNE,Anxiety,28,-9.859466219332104
+1761,Circumplex,low domonance,BFNE,Anxiety,13,-1.8139086332765175
+1800,Circumplex,low domonance,BFNE,Anxiety,9,-6.029105879455613
+1902,Circumplex,low domonance,BFNE,Anxiety,35,-9.865985939605746
+2007,Circumplex,low domonance,BFNE,Anxiety,31,-4.162546590349857
+2370,Circumplex,low domonance,BFNE,Anxiety,26,-1.0456478415821704
+2463,Circumplex,low domonance,BFNE,Anxiety,5,-6.392296600206344
+2480,Circumplex,low domonance,BFNE,Anxiety,16,-2.2200008193918626
+2582,Circumplex,low domonance,BFNE,Anxiety,29,-3.7854933388659853
+2717,Circumplex,low domonance,BFNE,Anxiety,29,-3.776186430047398
+3219,Circumplex,low domonance,BFNE,Anxiety,27,-10.0
+3403,Circumplex,low domonance,BFNE,Anxiety,10,-2.5856289833904973
+3515,Circumplex,low domonance,BFNE,Anxiety,26,-1.0608935616361923
+3893,Circumplex,low domonance,BFNE,Anxiety,15,-9.996720906316432
+3904,Circumplex,low domonance,BFNE,Anxiety,32,-1.9425686719025155
+4657,Circumplex,low domonance,BFNE,Anxiety,45,-1.8485349556235122
+4755,Circumplex,low domonance,BFNE,Anxiety,35,-3.1871838892156563
+4969,Circumplex,low domonance,BFNE,Anxiety,32,-1.2089004759404283
+5071,Circumplex,low domonance,BFNE,Anxiety,41,-10.0
+5344,Circumplex,low domonance,BFNE,Anxiety,16,-2.658272375309436
+5625,Circumplex,low domonance,BFNE,Anxiety,21,-8.925009909524762
+5658,Circumplex,low domonance,BFNE,Anxiety,35,-9.997459021003806
+6016,Circumplex,low domonance,BFNE,Anxiety,27,-4.556040732798043
+6047,Circumplex,low domonance,BFNE,Anxiety,10,-10.0
+6184,Circumplex,low domonance,BFNE,Anxiety,27,-1.566973937105543
+6246,Circumplex,low domonance,BFNE,Anxiety,28,-9.378972907050754
+6453,Circumplex,low domonance,BFNE,Anxiety,31,-5.853655341497304
+6504,Circumplex,low domonance,BFNE,Anxiety,17,-0.16091428369834726
+6588,Circumplex,low domonance,BFNE,Anxiety,29,-5.51819839388993
+7338,Circumplex,low domonance,BFNE,Anxiety,26,-0.911647807654652
+7351,Circumplex,low domonance,BFNE,Anxiety,17,-4.4514950710027605
+7452,Circumplex,low domonance,BFNE,Anxiety,35,-1.0815925006032843
+7542,Circumplex,low domonance,BFNE,Anxiety,13,-10.0
+7583,Circumplex,low domonance,BFNE,Anxiety,12,-10.0
+7796,Circumplex,low domonance,BFNE,Anxiety,30,-10.0
+7827,Circumplex,low domonance,BFNE,Anxiety,15,-4.945431679014401
+7888,Circumplex,low domonance,BFNE,Anxiety,8,3.9867430004317037
+7933,Circumplex,low domonance,BFNE,Anxiety,6,-4.585891168263649
+8197,Circumplex,low domonance,BFNE,Anxiety,23,-3.991553110875757
+8517,Circumplex,low domonance,BFNE,Anxiety,21,-10.0
+8788,Circumplex,low domonance,BFNE,Anxiety,35,-0.5610192087933645
+8892,Circumplex,low domonance,BFNE,Anxiety,17,-2.2389203580785817
+8995,Circumplex,low domonance,BFNE,Anxiety,37,-0.9052684509731811
+9023,Circumplex,low domonance,BFNE,Anxiety,21,-2.4423423794390944
+9350,Circumplex,low domonance,BFNE,Anxiety,12,-2.1288367813730296
+164,Circumplex,low domonance,STAI-S,Anxiety,33,-0.4808680207079008
+292,Circumplex,low domonance,STAI-S,Anxiety,59,-0.9057516975887109
+344,Circumplex,low domonance,STAI-S,Anxiety,35,-4.374742883418713
+409,Circumplex,low domonance,STAI-S,Anxiety,24,-9.991520544987342
+438,Circumplex,low domonance,STAI-S,Anxiety,27,-3.943822382821559
+637,Circumplex,low domonance,STAI-S,Anxiety,23,-9.991940161442502
+808,Circumplex,low domonance,STAI-S,Anxiety,24,-3.233452088407099
+923,Circumplex,low domonance,STAI-S,Anxiety,43,-5.921718888828235
+1109,Circumplex,low domonance,STAI-S,Anxiety,33,-2.322061969559638
+1119,Circumplex,low domonance,STAI-S,Anxiety,37,-7.651997129882699
+1418,Circumplex,low domonance,STAI-S,Anxiety,31,-2.0187407561737927
+1611,Circumplex,low domonance,STAI-S,Anxiety,40,-5.897840066877475
+1688,Circumplex,low domonance,STAI-S,Anxiety,27,-10.0
+1761,Circumplex,low domonance,STAI-S,Anxiety,23,-1.8139151485571061
+1800,Circumplex,low domonance,STAI-S,Anxiety,28,-6.153772877200085
+1902,Circumplex,low domonance,STAI-S,Anxiety,26,-10.0
+2007,Circumplex,low domonance,STAI-S,Anxiety,37,-4.1114316873166965
+2370,Circumplex,low domonance,STAI-S,Anxiety,29,-1.028113453396859
+2463,Circumplex,low domonance,STAI-S,Anxiety,21,-6.419294855015563
+2480,Circumplex,low domonance,STAI-S,Anxiety,40,-2.2028311063496053
+2582,Circumplex,low domonance,STAI-S,Anxiety,27,-3.7546199358698287
+2717,Circumplex,low domonance,STAI-S,Anxiety,49,-3.8602543352291914
+3219,Circumplex,low domonance,STAI-S,Anxiety,33,-10.0
+3403,Circumplex,low domonance,STAI-S,Anxiety,23,-2.608767157278782
+3515,Circumplex,low domonance,STAI-S,Anxiety,52,-1.0440853009706763
+3893,Circumplex,low domonance,STAI-S,Anxiety,36,-10.0
+3904,Circumplex,low domonance,STAI-S,Anxiety,29,-1.94252313287548
+4657,Circumplex,low domonance,STAI-S,Anxiety,22,-1.9013438736439219
+4755,Circumplex,low domonance,STAI-S,Anxiety,35,-3.176318630362746
+4969,Circumplex,low domonance,STAI-S,Anxiety,55,-1.2164460124308782
+5071,Circumplex,low domonance,STAI-S,Anxiety,36,-10.0
+5344,Circumplex,low domonance,STAI-S,Anxiety,23,-2.658267235710276
+5625,Circumplex,low domonance,STAI-S,Anxiety,24,-8.862393247509475
+5658,Circumplex,low domonance,STAI-S,Anxiety,53,-10.0
+6016,Circumplex,low domonance,STAI-S,Anxiety,28,-4.606059716519583
+6047,Circumplex,low domonance,STAI-S,Anxiety,33,-9.999770068379492
+6184,Circumplex,low domonance,STAI-S,Anxiety,39,-1.5669805606314264
+6246,Circumplex,low domonance,STAI-S,Anxiety,33,-9.355646183645517
+6453,Circumplex,low domonance,STAI-S,Anxiety,41,-5.866342279719725
+6504,Circumplex,low domonance,STAI-S,Anxiety,28,-0.15927378615792398
+6588,Circumplex,low domonance,STAI-S,Anxiety,34,-5.585567178055387
+7338,Circumplex,low domonance,STAI-S,Anxiety,43,-0.9009061750788285
+7351,Circumplex,low domonance,STAI-S,Anxiety,26,-4.498699792895517
+7452,Circumplex,low domonance,STAI-S,Anxiety,37,-1.0850234413458424
+7542,Circumplex,low domonance,STAI-S,Anxiety,26,-10.0
+7583,Circumplex,low domonance,STAI-S,Anxiety,33,-9.991754292743284
+7796,Circumplex,low domonance,STAI-S,Anxiety,30,-10.0
+7827,Circumplex,low domonance,STAI-S,Anxiety,33,-5.040979349182534
+7888,Circumplex,low domonance,STAI-S,Anxiety,37,3.8504335510268763
+7933,Circumplex,low domonance,STAI-S,Anxiety,20,-4.557557976964925
+8197,Circumplex,low domonance,STAI-S,Anxiety,25,-4.058296840722503
+8517,Circumplex,low domonance,STAI-S,Anxiety,24,-10.0
+8788,Circumplex,low domonance,STAI-S,Anxiety,54,-0.5824755378647962
+8892,Circumplex,low domonance,STAI-S,Anxiety,28,-2.294673308367404
+8995,Circumplex,low domonance,STAI-S,Anxiety,58,-0.9020892993189134
+9023,Circumplex,low domonance,STAI-S,Anxiety,32,-9.73286001719681
+9350,Circumplex,low domonance,STAI-S,Anxiety,22,-2.0685360887509265
+164,Circumplex,low domonance,STAI-T,Anxiety,35,-0.6007730872772682
+292,Circumplex,low domonance,STAI-T,Anxiety,57,-0.8999139828502126
+344,Circumplex,low domonance,STAI-T,Anxiety,39,-4.352226084996472
+409,Circumplex,low domonance,STAI-T,Anxiety,29,-10.0
+438,Circumplex,low domonance,STAI-T,Anxiety,33,-3.9284239602992894
+637,Circumplex,low domonance,STAI-T,Anxiety,29,-10.0
+808,Circumplex,low domonance,STAI-T,Anxiety,24,-3.2593539480361042
+923,Circumplex,low domonance,STAI-T,Anxiety,43,-5.960681210325825
+1109,Circumplex,low domonance,STAI-T,Anxiety,35,-2.329835957921878
+1119,Circumplex,low domonance,STAI-T,Anxiety,35,-7.518175744222738
+1418,Circumplex,low domonance,STAI-T,Anxiety,31,-2.030909703755742
+1611,Circumplex,low domonance,STAI-T,Anxiety,40,-5.8977726749712245
+1688,Circumplex,low domonance,STAI-T,Anxiety,40,-10.0
+1761,Circumplex,low domonance,STAI-T,Anxiety,29,-1.8228210636975342
+1800,Circumplex,low domonance,STAI-T,Anxiety,32,-6.094816094229283
+1902,Circumplex,low domonance,STAI-T,Anxiety,30,-9.962519756628472
+2007,Circumplex,low domonance,STAI-T,Anxiety,41,-4.532583871985793
+2370,Circumplex,low domonance,STAI-T,Anxiety,55,-1.0280917151950513
+2463,Circumplex,low domonance,STAI-T,Anxiety,27,-6.338031090652751
+2480,Circumplex,low domonance,STAI-T,Anxiety,42,-2.194222374017559
+2582,Circumplex,low domonance,STAI-T,Anxiety,31,-3.800895251537287
+2717,Circumplex,low domonance,STAI-T,Anxiety,44,-3.804280922666715
+3219,Circumplex,low domonance,STAI-T,Anxiety,33,-9.982621383735463
+3403,Circumplex,low domonance,STAI-T,Anxiety,29,-2.620262793051247
+3515,Circumplex,low domonance,STAI-T,Anxiety,52,-1.0609264186129623
+3893,Circumplex,low domonance,STAI-T,Anxiety,33,-10.0
+3904,Circumplex,low domonance,STAI-T,Anxiety,33,-1.942568956190582
+4657,Circumplex,low domonance,STAI-T,Anxiety,32,-1.9083514469637104
+4755,Circumplex,low domonance,STAI-T,Anxiety,41,-3.1871535423047406
+4969,Circumplex,low domonance,STAI-T,Anxiety,50,-1.223951050972648
+5071,Circumplex,low domonance,STAI-T,Anxiety,34,-10.0
+5344,Circumplex,low domonance,STAI-T,Anxiety,29,-2.6686190945799435
+5625,Circumplex,low domonance,STAI-T,Anxiety,30,-8.578519655183824
+5658,Circumplex,low domonance,STAI-T,Anxiety,51,-9.961093207965128
+6016,Circumplex,low domonance,STAI-T,Anxiety,30,-4.680744404370939
+6047,Circumplex,low domonance,STAI-T,Anxiety,35,-10.0
+6184,Circumplex,low domonance,STAI-T,Anxiety,41,-1.5864197769147124
+6246,Circumplex,low domonance,STAI-T,Anxiety,37,-9.196578021771682
+6453,Circumplex,low domonance,STAI-T,Anxiety,39,-5.8410605521105605
+6504,Circumplex,low domonance,STAI-T,Anxiety,32,-0.15871471981840388
+6588,Circumplex,low domonance,STAI-T,Anxiety,36,-5.4337411283026
+7338,Circumplex,low domonance,STAI-T,Anxiety,43,-0.9045002861162122
+7351,Circumplex,low domonance,STAI-T,Anxiety,32,-4.420921073225308
+7452,Circumplex,low domonance,STAI-T,Anxiety,39,-1.0952722023205383
+7542,Circumplex,low domonance,STAI-T,Anxiety,28,-9.990239777574729
+7583,Circumplex,low domonance,STAI-T,Anxiety,33,-10.0
+7796,Circumplex,low domonance,STAI-T,Anxiety,34,-10.0
+7827,Circumplex,low domonance,STAI-T,Anxiety,35,-4.931809265180586
+7888,Circumplex,low domonance,STAI-T,Anxiety,37,4.054244120634431
+7933,Circumplex,low domonance,STAI-T,Anxiety,26,-4.500525774709866
+8197,Circumplex,low domonance,STAI-T,Anxiety,31,-3.9648530875666066
+8517,Circumplex,low domonance,STAI-T,Anxiety,30,-9.998831689105451
+8788,Circumplex,low domonance,STAI-T,Anxiety,51,-0.5801068425379481
+8892,Circumplex,low domonance,STAI-T,Anxiety,32,-2.2557590121209166
+8995,Circumplex,low domonance,STAI-T,Anxiety,56,-0.9178641206359832
+9023,Circumplex,low domonance,STAI-T,Anxiety,34,-9.541901702984076
+9350,Circumplex,low domonance,STAI-T,Anxiety,28,-2.074599041435958
+164,Circumplex,low domonance,FPES,Anxiety,37,-0.601575013328329
+292,Circumplex,low domonance,FPES,Anxiety,27,-0.8940519306307018
+344,Circumplex,low domonance,FPES,Anxiety,47,-4.329675480882915
+409,Circumplex,low domonance,FPES,Anxiety,27,-10.0
+438,Circumplex,low domonance,FPES,Anxiety,39,-4.0054294934069015
+637,Circumplex,low domonance,FPES,Anxiety,15,-10.0
+808,Circumplex,low domonance,FPES,Anxiety,30,-3.19477352751794
+923,Circumplex,low domonance,FPES,Anxiety,41,-5.9797834825337794
+1109,Circumplex,low domonance,FPES,Anxiety,14,-2.337638517621597
+1119,Circumplex,low domonance,FPES,Anxiety,37,-0.5158112884275129
+1418,Circumplex,low domonance,FPES,Anxiety,14,-2.055006799719543
+1611,Circumplex,low domonance,FPES,Anxiety,13,-5.770234078642209
+1688,Circumplex,low domonance,FPES,Anxiety,59,-9.982698236641534
+1761,Circumplex,low domonance,FPES,Anxiety,8,-1.813916485928999
+1800,Circumplex,low domonance,FPES,Anxiety,11,-6.183250882831476
+1902,Circumplex,low domonance,FPES,Anxiety,50,-9.948593029749093
+2007,Circumplex,low domonance,FPES,Anxiety,31,-4.149770059482248
+2370,Circumplex,low domonance,FPES,Anxiety,12,-1.028107359690134
+2463,Circumplex,low domonance,FPES,Anxiety,16,-6.419263711125091
+2480,Circumplex,low domonance,FPES,Anxiety,14,-2.2199856166732466
+2582,Circumplex,low domonance,FPES,Anxiety,8,-3.7700191547468243
+2717,Circumplex,low domonance,FPES,Anxiety,46,-3.930059988180307
+3219,Circumplex,low domonance,FPES,Anxiety,26,-10.0
+3403,Circumplex,low domonance,FPES,Anxiety,9,-2.6202662914660695
+3515,Circumplex,low domonance,FPES,Anxiety,52,-1.0322713429216686
+3893,Circumplex,low domonance,FPES,Anxiety,50,-10.0
+3904,Circumplex,low domonance,FPES,Anxiety,44,-1.942568259903878
+4657,Circumplex,low domonance,FPES,Anxiety,41,-1.883763616129583
+4755,Circumplex,low domonance,FPES,Anxiety,38,-3.176284352449414
+4969,Circumplex,low domonance,FPES,Anxiety,35,-1.1975111276658161
+5071,Circumplex,low domonance,FPES,Anxiety,21,-10.0
+5344,Circumplex,low domonance,FPES,Anxiety,2,-2.6479321249254126
+5625,Circumplex,low domonance,FPES,Anxiety,32,-8.546980220070784
+5658,Circumplex,low domonance,FPES,Anxiety,48,-10.0
+6016,Circumplex,low domonance,FPES,Anxiety,27,-4.8042119208759075
+6047,Circumplex,low domonance,FPES,Anxiety,9,-9.99859404390194
+6184,Circumplex,low domonance,FPES,Anxiety,40,-1.5815625360675651
+6246,Circumplex,low domonance,FPES,Anxiety,28,-8.945790449099558
+6453,Circumplex,low domonance,FPES,Anxiety,28,-5.765267918504781
+6504,Circumplex,low domonance,FPES,Anxiety,20,-0.15696186932753592
+6588,Circumplex,low domonance,FPES,Anxiety,50,-5.501282322502808
+7338,Circumplex,low domonance,FPES,Anxiety,28,-0.925946325929237
+7351,Circumplex,low domonance,FPES,Anxiety,21,-4.486823441415583
+7452,Circumplex,low domonance,FPES,Anxiety,39,-1.0747949193226094
+7542,Circumplex,low domonance,FPES,Anxiety,18,-9.98831877423296
+7583,Circumplex,low domonance,FPES,Anxiety,16,-10.0
+7796,Circumplex,low domonance,FPES,Anxiety,26,-10.0
+7827,Circumplex,low domonance,FPES,Anxiety,51,-4.931651105240531
+7888,Circumplex,low domonance,FPES,Anxiety,8,3.9016941099128455
+7933,Circumplex,low domonance,FPES,Anxiety,16,-4.614146545190193
+8197,Circumplex,low domonance,FPES,Anxiety,35,-4.071572814039622
+8517,Circumplex,low domonance,FPES,Anxiety,10,-10.0
+8788,Circumplex,low domonance,FPES,Anxiety,47,-0.5753974694025102
+8892,Circumplex,low domonance,FPES,Anxiety,24,-2.2780805590946853
+8995,Circumplex,low domonance,FPES,Anxiety,45,-0.9020820470075394
+9023,Circumplex,low domonance,FPES,Anxiety,17,-9.971060326619702
+9350,Circumplex,low domonance,FPES,Anxiety,38,-2.0927564044368756
+164,Circumplex,low domonance,BDI,Depression,10,-6.699654924002807
+292,Circumplex,low domonance,BDI,Depression,19,-0.888201349229309
+344,Circumplex,low domonance,BDI,Depression,9,-4.441949159832399
+409,Circumplex,low domonance,BDI,Depression,1,-10.0
+438,Circumplex,low domonance,BDI,Depression,4,-3.9283884068040855
+637,Circumplex,low domonance,BDI,Depression,4,-10.0
+808,Circumplex,low domonance,BDI,Depression,3,-3.235158721707804
+923,Circumplex,low domonance,BDI,Depression,9,-6.003068937833145
+1109,Circumplex,low domonance,BDI,Depression,8,-2.337629237700105
+1119,Circumplex,low domonance,BDI,Depression,5,-7.838163597193787
+1418,Circumplex,low domonance,BDI,Depression,3,-2.126322452664575
+1611,Circumplex,low domonance,BDI,Depression,9,-5.758661702295173
+1688,Circumplex,low domonance,BDI,Depression,0,-10.0
+1761,Circumplex,low domonance,BDI,Depression,6,-1.831690064492226
+1800,Circumplex,low domonance,BDI,Depression,8,-5.780434086318549
+1902,Circumplex,low domonance,BDI,Depression,0,-10.0
+2007,Circumplex,low domonance,BDI,Depression,4,-4.188016554077363
+2370,Circumplex,low domonance,BDI,Depression,14,-1.023649825309875
+2463,Circumplex,low domonance,BDI,Depression,1,-6.2628999489784345
+2480,Circumplex,low domonance,BDI,Depression,9,-2.2028332833433115
+2582,Circumplex,low domonance,BDI,Depression,5,-3.7545934438547555
+2717,Circumplex,low domonance,BDI,Depression,13,-3.8602752944960153
+3219,Circumplex,low domonance,BDI,Depression,5,-9.997326583355582
+3403,Circumplex,low domonance,BDI,Depression,0,-2.6087424550166727
+3515,Circumplex,low domonance,BDI,Depression,10,-1.0546266040087549
+3893,Circumplex,low domonance,BDI,Depression,2,-9.99315112164934
+3904,Circumplex,low domonance,BDI,Depression,25,-1.9425685741018868
+4657,Circumplex,low domonance,BDI,Depression,5,-1.9153622985209962
+4755,Circumplex,low domonance,BDI,Depression,6,-3.1871560604342872
+4969,Circumplex,low domonance,BDI,Depression,7,-1.2239853362141286
+5071,Circumplex,low domonance,BDI,Depression,4,-10.0
+5344,Circumplex,low domonance,BDI,Depression,5,-2.65829928027104
+5625,Circumplex,low domonance,BDI,Depression,1,-8.420600100290537
+5658,Circumplex,low domonance,BDI,Depression,14,-9.724668142831778
+6016,Circumplex,low domonance,BDI,Depression,5,-4.556030757575008
+6047,Circumplex,low domonance,BDI,Depression,4,-9.998086109985158
+6184,Circumplex,low domonance,BDI,Depression,3,-1.5523353062298964
+6246,Circumplex,low domonance,BDI,Depression,8,-9.264694077018065
+6453,Circumplex,low domonance,BDI,Depression,3,-5.777388153607559
+6504,Circumplex,low domonance,BDI,Depression,4,-0.15698372774458239
+6588,Circumplex,low domonance,BDI,Depression,14,-5.45050729670085
+7338,Circumplex,low domonance,BDI,Depression,18,-0.9080612647822094
+7351,Circumplex,low domonance,BDI,Depression,1,-4.404298580298127
+7452,Circumplex,low domonance,BDI,Depression,3,-1.0644809371723511
+7542,Circumplex,low domonance,BDI,Depression,3,-10.0
+7583,Circumplex,low domonance,BDI,Depression,3,-10.0
+7796,Circumplex,low domonance,BDI,Depression,6,-10.0
+7827,Circumplex,low domonance,BDI,Depression,0,-5.1281811993748665
+7888,Circumplex,low domonance,BDI,Depression,20,3.986770552094566
+7933,Circumplex,low domonance,BDI,Depression,5,-4.471894363802697
+8197,Circumplex,low domonance,BDI,Depression,2,-3.9915421645259044
+8517,Circumplex,low domonance,BDI,Depression,4,-9.996587763943474
+8788,Circumplex,low domonance,BDI,Depression,11,-0.5753253114351399
+8892,Circumplex,low domonance,BDI,Depression,6,-2.327694633946191
+8995,Circumplex,low domonance,BDI,Depression,14,-0.8796284900192012
+9023,Circumplex,low domonance,BDI,Depression,13,-9.708954174638045
+9350,Circumplex,low domonance,BDI,Depression,0,-2.1288275879649836
+164,Circumplex,low domonance,RSES,Depression,39,-0.6012208712319488
+292,Circumplex,low domonance,RSES,Depression,29,-0.9290949030763428
+344,Circumplex,low domonance,RSES,Depression,46,-4.307067297206848
+409,Circumplex,low domonance,RSES,Depression,68,-10.0
+438,Circumplex,low domonance,RSES,Depression,60,-4.0055196326005795
+637,Circumplex,low domonance,RSES,Depression,68,-10.0
+808,Circumplex,low domonance,RSES,Depression,63,-3.2915320030526765
+923,Circumplex,low domonance,RSES,Depression,58,-5.941565481553714
+1109,Circumplex,low domonance,RSES,Depression,61,-2.2986850918435446
+1119,Circumplex,low domonance,RSES,Depression,65,-8.077676756054343
+1418,Circumplex,low domonance,RSES,Depression,67,-2.114532248642724
+1611,Circumplex,low domonance,RSES,Depression,45,-5.845467732247331
+1688,Circumplex,low domonance,RSES,Depression,60,-10.0
+1761,Circumplex,low domonance,RSES,Depression,61,-1.82281290515625
+1800,Circumplex,low domonance,RSES,Depression,58,-5.849185928673152
+1902,Circumplex,low domonance,RSES,Depression,69,-9.97157623553829
+2007,Circumplex,low domonance,RSES,Depression,62,-4.3411984155200125
+2370,Circumplex,low domonance,RSES,Depression,39,-1.0369136327592077
+2463,Circumplex,low domonance,RSES,Depression,70,-6.419293057514564
+2480,Circumplex,low domonance,RSES,Depression,59,-2.2028276889514835
+2582,Circumplex,low domonance,RSES,Depression,63,-3.7236375258723764
+2717,Circumplex,low domonance,RSES,Depression,39,-3.818270961901204
+3219,Circumplex,low domonance,RSES,Depression,65,-9.99722427660156
+3403,Circumplex,low domonance,RSES,Depression,70,-4.744683389284845
+3515,Circumplex,low domonance,RSES,Depression,53,-1.0577734927843776
+3893,Circumplex,low domonance,RSES,Depression,67,-9.995774993497445
+3904,Circumplex,low domonance,RSES,Depression,34,-1.9425138499884964
+4657,Circumplex,low domonance,RSES,Depression,64,-1.9118578785809097
+4755,Circumplex,low domonance,RSES,Depression,64,-3.187182748196132
+4969,Circumplex,low domonance,RSES,Depression,41,-1.2164484405260443
+5071,Circumplex,low domonance,RSES,Depression,67,-10.0
+5344,Circumplex,low domonance,RSES,Depression,70,-2.6375537657965413
+5625,Circumplex,low domonance,RSES,Depression,70,-8.767611567396823
+5658,Circumplex,low domonance,RSES,Depression,38,-10.0
+6016,Circumplex,low domonance,RSES,Depression,60,-4.655854202816905
+6047,Circumplex,low domonance,RSES,Depression,66,-9.981564707889437
+6184,Circumplex,low domonance,RSES,Depression,55,-1.5425129107795739
+6246,Circumplex,low domonance,RSES,Depression,56,-8.979416832709624
+6453,Circumplex,low domonance,RSES,Depression,55,-5.828189909229212
+6504,Circumplex,low domonance,RSES,Depression,70,-0.15755658025765445
+6588,Circumplex,low domonance,RSES,Depression,61,-5.196235130964353
+7338,Circumplex,low domonance,RSES,Depression,54,-0.9116764724985615
+7351,Circumplex,low domonance,RSES,Depression,53,-4.404282147790447
+7452,Circumplex,low domonance,RSES,Depression,54,-1.088418345071068
+7542,Circumplex,low domonance,RSES,Depression,62,-10.0
+7583,Circumplex,low domonance,RSES,Depression,70,-10.0
+7796,Circumplex,low domonance,RSES,Depression,58,-10.0
+7827,Circumplex,low domonance,RSES,Depression,66,-5.040989711604592
+7888,Circumplex,low domonance,RSES,Depression,50,4.003670599247934
+7933,Circumplex,low domonance,RSES,Depression,69,-4.614174927966255
+8197,Circumplex,low domonance,RSES,Depression,64,-4.084890526393923
+8517,Circumplex,low domonance,RSES,Depression,63,-10.0
+8788,Circumplex,low domonance,RSES,Depression,44,-0.572960377001748
+8892,Circumplex,low domonance,RSES,Depression,70,-2.1821707920300777
+8995,Circumplex,low domonance,RSES,Depression,45,-0.9020956449190367
+9023,Circumplex,low domonance,RSES,Depression,42,-9.828272307778073
+9350,Circumplex,low domonance,RSES,Depression,70,-2.086692122582458
+164,Circumplex,high dominance,LSAS,Anxiety,50,-1.3217737760087598
+292,Circumplex,high dominance,LSAS,Anxiety,81,0.20473467133703716
+344,Circumplex,high dominance,LSAS,Anxiety,38,1.8074712330545417
+409,Circumplex,high dominance,LSAS,Anxiety,16,2.323686720394325
+438,Circumplex,high dominance,LSAS,Anxiety,14,1.2127874346354524
+637,Circumplex,high dominance,LSAS,Anxiety,43,10.0
+808,Circumplex,high dominance,LSAS,Anxiety,20,0.0341664533447729
+923,Circumplex,high dominance,LSAS,Anxiety,28,0.4106705922756835
+1109,Circumplex,high dominance,LSAS,Anxiety,35,1.2889208951402944
+1119,Circumplex,high dominance,LSAS,Anxiety,49,-0.6815532986703163
+1418,Circumplex,high dominance,LSAS,Anxiety,37,2.1922867672812614
+1611,Circumplex,high dominance,LSAS,Anxiety,24,0.18483485314167544
+1688,Circumplex,high dominance,LSAS,Anxiety,62,0.10261538192155895
+1761,Circumplex,high dominance,LSAS,Anxiety,17,5.210540573220285
+1800,Circumplex,high dominance,LSAS,Anxiety,2,1.1563259289255763
+1902,Circumplex,high dominance,LSAS,Anxiety,67,-0.13038283520877314
+2007,Circumplex,high dominance,LSAS,Anxiety,18,0.6971055323266473
+2370,Circumplex,high dominance,LSAS,Anxiety,56,-0.06715247689453945
+2463,Circumplex,high dominance,LSAS,Anxiety,4,2.827392983841765
+2480,Circumplex,high dominance,LSAS,Anxiety,16,2.101050580159518
+2582,Circumplex,high dominance,LSAS,Anxiety,29,3.474252528674242
+2717,Circumplex,high dominance,LSAS,Anxiety,35,0.04069026956198759
+3219,Circumplex,high dominance,LSAS,Anxiety,42,-0.8842789844069028
+3403,Circumplex,high dominance,LSAS,Anxiety,4,2.3026272955175573
+3515,Circumplex,high dominance,LSAS,Anxiety,51,-3.440920988717558
+3893,Circumplex,high dominance,LSAS,Anxiety,34,2.7436598140399076
+3904,Circumplex,high dominance,LSAS,Anxiety,56,-5.794329088797235
+4657,Circumplex,high dominance,LSAS,Anxiety,70,-0.6999755220618048
+4755,Circumplex,high dominance,LSAS,Anxiety,53,1.4538944612147353
+4969,Circumplex,high dominance,LSAS,Anxiety,89,-1.3017070600273517
+5071,Circumplex,high dominance,LSAS,Anxiety,36,0.8563326853225405
+5344,Circumplex,high dominance,LSAS,Anxiety,18,9.9704952323495
+5625,Circumplex,high dominance,LSAS,Anxiety,28,10.0
+5658,Circumplex,high dominance,LSAS,Anxiety,91,-0.7186814454599653
+6016,Circumplex,high dominance,LSAS,Anxiety,29,-0.5000258967427144
+6047,Circumplex,high dominance,LSAS,Anxiety,17,3.3996296562803128
+6184,Circumplex,high dominance,LSAS,Anxiety,39,-0.21876917524657705
+6246,Circumplex,high dominance,LSAS,Anxiety,20,0.15177109583730433
+6453,Circumplex,high dominance,LSAS,Anxiety,39,-1.2628068925988019
+6504,Circumplex,high dominance,LSAS,Anxiety,37,0.9742065382200169
+6588,Circumplex,high dominance,LSAS,Anxiety,58,-0.0964157508546855
+7338,Circumplex,high dominance,LSAS,Anxiety,55,-0.5739911047446022
+7351,Circumplex,high dominance,LSAS,Anxiety,22,2.6849762503232397
+7452,Circumplex,high dominance,LSAS,Anxiety,41,-0.7893364325247185
+7542,Circumplex,high dominance,LSAS,Anxiety,27,0.9014851552451103
+7583,Circumplex,high dominance,LSAS,Anxiety,19,0.38140603161311987
+7796,Circumplex,high dominance,LSAS,Anxiety,82,-0.018005705287982527
+7827,Circumplex,high dominance,LSAS,Anxiety,57,2.5025627569173725
+7888,Circumplex,high dominance,LSAS,Anxiety,27,-5.806019693222971
+7933,Circumplex,high dominance,LSAS,Anxiety,7,10.0
+8197,Circumplex,high dominance,LSAS,Anxiety,15,0.4845484566394909
+8517,Circumplex,high dominance,LSAS,Anxiety,26,6.106924338457857
+8788,Circumplex,high dominance,LSAS,Anxiety,56,0.20218474889667076
+8892,Circumplex,high dominance,LSAS,Anxiety,51,2.1766856574036666
+8995,Circumplex,high dominance,LSAS,Anxiety,54,-3.9966980423074596
+9023,Circumplex,high dominance,LSAS,Anxiety,52,-8.912965559555918
+9350,Circumplex,high dominance,LSAS,Anxiety,13,2.4030752761774967
+164,Circumplex,high dominance,SPIN,Anxiety,22,-3.5135449408797808
+292,Circumplex,high dominance,SPIN,Anxiety,40,0.20474054443570563
+344,Circumplex,high dominance,SPIN,Anxiety,21,1.8074437400480574
+409,Circumplex,high dominance,SPIN,Anxiety,0,2.3709589796256556
+438,Circumplex,high dominance,SPIN,Anxiety,7,1.2256717579524459
+637,Circumplex,high dominance,SPIN,Anxiety,22,10.0
+808,Circumplex,high dominance,SPIN,Anxiety,4,0.03787263769119265
+923,Circumplex,high dominance,SPIN,Anxiety,12,0.4123014257269548
+1109,Circumplex,high dominance,SPIN,Anxiety,16,1.2941012099861997
+1119,Circumplex,high dominance,SPIN,Anxiety,24,-0.6815567175570296
+1418,Circumplex,high dominance,SPIN,Anxiety,9,2.1689853233748213
+1611,Circumplex,high dominance,SPIN,Anxiety,3,0.2108809766859454
+1688,Circumplex,high dominance,SPIN,Anxiety,6,0.10262117151458533
+1761,Circumplex,high dominance,SPIN,Anxiety,3,5.19134161951925
+1800,Circumplex,high dominance,SPIN,Anxiety,2,1.1731831004243833
+1902,Circumplex,high dominance,SPIN,Anxiety,42,-0.13130362039266577
+2007,Circumplex,high dominance,SPIN,Anxiety,14,0.7109899737528225
+2370,Circumplex,high dominance,SPIN,Anxiety,26,-0.06678720597304744
+2463,Circumplex,high dominance,SPIN,Anxiety,1,2.8495734753588717
+2480,Circumplex,high dominance,SPIN,Anxiety,6,2.101050041901792
+2582,Circumplex,high dominance,SPIN,Anxiety,9,3.467651075364091
+2717,Circumplex,high dominance,SPIN,Anxiety,18,0.04133291676737925
+3219,Circumplex,high dominance,SPIN,Anxiety,20,-0.8988189898023642
+3403,Circumplex,high dominance,SPIN,Anxiety,1,2.3337621899245047
+3515,Circumplex,high dominance,SPIN,Anxiety,28,-3.4566656367147655
+3893,Circumplex,high dominance,SPIN,Anxiety,10,2.9410022026157705
+3904,Circumplex,high dominance,SPIN,Anxiety,32,-5.960181722072825
+4657,Circumplex,high dominance,SPIN,Anxiety,50,-0.7088223233359473
+4755,Circumplex,high dominance,SPIN,Anxiety,12,1.4358519448553166
+4969,Circumplex,high dominance,SPIN,Anxiety,47,-1.290088391393294
+5071,Circumplex,high dominance,SPIN,Anxiety,7,0.8563318801174212
+5344,Circumplex,high dominance,SPIN,Anxiety,8,10.0
+5625,Circumplex,high dominance,SPIN,Anxiety,14,10.0
+5658,Circumplex,high dominance,SPIN,Anxiety,47,-0.7167705838689487
+6016,Circumplex,high dominance,SPIN,Anxiety,16,-0.5000372469901092
+6047,Circumplex,high dominance,SPIN,Anxiety,9,9.713543464128492
+6184,Circumplex,high dominance,SPIN,Anxiety,22,-0.21294732708711933
+6246,Circumplex,high dominance,SPIN,Anxiety,5,0.15762210586499661
+6453,Circumplex,high dominance,SPIN,Anxiety,2,-1.2565745196175009
+6504,Circumplex,high dominance,SPIN,Anxiety,9,0.9494465940867866
+6588,Circumplex,high dominance,SPIN,Anxiety,29,-0.09825718771254878
+7338,Circumplex,high dominance,SPIN,Anxiety,30,-0.5917290305827357
+7351,Circumplex,high dominance,SPIN,Anxiety,13,2.712823014452625
+7452,Circumplex,high dominance,SPIN,Anxiety,21,-0.7751835934693673
+7542,Circumplex,high dominance,SPIN,Anxiety,3,0.8629043570016198
+7583,Circumplex,high dominance,SPIN,Anxiety,6,0.38140224469668843
+7796,Circumplex,high dominance,SPIN,Anxiety,38,-0.020056728201776453
+7827,Circumplex,high dominance,SPIN,Anxiety,28,2.244343330363172
+7888,Circumplex,high dominance,SPIN,Anxiety,7,-5.8060393691085705
+7933,Circumplex,high dominance,SPIN,Anxiety,0,10.0
+8197,Circumplex,high dominance,SPIN,Anxiety,4,0.48255665802012976
+8517,Circumplex,high dominance,SPIN,Anxiety,7,6.168896105890247
+8788,Circumplex,high dominance,SPIN,Anxiety,24,0.20376329973077034
+8892,Circumplex,high dominance,SPIN,Anxiety,25,2.1560466131698393
+8995,Circumplex,high dominance,SPIN,Anxiety,40,-3.996667289005015
+9023,Circumplex,high dominance,SPIN,Anxiety,12,-8.988926617097627
+9350,Circumplex,high dominance,SPIN,Anxiety,2,2.4031949521044584
+164,Circumplex,high dominance,BFNE,Anxiety,27,-3.6090783946669083
+292,Circumplex,high dominance,BFNE,Anxiety,44,0.20471801467677844
+344,Circumplex,high dominance,BFNE,Anxiety,24,1.7981738682786972
+409,Circumplex,high dominance,BFNE,Anxiety,16,2.3078974992990484
+438,Circumplex,high dominance,BFNE,Anxiety,28,1.2256820598832587
+637,Circumplex,high dominance,BFNE,Anxiety,19,9.987776062367113
+808,Circumplex,high dominance,BFNE,Anxiety,7,0.045426141175626406
+923,Circumplex,high dominance,BFNE,Anxiety,24,0.4122889173547693
+1109,Circumplex,high dominance,BFNE,Anxiety,44,1.3095204649701109
+1119,Circumplex,high dominance,BFNE,Anxiety,36,-0.6873362361595708
+1418,Circumplex,high dominance,BFNE,Anxiety,11,2.1922780413241134
+1611,Circumplex,high dominance,BFNE,Anxiety,18,0.1867327094514143
+1688,Circumplex,high dominance,BFNE,Anxiety,28,0.10262994281820989
+1761,Circumplex,high dominance,BFNE,Anxiety,13,5.190857766649229
+1800,Circumplex,high dominance,BFNE,Anxiety,9,1.1478445413302416
+1902,Circumplex,high dominance,BFNE,Anxiety,35,-0.13221059234087174
+2007,Circumplex,high dominance,BFNE,Anxiety,31,0.6970926647864888
+2370,Circumplex,high dominance,BFNE,Anxiety,26,-0.0668155436372148
+2463,Circumplex,high dominance,BFNE,Anxiety,5,2.860680722001503
+2480,Circumplex,high dominance,BFNE,Anxiety,16,2.101044785374789
+2582,Circumplex,high dominance,BFNE,Anxiety,29,3.542969503897707
+2717,Circumplex,high dominance,BFNE,Anxiety,29,0.042030008748540175
+3219,Circumplex,high dominance,BFNE,Anxiety,27,-0.8952068081143338
+3403,Circumplex,high dominance,BFNE,Anxiety,10,2.341503824650855
+3515,Circumplex,high dominance,BFNE,Anxiety,26,-3.4409338960641906
+3893,Circumplex,high dominance,BFNE,Anxiety,15,2.869189660964473
+3904,Circumplex,high dominance,BFNE,Anxiety,32,-5.877422971762194
+4657,Circumplex,high dominance,BFNE,Anxiety,45,-0.6940343364064757
+4755,Circumplex,high dominance,BFNE,Anxiety,35,1.46809247373315
+4969,Circumplex,high dominance,BFNE,Anxiety,32,-1.2586422189251245
+5071,Circumplex,high dominance,BFNE,Anxiety,41,0.8594926032307512
+5344,Circumplex,high dominance,BFNE,Anxiety,16,9.986712854258094
+5625,Circumplex,high dominance,BFNE,Anxiety,21,10.0
+5658,Circumplex,high dominance,BFNE,Anxiety,35,-0.7128355386951546
+6016,Circumplex,high dominance,BFNE,Anxiety,27,-0.4959001337019361
+6047,Circumplex,high dominance,BFNE,Anxiety,10,9.298514786447505
+6184,Circumplex,high dominance,BFNE,Anxiety,27,-0.20590282982332597
+6246,Circumplex,high dominance,BFNE,Anxiety,28,0.15079967767151012
+6453,Circumplex,high dominance,BFNE,Anxiety,31,-1.2565608516090616
+6504,Circumplex,high dominance,BFNE,Anxiety,17,0.9618602324860397
+6588,Circumplex,high dominance,BFNE,Anxiety,29,-0.0955158806038137
+7338,Circumplex,high dominance,BFNE,Anxiety,26,-0.5976203568716351
+7351,Circumplex,high dominance,BFNE,Anxiety,17,2.7108215093232757
+7452,Circumplex,high dominance,BFNE,Anxiety,35,-0.7716193791099019
+7542,Circumplex,high dominance,BFNE,Anxiety,13,0.8822329939994206
+7583,Circumplex,high dominance,BFNE,Anxiety,12,0.38335493024273637
+7796,Circumplex,high dominance,BFNE,Anxiety,30,-0.02107576752748008
+7827,Circumplex,high dominance,BFNE,Anxiety,15,1.2040842084638286
+7888,Circumplex,high dominance,BFNE,Anxiety,8,-5.659574169220296
+7933,Circumplex,high dominance,BFNE,Anxiety,6,10.0
+8197,Circumplex,high dominance,BFNE,Anxiety,23,0.4875178011467452
+8517,Circumplex,high dominance,BFNE,Anxiety,21,6.106926201045196
+8788,Circumplex,high dominance,BFNE,Anxiety,35,0.1960668261664965
+8892,Circumplex,high dominance,BFNE,Anxiety,17,2.1663763555604216
+8995,Circumplex,high dominance,BFNE,Anxiety,37,-3.987372282911402
+9023,Circumplex,high dominance,BFNE,Anxiety,21,-9.311669901378295
+9350,Circumplex,high dominance,BFNE,Anxiety,12,2.3844444071121003
+164,Circumplex,high dominance,STAI-S,Anxiety,33,-3.6271508642789545
+292,Circumplex,high dominance,STAI-S,Anxiety,59,0.20058227965018613
+344,Circumplex,high dominance,STAI-S,Anxiety,35,1.8074589486200985
+409,Circumplex,high dominance,STAI-S,Anxiety,24,2.2998753133011802
+438,Circumplex,high dominance,STAI-S,Anxiety,27,1.2128103657016396
+637,Circumplex,high dominance,STAI-S,Anxiety,23,10.0
+808,Circumplex,high dominance,STAI-S,Anxiety,24,0.03539598988238154
+923,Circumplex,high dominance,STAI-S,Anxiety,43,0.4106660993234249
+1109,Circumplex,high dominance,STAI-S,Anxiety,33,1.2992647460071138
+1119,Circumplex,high dominance,STAI-S,Anxiety,37,-0.6815606600131631
+1418,Circumplex,high dominance,STAI-S,Anxiety,31,2.1806293254973035
+1611,Circumplex,high dominance,STAI-S,Anxiety,40,0.18440106030418751
+1688,Circumplex,high dominance,STAI-S,Anxiety,27,0.09647389987660308
+1761,Circumplex,high dominance,STAI-S,Anxiety,23,5.229963393871926
+1800,Circumplex,high dominance,STAI-S,Anxiety,28,1.1563043023868553
+1902,Circumplex,high dominance,STAI-S,Anxiety,26,-0.13162365337133614
+2007,Circumplex,high dominance,STAI-S,Anxiety,37,0.7017705591542849
+2370,Circumplex,high dominance,STAI-S,Anxiety,29,-0.06693520599237249
+2463,Circumplex,high dominance,STAI-S,Anxiety,21,2.7938715797774982
+2480,Circumplex,high dominance,STAI-S,Anxiety,40,2.1010341606241703
+2582,Circumplex,high dominance,STAI-S,Anxiety,27,3.412576579046296
+2717,Circumplex,high dominance,STAI-S,Anxiety,49,0.041345154534325884
+3219,Circumplex,high dominance,STAI-S,Anxiety,33,-0.8843082145326849
+3403,Circumplex,high dominance,STAI-S,Anxiety,23,2.3026367222652153
+3515,Circumplex,high dominance,STAI-S,Anxiety,52,-3.4723738842909153
+3893,Circumplex,high dominance,STAI-S,Anxiety,36,2.8047565339298974
+3904,Circumplex,high dominance,STAI-S,Anxiety,29,-6.165708576901761
+4657,Circumplex,high dominance,STAI-S,Anxiety,22,-0.6970232095112339
+4755,Circumplex,high dominance,STAI-S,Anxiety,35,1.4520166726971537
+4969,Circumplex,high dominance,STAI-S,Anxiety,55,-1.2610620943003432
+5071,Circumplex,high dominance,STAI-S,Anxiety,36,0.875200921111628
+5344,Circumplex,high dominance,STAI-S,Anxiety,23,9.98903378603405
+5625,Circumplex,high dominance,STAI-S,Anxiety,24,10.0
+5658,Circumplex,high dominance,STAI-S,Anxiety,53,-0.7148204906555918
+6016,Circumplex,high dominance,STAI-S,Anxiety,28,-0.4679823874965923
+6047,Circumplex,high dominance,STAI-S,Anxiety,33,9.451583174233688
+6184,Circumplex,high dominance,STAI-S,Anxiety,39,-0.21036764518429843
+6246,Circumplex,high dominance,STAI-S,Anxiety,33,0.14983311057197937
+6453,Circumplex,high dominance,STAI-S,Anxiety,41,-1.2503191615365596
+6504,Circumplex,high dominance,STAI-S,Anxiety,28,0.9594111217680534
+6588,Circumplex,high dominance,STAI-S,Anxiety,34,-0.09457779978833983
+7338,Circumplex,high dominance,STAI-S,Anxiety,43,-0.5887896852189807
+7351,Circumplex,high dominance,STAI-S,Anxiety,26,2.768018120295682
+7452,Circumplex,high dominance,STAI-S,Anxiety,37,-0.7680387138615286
+7542,Circumplex,high dominance,STAI-S,Anxiety,26,0.8693810878517968
+7583,Circumplex,high dominance,STAI-S,Anxiety,33,0.38532674529134153
+7796,Circumplex,high dominance,STAI-S,Anxiety,30,-0.020091331306627533
+7827,Circumplex,high dominance,STAI-S,Anxiety,33,2.4621493933264476
+7888,Circumplex,high dominance,STAI-S,Anxiety,37,-5.910137437458608
+7933,Circumplex,high dominance,STAI-S,Anxiety,20,10.0
+8197,Circumplex,high dominance,STAI-S,Anxiety,25,6.759899743791488
+8517,Circumplex,high dominance,STAI-S,Anxiety,24,6.16869551105164
+8788,Circumplex,high dominance,STAI-S,Anxiety,54,0.19911318972108188
+8892,Circumplex,high dominance,STAI-S,Anxiety,28,2.1869664641190463
+8995,Circumplex,high dominance,STAI-S,Anxiety,58,-3.9919949542264193
+9023,Circumplex,high dominance,STAI-S,Anxiety,32,-8.913063966366273
+9350,Circumplex,high dominance,STAI-S,Anxiety,22,2.4031218031548125
+164,Circumplex,high dominance,STAI-T,Anxiety,35,-3.5864327682490695
+292,Circumplex,high dominance,STAI-T,Anxiety,57,0.20265809339695628
+344,Circumplex,high dominance,STAI-T,Anxiety,39,1.8074669178337783
+409,Circumplex,high dominance,STAI-T,Anxiety,29,2.331559947317269
+438,Circumplex,high dominance,STAI-T,Anxiety,33,1.2192409373698256
+637,Circumplex,high dominance,STAI-T,Anxiety,29,9.975818612754086
+808,Circumplex,high dominance,STAI-T,Anxiety,24,0.007986484782611658
+923,Circumplex,high dominance,STAI-T,Anxiety,43,0.4122696586053113
+1109,Circumplex,high dominance,STAI-T,Anxiety,35,1.3044497330319649
+1119,Circumplex,high dominance,STAI-T,Anxiety,35,-0.681557629096872
+1418,Circumplex,high dominance,STAI-T,Anxiety,31,2.1806357900321904
+1611,Circumplex,high dominance,STAI-T,Anxiety,40,0.1855716893371096
+1688,Circumplex,high dominance,STAI-T,Anxiety,40,0.10571983963282808
+1761,Circumplex,high dominance,STAI-T,Anxiety,29,5.171798559214936
+1800,Circumplex,high dominance,STAI-T,Anxiety,32,1.1689760090403785
+1902,Circumplex,high dominance,STAI-T,Anxiety,30,-0.12948003994075397
+2007,Circumplex,high dominance,STAI-T,Anxiety,41,0.7017629461069032
+2370,Circumplex,high dominance,STAI-T,Anxiety,55,-0.06712280076307318
+2463,Circumplex,high dominance,STAI-T,Anxiety,27,2.838519202809923
+2480,Circumplex,high dominance,STAI-T,Anxiety,42,7.477911509472098
+2582,Circumplex,high dominance,STAI-T,Anxiety,31,3.4677791644661555
+2717,Circumplex,high dominance,STAI-T,Anxiety,44,0.040689448629324276
+3219,Circumplex,high dominance,STAI-T,Anxiety,33,-0.8770282515528386
+3403,Circumplex,high dominance,STAI-T,Anxiety,29,2.3182253026614625
+3515,Circumplex,high dominance,STAI-T,Anxiety,52,-3.4409127763857024
+3893,Circumplex,high dominance,STAI-T,Anxiety,33,2.8547806159392617
+3904,Circumplex,high dominance,STAI-T,Anxiety,33,-6.083695898420628
+4657,Circumplex,high dominance,STAI-T,Anxiety,32,-0.6911636304867177
+4755,Circumplex,high dominance,STAI-T,Anxiety,41,1.4627693598041214
+4969,Circumplex,high dominance,STAI-T,Anxiety,50,-1.2726736742424152
+5071,Circumplex,high dominance,STAI-T,Anxiety,34,0.8563295277542581
+5344,Circumplex,high dominance,STAI-T,Anxiety,29,3.6358388940110706
+5625,Circumplex,high dominance,STAI-T,Anxiety,30,10.0
+5658,Circumplex,high dominance,STAI-T,Anxiety,51,-0.7148244302333739
+6016,Circumplex,high dominance,STAI-T,Anxiety,30,-0.5000484083987387
+6047,Circumplex,high dominance,STAI-T,Anxiety,35,8.926707533654646
+6184,Circumplex,high dominance,STAI-T,Anxiety,41,-0.21124142192962586
+6246,Circumplex,high dominance,STAI-T,Anxiety,37,0.15079069562415343
+6453,Circumplex,high dominance,STAI-T,Anxiety,39,-1.262792252600261
+6504,Circumplex,high dominance,STAI-T,Anxiety,32,0.9494816542384874
+6588,Circumplex,high dominance,STAI-T,Anxiety,36,-0.0982372452223802
+7338,Circumplex,high dominance,STAI-T,Anxiety,43,-0.6005964316375098
+7351,Circumplex,high dominance,STAI-T,Anxiety,32,2.7515237962506096
+7452,Circumplex,high dominance,STAI-T,Anxiety,39,-0.7893194881823291
+7542,Circumplex,high dominance,STAI-T,Anxiety,28,0.9079105518174939
+7583,Circumplex,high dominance,STAI-T,Anxiety,33,0.3872924830644225
+7796,Circumplex,high dominance,STAI-T,Anxiety,34,-0.020594880146534367
+7827,Circumplex,high dominance,STAI-T,Anxiety,35,2.371372738800923
+7888,Circumplex,high dominance,STAI-T,Anxiety,37,-5.701372348214815
+7933,Circumplex,high dominance,STAI-T,Anxiety,26,10.0
+8197,Circumplex,high dominance,STAI-T,Anxiety,31,6.725918945147431
+8517,Circumplex,high dominance,STAI-T,Anxiety,30,6.13795003300956
+8788,Circumplex,high dominance,STAI-T,Anxiety,51,0.19608069477613027
+8892,Circumplex,high dominance,STAI-T,Anxiety,32,2.13524419802896
+8995,Circumplex,high dominance,STAI-T,Anxiety,56,-3.9780108235338925
+9023,Circumplex,high dominance,STAI-T,Anxiety,34,-8.893909879502141
+9350,Circumplex,high dominance,STAI-T,Anxiety,28,2.4026759809019005
+164,Circumplex,high dominance,FPES,Anxiety,37,-3.5317539055214375
+292,Circumplex,high dominance,FPES,Anxiety,27,0.2047104183392534
+344,Circumplex,high dominance,FPES,Anxiety,47,1.807482834997648
+409,Circumplex,high dominance,FPES,Anxiety,27,2.3236857844994336
+438,Circumplex,high dominance,FPES,Anxiety,39,1.2192373014868887
+637,Circumplex,high dominance,FPES,Anxiety,15,9.99891227425945
+808,Circumplex,high dominance,FPES,Anxiety,30,0.03294808290028673
+923,Circumplex,high dominance,FPES,Anxiety,41,0.4106645190524428
+1109,Circumplex,high dominance,FPES,Anxiety,14,1.304425980847832
+1119,Circumplex,high dominance,FPES,Anxiety,37,-0.6815579744905574
+1418,Circumplex,high dominance,FPES,Anxiety,14,2.1922823485648957
+1611,Circumplex,high dominance,FPES,Anxiety,13,0.18519359558283147
+1688,Circumplex,high dominance,FPES,Anxiety,59,0.1088375743745277
+1761,Circumplex,high dominance,FPES,Anxiety,8,5.171577847727388
+1800,Circumplex,high dominance,FPES,Anxiety,11,1.152066192955473
+1902,Circumplex,high dominance,FPES,Anxiety,50,-0.13070479770285243
+2007,Circumplex,high dominance,FPES,Anxiety,31,0.7064293018789183
+2370,Circumplex,high dominance,FPES,Anxiety,12,-0.06681600750529625
+2463,Circumplex,high dominance,FPES,Anxiety,16,2.827426743721267
+2480,Circumplex,high dominance,FPES,Anxiety,14,2.113528310993024
+2582,Circumplex,high dominance,FPES,Anxiety,8,3.47856375965402
+2717,Circumplex,high dominance,FPES,Anxiety,46,0.03944332869363153
+3219,Circumplex,high dominance,FPES,Anxiety,26,-0.8915879885359106
+3403,Circumplex,high dominance,FPES,Anxiety,9,2.3259748679285854
+3515,Circumplex,high dominance,FPES,Anxiety,52,-3.4880488856662537
+3893,Circumplex,high dominance,FPES,Anxiety,50,2.8499990614724595
+3904,Circumplex,high dominance,FPES,Anxiety,44,-5.669091743451946
+4657,Circumplex,high dominance,FPES,Anxiety,41,-0.6940871693120625
+4755,Circumplex,high dominance,FPES,Anxiety,38,1.4358524244079
+4969,Circumplex,high dominance,FPES,Anxiety,35,-1.2726760296729875
+5071,Circumplex,high dominance,FPES,Anxiety,21,0.8626503724169169
+5344,Circumplex,high dominance,FPES,Anxiety,2,10.0
+5625,Circumplex,high dominance,FPES,Anxiety,32,10.0
+5658,Circumplex,high dominance,FPES,Anxiety,48,-0.7167590794197088
+6016,Circumplex,high dominance,FPES,Anxiety,27,-0.5000265428617645
+6047,Circumplex,high dominance,FPES,Anxiety,9,9.014334949321492
+6184,Circumplex,high dominance,FPES,Anxiety,40,-0.2138154696558429
+6246,Circumplex,high dominance,FPES,Anxiety,28,0.15080867310169468
+6453,Circumplex,high dominance,FPES,Anxiety,28,-1.2503090482643224
+6504,Circumplex,high dominance,FPES,Anxiety,20,0.9569687513376881
+6588,Circumplex,high dominance,FPES,Anxiety,50,-0.09918322781149376
+7338,Circumplex,high dominance,FPES,Anxiety,28,-0.5799251176829213
+7351,Circumplex,high dominance,FPES,Anxiety,21,2.6961080799741746
+7452,Circumplex,high dominance,FPES,Anxiety,39,-0.7644463679386383
+7542,Circumplex,high dominance,FPES,Anxiety,18,0.8726154294638498
+7583,Circumplex,high dominance,FPES,Anxiety,16,0.3814145652026507
+7796,Circumplex,high dominance,FPES,Anxiety,26,-0.022098704267019497
+7827,Circumplex,high dominance,FPES,Anxiety,51,2.459094003550816
+7888,Circumplex,high dominance,FPES,Anxiety,8,-5.785147974353228
+7933,Circumplex,high dominance,FPES,Anxiety,16,10.0
+8197,Circumplex,high dominance,FPES,Anxiety,35,0.4845513873645693
+8517,Circumplex,high dominance,FPES,Anxiety,10,6.168864983893561
+8788,Circumplex,high dominance,FPES,Anxiety,47,0.20066073086622552
+8892,Circumplex,high dominance,FPES,Anxiety,24,2.145654562127325
+8995,Circumplex,high dominance,FPES,Anxiety,45,-3.9685890258802363
+9023,Circumplex,high dominance,FPES,Anxiety,17,-8.91283815367932
+9350,Circumplex,high dominance,FPES,Anxiety,38,2.406322481578045
+164,Circumplex,high dominance,BDI,Depression,10,-3.5635452090160777
+292,Circumplex,high dominance,BDI,Depression,19,0.19852413850927017
+344,Circumplex,high dominance,BDI,Depression,9,1.798182767833361
+409,Circumplex,high dominance,BDI,Depression,1,2.347347194035243
+438,Circumplex,high dominance,BDI,Depression,4,1.2128087101363503
+637,Circumplex,high dominance,BDI,Depression,4,9.94129363848392
+808,Circumplex,high dominance,BDI,Depression,3,0.02278878642237636
+923,Circumplex,high dominance,BDI,Depression,9,0.41392879346647765
+1109,Circumplex,high dominance,BDI,Depression,8,1.2992896574138504
+1119,Circumplex,high dominance,BDI,Depression,5,-0.6873374238733667
+1418,Circumplex,high dominance,BDI,Depression,3,2.1922990584322037
+1611,Circumplex,high dominance,BDI,Depression,9,0.1859609746959935
+1688,Circumplex,high dominance,BDI,Depression,0,0.10571352375946577
+1761,Circumplex,high dominance,BDI,Depression,6,5.171820983824391
+1800,Circumplex,high dominance,BDI,Depression,8,1.1731943472745554
+1902,Circumplex,high dominance,BDI,Depression,0,-0.13155561250652084
+2007,Circumplex,high dominance,BDI,Depression,4,0.7155527602768952
+2370,Circumplex,high dominance,BDI,Depression,14,-0.06661819605088468
+2463,Circumplex,high dominance,BDI,Depression,1,2.8273972265964513
+2480,Circumplex,high dominance,BDI,Depression,9,2.101045861368591
+2582,Circumplex,high dominance,BDI,Depression,5,3.543080635413967
+2717,Circumplex,high dominance,BDI,Depression,13,0.0406796389291572
+3219,Circumplex,high dominance,BDI,Depression,5,-0.9132590524232381
+3403,Circumplex,high dominance,BDI,Depression,0,2.3026529791403942
+3515,Circumplex,high dominance,BDI,Depression,10,-3.425173922720692
+3893,Circumplex,high dominance,BDI,Depression,2,2.9410016975076303
+3904,Circumplex,high dominance,BDI,Depression,25,-6.1247474548743535
+4657,Circumplex,high dominance,BDI,Depression,5,-0.6940843461902224
+4755,Circumplex,high dominance,BDI,Depression,6,1.4358591121785635
+4969,Circumplex,high dominance,BDI,Depression,7,-1.278476238275527
+5071,Circumplex,high dominance,BDI,Depression,4,0.843594032583826
+5344,Circumplex,high dominance,BDI,Depression,5,9.986181181606382
+5625,Circumplex,high dominance,BDI,Depression,1,10.0
+5658,Circumplex,high dominance,BDI,Depression,14,-0.7186612404314214
+6016,Circumplex,high dominance,BDI,Depression,5,-0.5084403464033757
+6047,Circumplex,high dominance,BDI,Depression,4,9.211091482299928
+6184,Circumplex,high dominance,BDI,Depression,3,-0.21381044434565039
+6246,Circumplex,high dominance,BDI,Depression,8,0.1489199948636918
+6453,Circumplex,high dominance,BDI,Depression,3,-1.250309360371205
+6504,Circumplex,high dominance,BDI,Depression,4,0.9544504271003746
+6588,Circumplex,high dominance,BDI,Depression,14,-0.09551067424970872
+7338,Circumplex,high dominance,BDI,Depression,18,-0.5799140190615397
+7351,Circumplex,high dominance,BDI,Depression,1,2.67924850325419
+7452,Circumplex,high dominance,BDI,Depression,3,-0.7751779008654301
+7542,Circumplex,high dominance,BDI,Depression,3,0.901510127385554
+7583,Circumplex,high dominance,BDI,Depression,3,0.3853131585525721
+7796,Circumplex,high dominance,BDI,Depression,6,-0.01956539679402151
+7827,Circumplex,high dominance,BDI,Depression,0,2.442604439944954
+7888,Circumplex,high dominance,BDI,Depression,20,-5.469902841807404
+7933,Circumplex,high dominance,BDI,Depression,5,10.0
+8197,Circumplex,high dominance,BDI,Depression,2,6.675698865575041
+8517,Circumplex,high dominance,BDI,Depression,4,6.170078818961464
+8788,Circumplex,high dominance,BDI,Depression,11,0.1960837403982658
+8892,Circumplex,high dominance,BDI,Depression,6,2.1767219923859917
+8995,Circumplex,high dominance,BDI,Depression,14,-3.9966674044029324
+9023,Circumplex,high dominance,BDI,Depression,13,-8.874965406100188
+9350,Circumplex,high dominance,BDI,Depression,0,2.340420681876009
+164,Circumplex,high dominance,RSES,Depression,39,-3.5773207832082705
+292,Circumplex,high dominance,RSES,Depression,29,0.1944086014503284
+344,Circumplex,high dominance,RSES,Depression,46,1.7981832255795336
+409,Circumplex,high dominance,RSES,Depression,68,2.3394683602878295
+438,Circumplex,high dominance,RSES,Depression,60,1.2063585815216196
+637,Circumplex,high dominance,RSES,Depression,68,9.99908691229506
+808,Circumplex,high dominance,RSES,Depression,63,0.03416318733531331
+923,Circumplex,high dominance,RSES,Depression,58,0.4122939161960193
+1109,Circumplex,high dominance,RSES,Depression,61,1.3044258465007563
+1119,Circumplex,high dominance,RSES,Depression,65,-0.6815577887822339
+1418,Circumplex,high dominance,RSES,Depression,67,2.1922727280663197
+1611,Circumplex,high dominance,RSES,Depression,45,0.18558262028725134
+1688,Circumplex,high dominance,RSES,Depression,60,-0.09645699787372915
+1761,Circumplex,high dominance,RSES,Depression,61,5.191234586608393
+1800,Circumplex,high dominance,RSES,Depression,58,1.1563198486566448
+1902,Circumplex,high dominance,RSES,Depression,69,-0.1322026382015881
+2007,Circumplex,high dominance,RSES,Depression,62,0.7064238493131929
+2370,Circumplex,high dominance,RSES,Depression,39,-0.06692800452112828
+2463,Circumplex,high dominance,RSES,Depression,70,2.816269501065966
+2480,Circumplex,high dominance,RSES,Depression,59,7.426617238294354
+2582,Circumplex,high dominance,RSES,Depression,63,3.489357632954877
+2717,Circumplex,high dominance,RSES,Depression,39,0.04134437282748436
+3219,Circumplex,high dominance,RSES,Depression,65,-0.8988134173031224
+3403,Circumplex,high dominance,RSES,Depression,70,2.31043806398058
+3515,Circumplex,high dominance,RSES,Depression,53,-3.4251484452322063
+3893,Circumplex,high dominance,RSES,Depression,67,2.782452254906937
+3904,Circumplex,high dominance,RSES,Depression,34,-5.960164368824502
+4657,Circumplex,high dominance,RSES,Depression,64,-0.6822309211177218
+4755,Circumplex,high dominance,RSES,Depression,64,1.4520154172890567
+4969,Circumplex,high dominance,RSES,Depression,41,-1.2900816528477568
+5071,Circumplex,high dominance,RSES,Depression,67,0.8499882355532984
+5344,Circumplex,high dominance,RSES,Depression,70,9.98486151597897
+5625,Circumplex,high dominance,RSES,Depression,70,10.0
+5658,Circumplex,high dominance,RSES,Depression,38,-0.7148168102895858
+6016,Circumplex,high dominance,RSES,Depression,60,-0.4959013545387309
+6047,Circumplex,high dominance,RSES,Depression,66,3.4399232358635476
+6184,Circumplex,high dominance,RSES,Depression,55,-0.21123242980536502
+6246,Circumplex,high dominance,RSES,Depression,56,0.1469785271406478
+6453,Circumplex,high dominance,RSES,Depression,55,-1.25032011349923
+6504,Circumplex,high dominance,RSES,Depression,70,0.9544453544575952
+6588,Circumplex,high dominance,RSES,Depression,61,-0.09553249743027109
+7338,Circumplex,high dominance,RSES,Depression,54,-0.5799271772546554
+7351,Circumplex,high dominance,RSES,Depression,53,2.849774374439597
+7452,Circumplex,high dominance,RSES,Depression,54,-0.7787296038137052
+7542,Circumplex,high dominance,RSES,Depression,62,0.8660867846285528
+7583,Circumplex,high dominance,RSES,Depression,70,0.3872912461745609
+7796,Circumplex,high dominance,RSES,Depression,58,-0.0235077973856616
+7827,Circumplex,high dominance,RSES,Depression,66,2.4858566316755466
+7888,Circumplex,high dominance,RSES,Depression,50,-6.1378243227491485
+7933,Circumplex,high dominance,RSES,Depression,69,10.0
+8197,Circumplex,high dominance,RSES,Depression,64,0.4864920694911787
+8517,Circumplex,high dominance,RSES,Depression,63,6.161142113918854
+8788,Circumplex,high dominance,RSES,Depression,44,0.17664236124623978
+8892,Circumplex,high dominance,RSES,Depression,70,2.13521911408753
+8995,Circumplex,high dominance,RSES,Depression,45,-3.9686627975743476
+9023,Circumplex,high dominance,RSES,Depression,42,-8.948715582525562
+9350,Circumplex,high dominance,RSES,Depression,70,2.403208096399467
+>>>>>>> cf04653 (computing separate drift rates per person per category of word and outputting a .csv file)

@@ -41,10 +41,9 @@ def map_choices_to_binary(df, choice_col):
     return df
 
 # Compute drift rates by binning participants by questionnaire score
-def compute_drift_rates(df, participant_col, rt_col, choice_col,
-                        dimension_cols, anxiety_measures, depression_measures,
-                        drift_model_creator, drift_fit_func,
-                        n_bins=5):
+def compute_drift_rates_per_participant(df, participant_col, rt_col, choice_col,
+                                        dimension_cols, anxiety_measures, depression_measures,
+                                        drift_model_creator, drift_fit_func):
     results = []
 
     for dimension in dimension_cols:
@@ -58,56 +57,46 @@ def compute_drift_rates(df, participant_col, rt_col, choice_col,
                 (depression_measures, 'Depression')
             ]:
                 for measure in measure_set:
-                    print(f"    ↳ Fitting model for {measure_type} measure: {measure}")
+                    print(f"    ↳ Fitting per-person model for {measure_type} measure: {measure}")
 
-                    try:
-                        # Assign score to participants
-                        scores = df[[participant_col, measure]].drop_duplicates().dropna()
-                        scores.columns = [participant_col, 'score']
-                        subset_scored = subset.merge(scores, on=participant_col)
+                    scores = df[[participant_col, measure]].drop_duplicates().dropna()
+                    scores.columns = [participant_col, 'score']
+                    subset_scored = subset.merge(scores, on=participant_col)
 
-                        if subset_scored['score'].nunique() < 3:
-                            print(f"    [SKIP] Not enough unique scores for {measure}")
-                            continue
-
-                        # Bin by questionnaire score
-                        subset_scored['score_bin'] = pd.qcut(subset_scored['score'], n_bins, duplicates='drop')
-
-                        for bin_label, bin_df in subset_scored.groupby('score_bin', observed=True):
-                            mean_score = bin_df['score'].mean()
-                            drift_model = drift_model_creator()
-
-                            try:
-                                fit_result = drift_fit_func(
-                                    drift_model,
-                                    bin_df[[rt_col, choice_col, 'score']],
-                                    rt_col, choice_col, 'score'
-                                )
-
-                                if fit_result is None:
-                                    print(f"    [WARN] Fit failed for {dimension}-{category}-{measure} in bin {bin_label}")
-                                    continue
-
-                                a = fit_result.parameters()['drift']['a']
-                                b = fit_result.parameters()['drift']['b']
-                                results.append({
-                                    'Dimension': dimension,
-                                    'Category': category,
-                                    'Measure': measure,
-                                    'Type': measure_type,
-                                    'ScoreBinMean': float(mean_score),
-                                    'DriftRate': a * mean_score + b
-                                })
-
-                            except Exception as e:
-                                print(f"    [ERROR] Failed for {dimension}-{category}-{measure} bin {bin_label}: {e}")
-
-                    except Exception as e:
-                        print(f"    [ERROR] Failed to assign scores or process {measure}: {e}")
+                    if subset_scored['score'].nunique() < 3:
+                        print(f"    [SKIP] Not enough unique scores for {measure}")
                         continue
 
-    results_df = pd.DataFrame(results, columns=['Dimension', 'Category', 'Measure', 'Type', 'ScoreBinMean', 'DriftRate'])
-    return results_df
+                    for pid, person_df in subset_scored.groupby(participant_col):
+                        if len(person_df) < 5:
+                            continue  # skip people with too few trials
+
+                        model = drift_model_creator()
+                        try:
+                            fit_result = drift_fit_func(
+                                model,
+                                person_df[[rt_col, choice_col, 'score']],
+                                rt_col, choice_col, 'score'
+                            )
+                            if fit_result is None:
+                                continue
+
+                            drift_value = float(fit_result.parameters()["drift"]["drift"])
+
+                            results.append({
+                                'Participant': pid,
+                                'Dimension': dimension,
+                                'Category': category,
+                                'Measure': measure,
+                                'Type': measure_type,
+                                'Score': person_df['score'].iloc[0],
+                                'DriftRate': drift_value
+                            })
+                        except Exception as e:
+                            print(f"    [ERROR] Fit failed for participant {pid}: {e}")
+                            continue
+
+    return pd.DataFrame(results, columns=['Participant', 'Dimension', 'Category', 'Measure', 'Type', 'Score', 'DriftRate'])
 
 
 # Plots the graphs to showcase the drift rate over score 
@@ -119,11 +108,16 @@ def plot_drift_rates(results_df, dimension, anxiety_measures, depression_measure
         measure_df = subset_df[subset_df['Measure'] == measure]
         if not measure_df.empty:
             color = 'purple' if measure in anxiety_measures else 'red'
-            plt.plot(measure_df['ScoreBinMean'], measure_df['DriftRate'], marker='o', label=measure, color=color)
+
+            # Sort for smooth plotting
+            measure_df = measure_df.sort_values(by="Score")
+
+            plt.plot(measure_df['Score'], measure_df['DriftRate'],
+                     marker='o', linestyle='-', label=measure, color=color)
 
     plt.xlabel("Questionnaire Score")
     plt.ylabel("Drift Rate")
-    plt.title(f"Drift Rate by Questionnaire Score: {dimension}")
+    plt.title(f"Drift Rate by Score (Per Participant): {dimension}")
     plt.legend(loc='best', frameon=True)
     plt.grid(True)
     plt.tight_layout()
