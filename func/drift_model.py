@@ -62,19 +62,10 @@ def fit_model(model, data, rt_column, choice_column, score_column):
     sample = Sample.from_pandas_dataframe(
         data.rename(columns={
             rt_column: 'rt',
-<<<<<<< HEAD
-            choice_column: 'choice',
-            score_column: 'score'
-        }),
-        rt_column_name='rt',
-        choice_column_name='choice',
-        conditions_column_names=['score'] 
-=======
             choice_column: 'choice'
         }),
         rt_column_name='rt',
         choice_column_name='choice'
->>>>>>> cf04653 (computing separate drift rates per person per category of word and outputting a .csv file)
     )
     with suppress_stdout_stderr():
         return fit_adjust_model(sample=sample, model=model)
