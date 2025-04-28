@@ -49,11 +49,8 @@ def create_drift_model(cfg=None):
         drift=DriftConstant(drift=Fittable(minval=cfg['drift']['minval'], maxval=cfg['drift']['maxval'])),
         noise=NoiseConstant(noise=cfg['noise']),
         bound=BoundConstant(B=Fittable(minval=cfg['bound']['minval'], maxval=cfg['bound']['maxval'])),
-        overlay=OverlayChain(overlays=[
-            OverlayNonDecision(nondectime=Fittable(minval=cfg['nondectime']['minval'], maxval=cfg['nondectime']['maxval'])),
-            OverlayUniformMixture(umixturecoef=Fittable(minval=cfg['umixturecoef']['minval'], maxval=cfg['umixturecoef']['maxval']))
-        ]),
-        IC=ICUniform(),
+        overlay=OverlayNonDecision(nondectime=cfg['nondectime']),  
+        IC=ICUniform(),  
         dt=cfg['dt'],
         T_dur=cfg['T_dur']
     )
