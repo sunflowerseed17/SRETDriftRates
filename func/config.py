@@ -29,10 +29,11 @@ def get_scores(data, participant_column, measure_columns):
 # Drift model configuration defaults 
 def drift_model_config():
     return {
-        'drift': {'minval': -1, 'maxval': 1},
+        'drift': {'minval': -5, 'maxval': 5},
         'noise': 1,
-        'bound': {'minval': 0.5, 'maxval': 2.0}, 
-        'nondectime': 0.2, 
+        'bound': {'minval': 0.5, 'maxval': 2.0},
+        'z': {'minval': 0.1, 'maxval': 0.9}, 
+        'nondectime': 0.2,
         'dt': 0.01,
         'T_dur': 8.0
     }

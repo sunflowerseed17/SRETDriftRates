@@ -4,7 +4,7 @@
 ################
 
 from pyddm import Model, Fittable, Sample
-from pyddm.models import DriftConstant, NoiseConstant, BoundConstant, OverlayChain, OverlayNonDecision, OverlayUniformMixture, ICUniform  # type: ignore
+from pyddm.models import DriftConstant, NoiseConstant, BoundConstant, OverlayNonDecision, InitialCondition  # type: ignore
 from pyddm.functions import fit_adjust_model
 from config import drift_model_config
 import os
@@ -41,6 +41,18 @@ def suppress_stdout_stderr():
 # Model Definition #
 ####################
 
+
+class ICPointSourceBias(InitialCondition):
+    name = "Starting point bias (fittable z)"
+    required_parameters = ["x0"]  # ← tell pyddm that x0 will be fit
+
+    def get_IC(self, x, dx, conditions):
+        import numpy as np
+        IC = np.zeros(len(x))
+        closest = (np.abs(x - self.x0)).argmin()
+        IC[closest] = 1 / dx
+        return IC
+
 def create_drift_model(cfg=None):
     if cfg is None:
         cfg = drift_model_config()
@@ -49,8 +61,8 @@ def create_drift_model(cfg=None):
         drift=DriftConstant(drift=Fittable(minval=cfg['drift']['minval'], maxval=cfg['drift']['maxval'])),
         noise=NoiseConstant(noise=cfg['noise']),
         bound=BoundConstant(B=Fittable(minval=cfg['bound']['minval'], maxval=cfg['bound']['maxval'])),
-        overlay=OverlayNonDecision(nondectime=cfg['nondectime']),  
-        IC=ICUniform(),  
+        overlay=OverlayNonDecision(nondectime=cfg['nondectime']),
+        IC=ICPointSourceBias(x0=Fittable(minval=cfg['z']['minval'], maxval=cfg['z']['maxval'])),
         dt=cfg['dt'],
         T_dur=cfg['T_dur']
     )

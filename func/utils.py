@@ -48,57 +48,123 @@ def compute_drift_rates_per_participant(df, participant_col, rt_col, choice_col,
 
     for dimension in dimension_cols:
         print(f"[INFO] Processing dimension: {dimension}")
-        for category in df[dimension].dropna().unique():
-            print(f"  ↳ Category: {category}")
-            subset = prepare_data(df, dimension, category)
 
-            for measure_set, measure_type in [
-                (anxiety_measures, 'Anxiety'),
-                (depression_measures, 'Depression')
-            ]:
-                for measure in measure_set:
-                    print(f"    ↳ Fitting per-person model for {measure_type} measure: {measure}")
+        if dimension == "Circumplex":
+            if "Affiliation" not in df.columns and "Dominance" not in df.columns:
+                df["Affiliation"] = df["Circumplex"].where(df["Circumplex"].str.contains("affiliation", case=False))
+                df["Dominance"] = df["Circumplex"].where(df["Circumplex"].str.contains("dominance", case=False))
+            for circ_type, col in [("Affiliation", "Affiliation"), ("Dominance", "Dominance")]:
+                for category in df[col].dropna().unique():
+                    print(f"  ↳ {circ_type} Category: {category}")
+                    subset = df[df[col] == category].copy()
 
-                    scores = df[[participant_col, measure]].drop_duplicates().dropna()
-                    scores.columns = [participant_col, 'score']
-                    subset_scored = subset.merge(scores, on=participant_col)
+                    for measure_set, measure_type in [
+                        (anxiety_measures, 'Anxiety'),
+                        (depression_measures, 'Depression')
+                    ]:
+                        for measure in measure_set:
+                            print(f"    ↳ Fitting per-person model for {measure_type} measure: {measure}")
 
-                    if subset_scored['score'].nunique() < 3:
-                        print(f"    [SKIP] Not enough unique scores for {measure}")
-                        continue
+                            scores = df[[participant_col, measure]].drop_duplicates().dropna()
+                            scores.columns = [participant_col, 'score']
+                            subset_scored = subset.merge(scores, on=participant_col)
 
-                    for pid, person_df in subset_scored.groupby(participant_col):
-                        if len(person_df) < 5:
-                            continue  # skip people with too few trials
-
-                        model = drift_model_creator()
-                        try:
-                            fit_result = drift_fit_func(
-                                model,
-                                person_df[[rt_col, choice_col, 'score']],
-                                rt_col, choice_col, 'score'
-                            )
-                            if fit_result is None:
+                            if subset_scored['score'].nunique() < 3:
+                                print(f"    [SKIP] Not enough unique scores for {measure}")
                                 continue
 
-                            drift_value = float(fit_result.parameters()["drift"]["drift"])
+                            for pid, person_df in subset_scored.groupby(participant_col):
+                                if len(person_df) < 5:
+                                    continue
 
-                            results.append({
-                                'Participant': pid,
-                                'Dimension': dimension,
-                                'Category': category,
-                                'Measure': measure,
-                                'Type': measure_type,
-                                'Score': person_df['score'].iloc[0],
-                                'DriftRate': drift_value
-                            })
-                        except Exception as e:
-                            print(f"    [ERROR] Fit failed for participant {pid}: {e}")
+                                model = drift_model_creator()
+                                try:
+                                    fit_result = drift_fit_func(
+                                        model,
+                                        person_df[[rt_col, choice_col, 'score']],
+                                        rt_col, choice_col, 'score'
+                                    )
+                                    if fit_result is None:
+                                        continue
+
+                                    drift_value = float(fit_result.parameters()["drift"]["drift"])
+                                    alpha_value = float(fit_result.parameters()["bound"]["B"])
+                                    bias_value = float(fit_result.parameters()["IC"]["x0"])
+
+                                    results.append({
+                                        'Participant': pid,
+                                        'Dimension': circ_type if dimension == "Circumplex" else dimension,
+                                        'Category': category,
+                                        'Measure': measure,
+                                        'Type': measure_type,
+                                        'Score': person_df['score'].iloc[0],
+                                        'DriftRate': drift_value,
+                                        'Alpha': alpha_value,
+                                        'Bias': bias_value
+                                    })
+                                except Exception as e:
+                                    print(f"    [ERROR] Fit failed for participant {pid}: {e}")
+                                    continue
+
+        else:
+            # Handle Valence as before
+            for category in df[dimension].dropna().unique():
+                print(f"  ↳ Category: {category}")
+                subset = df[df[dimension] == category].copy()
+
+                for measure_set, measure_type in [
+                    (anxiety_measures, 'Anxiety'),
+                    (depression_measures, 'Depression')
+                ]:
+                    for measure in measure_set:
+                        print(f"    ↳ Fitting per-person model for {measure_type} measure: {measure}")
+
+                        scores = df[[participant_col, measure]].drop_duplicates().dropna()
+                        scores.columns = [participant_col, 'score']
+                        subset_scored = subset.merge(scores, on=participant_col)
+
+                        if subset_scored['score'].nunique() < 3:
+                            print(f"    [SKIP] Not enough unique scores for {measure}")
                             continue
 
-    return pd.DataFrame(results, columns=['Participant', 'Dimension', 'Category', 'Measure', 'Type', 'Score', 'DriftRate'])
+                        for pid, person_df in subset_scored.groupby(participant_col):
+                            if len(person_df) < 5:
+                                continue
 
+                            model = drift_model_creator()
+                            try:
+                                fit_result = drift_fit_func(
+                                    model,
+                                    person_df[[rt_col, choice_col, 'score']],
+                                    rt_col, choice_col, 'score'
+                                )
+                                if fit_result is None:
+                                    continue
 
+                                drift_value = float(fit_result.parameters()["drift"]["drift"])
+                                alpha_value = float(fit_result.parameters()["bound"]["B"])
+                                bias_value = float(fit_result.parameters()["IC"]["x0"])
+
+                                results.append({
+                                    'Participant': pid,
+                                    'Dimension': circ_type if dimension == "Circumplex" else dimension,
+                                    'Category': category,
+                                    'Measure': measure,
+                                    'Type': measure_type,
+                                    'Score': person_df['score'].iloc[0],
+                                    'DriftRate': drift_value,
+                                    'Alpha': alpha_value,
+                                    'Bias': bias_value
+                                })
+                            except Exception as e:
+                                print(f"    [ERROR] Fit failed for participant {pid}: {e}")
+                                continue
+
+    return pd.DataFrame(results, columns=[
+        'Participant', 'Dimension', 'Category',
+        'Measure', 'Type', 'Score',
+        'DriftRate', 'Alpha', 'Bias'
+    ])
 # Plots the graphs to showcase the drift rate over score 
 def plot_drift_rates(results_df, dimension, anxiety_measures, depression_measures):
     plt.figure(figsize=(10, 6))
