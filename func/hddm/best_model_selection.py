@@ -1,48 +1,47 @@
-# func/hddm/drift_model.py
 import os
 import re
 import numpy as np
 import pandas as pd
 import hddm
 
-# -------------------------------
-# 1) Load & preprocess (same as yours)
-# -------------------------------
+# Load & preprocess
 df = pd.read_csv("data/SRET2019.csv")
 
 df = df.dropna(subset=["SERT.RT", "Response"]).copy()
 df["rt"] = df["SERT.RT"] / 1000.0
-df["response"] = (
-    df["Response"].astype(str).str.strip().str.lower().isin(["1", "yes", "y", "true"])
-).astype(int)
+df["response"] = (df["Response"].astype(str).str.strip().str.lower().isin(
+    ["1", "yes", "y", "true"])).astype(int)
 
 df["subj_idx"] = df["Subject"].astype(str)
 df["Valence"] = df["Valence"].astype(str).str.strip().str.lower()
-df["Circumplex"] = df["Circumplex"].astype(str).str.strip().str.lower().str.replace("  ", " ", regex=False)
+df["Circumplex"] = df["Circumplex"].astype(
+    str).str.strip().str.lower().str.replace("  ", " ", regex=False)
 df["Circumplex_no_space"] = df["Circumplex"].str.replace(" ", "", regex=False)
 
 keep_mask = (
-    ((df["Valence"] == "positive") & df["Circumplex_no_space"].isin(["highaffiliation", "highdominance"])) |
-    ((df["Valence"] == "negative") & df["Circumplex_no_space"].isin(["lowaffiliation", "lowdominance"]))
-)
+    ((df["Valence"] == "positive")
+     & df["Circumplex_no_space"].isin(["highaffiliation", "highdominance"])) |
+    ((df["Valence"] == "negative")
+     & df["Circumplex_no_space"].isin(["lowaffiliation", "lowdominance"])))
 df = df.loc[keep_mask].copy()
 
 df["Circumplex2"] = np.where(
-    df["Circumplex_no_space"].str.contains("affiliation"), "affiliation", "dominance"
-)
+    df["Circumplex_no_space"].str.contains("affiliation"), "affiliation",
+    "dominance")
 
-df["Valence"] = pd.Categorical(df["Valence"], categories=["negative", "positive"])
-df["Circumplex2"] = pd.Categorical(df["Circumplex2"], categories=["affiliation", "dominance"])
+df["Valence"] = pd.Categorical(df["Valence"],
+                               categories=["negative", "positive"])
+df["Circumplex2"] = pd.Categorical(df["Circumplex2"],
+                                   categories=["affiliation", "dominance"])
 
 df = df[(df["rt"] > 0.15) & (df["rt"] < 5.0)].copy()
 
 # Sanity checks
 assert set(df["response"].unique()) <= {0, 1}
-assert {"rt", "response", "subj_idx", "Valence", "Circumplex2"}.issubset(df.columns)
+assert {"rt", "response", "subj_idx", "Valence",
+        "Circumplex2"}.issubset(df.columns)
 
-# -------------------------------
-# 2) Fit BEST model: v,a,t,z vary by Valence × Circumplex2
-# -------------------------------
+# Fit BEST model: v,a,t,z vary by Valence × Circumplex2
 depends = {
     "v": ["Valence", "Circumplex2"],
     "a": ["Valence", "Circumplex2"],
@@ -70,25 +69,18 @@ model.print_stats()
 os.makedirs("output", exist_ok=True)
 model.save("output/best_hddm_model")
 
-# -------------------------------
-# 3) Extract per-subject parameter means per condition
-#    (robust parser for trace names)
-# -------------------------------
-traces = model.get_traces()  # one DataFrame with all nodes
+# Extract per-subject parameter means per condition
+traces = model.get_traces()
 cols = list(traces.columns)
 subjects = set(df["subj_idx"].astype(str))
 VALS = ["negative", "positive"]
 CIRCS = ["affiliation", "dominance"]
 
-# Example node names seen in HDDM:
-#   v(Valence.positive,Circumplex2.affiliation)_subj.1109
-#   a(Circumplex2.dominance,Valence.negative)_subj.2007
-node_re = re.compile(
-    r'^(?P<par>[vatz])'
-    r'(?:\((?P<f1>[^)]+)\))?'
-    r'(?:\((?P<f2>[^)]+)\))?'
-    r'_subj\.(?P<sid>.+)$'
-)
+node_re = re.compile(r'^(?P<par>[vatz])'
+                     r'(?:\((?P<f1>[^)]+)\))?'
+                     r'(?:\((?P<f2>[^)]+)\))?'
+                     r'_subj\.(?P<sid>.+)$')
+
 
 def parse_fac(s):
     out = {}
@@ -100,7 +92,8 @@ def parse_fac(s):
             out[k.strip()] = v.strip()
     return out
 
-rows = []  # Subject, Valence, Circumplex2, param, mean
+
+rows = []
 for c in cols:
     m = node_re.match(c)
     if not m:
@@ -110,7 +103,7 @@ for c in cols:
         continue
     sid = str(m.group("sid"))
     if sid not in subjects:
-        continue  # skip group-level nodes
+        continue
 
     facs = {}
     facs.update(parse_fac(m.group("f1")))
@@ -128,19 +121,19 @@ for c in cols:
         "mean": float(np.asarray(traces[c]).mean()),
     })
 
-param_long = (
-    pd.DataFrame(rows)
-      .pivot_table(index=["Subject", "Valence", "Circumplex2"], columns="param", values="mean", aggfunc="mean")
-      .reset_index()
-      .rename_axis(None, axis=1)
-      .sort_values(["Subject", "Valence", "Circumplex2"])
-)
+param_long = (pd.DataFrame(rows).pivot_table(
+    index=["Subject", "Valence", "Circumplex2"],
+    columns="param",
+    values="mean",
+    aggfunc="mean").reset_index().rename_axis(None, axis=1).sort_values(
+        ["Subject", "Valence", "Circumplex2"]))
 
-# -------------------------------
-# 4) Save DRIFT ONLY table (what your downstream expects)
-# -------------------------------
+# Save DRIFT ONLY table
+
+
 def cond_label(v, c):
-    return f"{v}_{c}"  # e.g., positive_affiliation
+    return f"{v}_{c}"
+
 
 drift_rows = []
 for _, r in param_long.iterrows():
@@ -157,10 +150,13 @@ for _, r in param_long.iterrows():
 drift_df = pd.DataFrame(drift_rows).sort_values(["Subject", "Condition"])
 
 # Merge symptoms if present
-symptom_cols = ["LSAS", "SPIN", "FPES", "BFNE", "BDI", "RSES", "STAI-S", "STAI-T"]
+symptom_cols = [
+    "LSAS", "SPIN", "FPES", "BFNE", "BDI", "RSES", "STAI-S", "STAI-T"
+]
 have_symptoms = [c for c in symptom_cols if c in df.columns]
 if have_symptoms:
-    sym = df[["subj_idx"] + have_symptoms].drop_duplicates().rename(columns={"subj_idx": "Subject"})
+    sym = df[["subj_idx"] + have_symptoms].drop_duplicates().rename(
+        columns={"subj_idx": "Subject"})
     drift_df = drift_df.merge(sym, on="Subject", how="left")
 
 drift_path = "output/dm_absolute_drift_subjects.csv"
@@ -168,7 +164,7 @@ drift_df.to_csv(drift_path, index=False)
 print(f"\nSaved drift table → {drift_path}")
 print(drift_df.head())
 
-# Optional: also save full v,a,t,z per condition for each subject
+# Save full v,a,t,z per condition for each subject
 full_path = "output/hddm_params_subject_long.csv"
 param_long.to_csv(full_path, index=False)
 print(f"Saved full subject params → {full_path}")

@@ -1,8 +1,3 @@
-
-################
-# Dependencies #
-################
-
 import numpy as np
 from pyddm import Model, Fittable, Sample
 from pyddm.models import DriftConstant, NoiseConstant, BoundConstant, OverlayNonDecision, InitialCondition  # type: ignore
@@ -13,17 +8,15 @@ import contextlib
 import sys
 import logging
 
-
 # Suppress pyddm debug logging and output
 logging.getLogger("pyddm").setLevel(logging.ERROR)
 os.environ["PYTHONWARNINGS"] = "ignore"
 
-############
-# Cleaning #
-############
 
+# Cleaning
 def na_cleanout(data):
     return data.dropna()
+
 
 # Suppress stdout/stderr context
 @contextlib.contextmanager
@@ -39,10 +32,6 @@ def suppress_stdout_stderr():
             sys.stdout = old_stdout
             sys.stderr = old_stderr
 
-####################
-# Model Definition #
-####################
-
 
 class ICPointSourceBias(InitialCondition):
     name = "Starting point bias (fittable z)"
@@ -54,19 +43,23 @@ class ICPointSourceBias(InitialCondition):
         IC[closest] = 1 / dx
         return IC
 
+
 def create_drift_model(cfg=None):
     if cfg is None:
         cfg = drift_model_config()
 
     return Model(
-        drift=DriftConstant(drift=Fittable(minval=cfg['drift']['minval'], maxval=cfg['drift']['maxval'])),
+        drift=DriftConstant(drift=Fittable(minval=cfg['drift']['minval'],
+                                           maxval=cfg['drift']['maxval'])),
         noise=NoiseConstant(noise=cfg['noise']),
-        bound=BoundConstant(B=Fittable(minval=cfg['bound']['minval'], maxval=cfg['bound']['maxval'])),
+        bound=BoundConstant(B=Fittable(minval=cfg['bound']['minval'],
+                                       maxval=cfg['bound']['maxval'])),
         overlay=OverlayNonDecision(nondectime=cfg['nondectime']),
-        IC=ICPointSourceBias(x0=Fittable(minval=cfg['z']['minval'], maxval=cfg['z']['maxval'])),
+        IC=ICPointSourceBias(
+            x0=Fittable(minval=cfg['z']['minval'], maxval=cfg['z']['maxval'])),
         dt=cfg['dt'],
-        T_dur=cfg['T_dur']
-    )
+        T_dur=cfg['T_dur'])
+
 
 def fit_model(model, data, rt_column, choice_column):
     sample = Sample.from_pandas_dataframe(
@@ -75,7 +68,6 @@ def fit_model(model, data, rt_column, choice_column):
             choice_column: 'choice'
         }),
         rt_column_name='rt',
-        choice_column_name='choice'
-    )
+        choice_column_name='choice')
     with suppress_stdout_stderr():
         return fit_adjust_model(sample=sample, model=model)

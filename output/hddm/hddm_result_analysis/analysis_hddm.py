@@ -1,4 +1,3 @@
-# func/hddm/drift_analysis.py
 import os
 import numpy as np
 import pandas as pd
@@ -6,18 +5,14 @@ import matplotlib.pyplot as plt
 import matplotlib.table as tbl
 from scipy import stats
 
-# ---------------------------------------------------------------------
-# 0) Paths
-# ---------------------------------------------------------------------
+# File paths
 INPUT_CSV = "output/hddm/hddm_result_analysis/dm_absolute_drift_subjects.csv"
 
 # put all outputs in the SAME folder as the CSV
 OUT_DIR = os.path.dirname(os.path.abspath(INPUT_CSV)) or "."
 os.makedirs(OUT_DIR, exist_ok=True)
 
-# ---------------------------------------------------------------------
-# 1) Load data
-# ---------------------------------------------------------------------
+# Load data
 df = pd.read_csv(INPUT_CSV)
 
 # expected columns: Subject, Condition, Drift, (BDI, LSAS optionally)
@@ -36,32 +31,30 @@ COND_ORDER = [
     "positive_dominance",
 ]
 # keep seen conditions, but respect our preferred order
-conditions = [c for c in COND_ORDER if c in df["Condition"].unique()] + [
-    c for c in df["Condition"].unique() if c not in COND_ORDER
-]
+conditions = [c for c in COND_ORDER if c in df["Condition"].unique()
+              ] + [c for c in df["Condition"].unique() if c not in COND_ORDER]
 
 # Add Valence label for convenience
-df["Valence"] = np.where(df["Condition"].str.startswith("negative"), "negative", "positive")
+df["Valence"] = np.where(df["Condition"].str.startswith("negative"),
+                         "negative", "positive")
 
-# ---------------------------------------------------------------------
-# 2) Colors (pastel, consistent)
+# Colors (pastel, consistent)
 #    - Negative: blues
 #    - Positive: greens
-# ---------------------------------------------------------------------
+
 colors = {
-    "negative_affiliation": "#a4d1f6",  
-    "negative_dominance":   "#7e99fdaa",  
+    "negative_affiliation": "#a4d1f6",
+    "negative_dominance": "#7e99fdaa",
     "positive_affiliation": "#d9f5ca",  #
-    "positive_dominance":   "#66b86ac5",  #
+    "positive_dominance": "#66b86ac5",  #
     # valence-only
     "negative": "#234e59ce",
     "positive": "#34862e55",
 }
 
-# ---------------------------------------------------------------------
-# 3) Shared histogram settings (same x-axis for easy comparison)
-# ---------------------------------------------------------------------
+# Shared histogram settings (same x-axis for easy comparison)
 # compute a global range with a small margin
+
 drift_all = df["Drift"].astype(float).dropna()
 dr_min, dr_max = drift_all.min(), drift_all.max()
 margin = 0.05 * (dr_max - dr_min) if np.isfinite(dr_max - dr_min) else 1.0
@@ -75,6 +68,7 @@ title_font = {"fontsize": 18, "fontweight": "bold"}
 label_font = {"fontsize": 13}
 tick_fontsize = 12
 
+
 def tidy_title(s: str) -> str:
     """Turn 'negative_affiliation' into 'Negative • Affiliation' for titles."""
     if "_" in s:
@@ -82,17 +76,19 @@ def tidy_title(s: str) -> str:
         return f"{a.capitalize()} • {b.capitalize()}"
     return s.capitalize()
 
-# ---------------------------------------------------------------------
+
 # 4) Histograms by Condition (with shared x-lims)
-# ---------------------------------------------------------------------
 for cond in conditions:
     sub = df.loc[df["Condition"] == cond, "Drift"].astype(float).dropna()
     if sub.empty:
         continue
 
     plt.figure(figsize=(10, 6))
-    plt.hist(sub, bins=bins, color=colors.get(cond, "#888888"),
-             edgecolor="black", alpha=0.9)
+    plt.hist(sub,
+             bins=bins,
+             color=colors.get(cond, "#888888"),
+             edgecolor="black",
+             alpha=0.9)
     plt.title(f"Drift rate distribution — {tidy_title(cond)}", **title_font)
     plt.xlabel("Drift rate (v)", **label_font)
     plt.ylabel("Count", **label_font)
@@ -103,17 +99,14 @@ for cond in conditions:
     plt.savefig(os.path.join(OUT_DIR, f"hist_{cond}.png"), dpi=300)
     plt.close()
 
-# ---------------------------------------------------------------------
-# 5) Histograms by Valence (pooled across affiliation/dominance)
-# ---------------------------------------------------------------------
+# Histograms by Valence (pooled across affiliation/dominance)
 for val in ["negative", "positive"]:
     sub = df.loc[df["Valence"] == val, "Drift"].astype(float).dropna()
     if sub.empty:
         continue
 
     plt.figure(figsize=(10, 6))
-    plt.hist(sub, bins=bins, color=colors[val],
-             edgecolor="black", alpha=0.9)
+    plt.hist(sub, bins=bins, color=colors[val], edgecolor="black", alpha=0.9)
     plt.title(f"Drift rate distribution — {val.capitalize()}", **title_font)
     plt.xlabel("Drift rate (v)", **label_font)
     plt.ylabel("Count", **label_font)
@@ -126,9 +119,8 @@ for val in ["negative", "positive"]:
 
 print("Saved histograms with a shared x-axis scale.")
 
-# ---------------------------------------------------------------------
-# 6) Regressions helper
-# ---------------------------------------------------------------------
+
+# Regressions helper
 def regress_one(x: pd.Series, y: pd.Series):
     """Return r, p, R2, f2 (NaN-safe)."""
     x = pd.to_numeric(x, errors="coerce")
@@ -144,6 +136,7 @@ def regress_one(x: pd.Series, y: pd.Series):
     f2 = R2 / (1 - R2) if 0 <= R2 < 1 else np.nan
     return r, p, R2, f2
 
+
 def regression_table(groupby_col: str, symptom_cols=("BDI", "LSAS")):
     """Build a regression table grouped by 'Condition' or 'Valence'."""
     rows = []
@@ -153,31 +146,39 @@ def regression_table(groupby_col: str, symptom_cols=("BDI", "LSAS")):
             if sym in g.columns:
                 r, p, R2, f2 = regress_one(g[sym], g["Drift"])
                 row.update({
-                    f"{sym}_r": r, f"{sym}_p": p,
-                    f"{sym}_R2": R2, f"{sym}_f2": f2
+                    f"{sym}_r": r,
+                    f"{sym}_p": p,
+                    f"{sym}_R2": R2,
+                    f"{sym}_f2": f2
                 })
             else:
                 row.update({
-                    f"{sym}_r": np.nan, f"{sym}_p": np.nan,
-                    f"{sym}_R2": np.nan, f"{sym}_f2": np.nan
+                    f"{sym}_r": np.nan,
+                    f"{sym}_p": np.nan,
+                    f"{sym}_R2": np.nan,
+                    f"{sym}_f2": np.nan
                 })
         rows.append(row)
     out = pd.DataFrame(rows).sort_values(groupby_col)
     return out
+
 
 # condition-level and valence-level tables
 tbl_cond = regression_table("Condition")
 tbl_val = regression_table("Valence")
 
 # persist raw numeric tables (optional, for record)
-tbl_cond.to_csv(os.path.join(OUT_DIR, "drift_regressions_by_condition.csv"), index=False)
-tbl_val.to_csv(os.path.join(OUT_DIR, "drift_regressions_by_valence.csv"), index=False)
+tbl_cond.to_csv(os.path.join(OUT_DIR, "drift_regressions_by_condition.csv"),
+                index=False)
+tbl_val.to_csv(os.path.join(OUT_DIR, "drift_regressions_by_valence.csv"),
+               index=False)
 
-# ---------------------------------------------------------------------
-# 7) Nicely formatted table figures with p-value shading
+# Nicely formatted table figures with p-value shading
 #     (short headers so text always fits)
-# ---------------------------------------------------------------------
-def save_reg_table_png(df_in: pd.DataFrame, index_col: str, out_png: str, title: str):
+
+
+def save_reg_table_png(df_in: pd.DataFrame, index_col: str, out_png: str,
+                       title: str):
     df = df_in.copy()
     # pretty rounding
     for c in df.columns:
@@ -186,27 +187,31 @@ def save_reg_table_png(df_in: pd.DataFrame, index_col: str, out_png: str, title:
         df[c] = pd.to_numeric(df[c], errors="coerce")
         df[c] = df[c].round(3)
 
-    # nice, compact headers
-    columns = [index_col, "r BDI", "p BDI", "R² BDI", "f² BDI",
-               "r LSAS", "p LSAS", "R² LSAS", "f² LSAS"]
+    columns = [
+        index_col, "r BDI", "p BDI", "R² BDI", "f² BDI", "r LSAS", "p LSAS",
+        "R² LSAS", "f² LSAS"
+    ]
     rename_map = {
-        "BDI_r":"r BDI","BDI_p":"p BDI","BDI_R2":"R² BDI","BDI_f2":"f² BDI",
-        "LSAS_r":"r LSAS","LSAS_p":"p LSAS","LSAS_R2":"R² LSAS","LSAS_f2":"f² LSAS"
+        "BDI_r": "r BDI",
+        "BDI_p": "p BDI",
+        "BDI_R2": "R² BDI",
+        "BDI_f2": "f² BDI",
+        "LSAS_r": "r LSAS",
+        "LSAS_p": "p LSAS",
+        "LSAS_R2": "R² LSAS",
+        "LSAS_f2": "f² LSAS"
     }
     df = df.rename(columns=rename_map)
-    df = df[[c for c in columns if c in df.columns]]  # keep only present
+    df = df[[c for c in columns if c in df.columns]]
 
     data = df.values.tolist()
-
-    # figure sizing tuned so everything fits cleanly
     ncols = len(df.columns)
-    fig_w = 2.1 * ncols + 2.0  # width grows with #columns
+    fig_w = 2.1 * ncols + 2.0
     fig_h = 1.0 + 0.45 * max(len(df), 4)
 
     fig, ax = plt.subplots(figsize=(fig_w, fig_h))
     ax.axis("off")
 
-    # slightly wider first column for labels
     col_widths = [0.30] + [0.14] * (ncols - 1)
 
     table = tbl.table(ax,
@@ -227,13 +232,13 @@ def save_reg_table_png(df_in: pd.DataFrame, index_col: str, out_png: str, title:
                 val = float(cell.get_text().get_text())
                 if header.startswith("p "):
                     if val <= 0.001:
-                        cell.set_facecolor("#D110107E")   # strong
+                        cell.set_facecolor("#D110107E")  # strong
                     elif val <= 0.01:
-                        cell.set_facecolor("#FF8C8C90")   # moderate
+                        cell.set_facecolor("#FF8C8C90")  # moderate
                     elif val <= 0.05:
-                        cell.set_facecolor("#EEB9B486")   # weak
+                        cell.set_facecolor("#EEB9B486")  # weak
                     else:
-                        cell.set_facecolor("#FFFFFF")     # ns
+                        cell.set_facecolor("#FFFFFF")  # ns
             except Exception:
                 pass
 
@@ -243,32 +248,38 @@ def save_reg_table_png(df_in: pd.DataFrame, index_col: str, out_png: str, title:
     # small legend
     legend_lines = [
         ("p ≤ .001", "#D110107E"),
-        ("p ≤ .01",  "#FF8C8C90"),
-        ("p ≤ .05",  "#EEB9B486"),
-        ("ns",       "#FFFFFF"),
+        ("p ≤ .01", "#FF8C8C90"),
+        ("p ≤ .05", "#EEB9B486"),
+        ("ns", "#FFFFFF"),
     ]
     x0, y0 = 0.01, 0.02
     for i, (lab, col) in enumerate(legend_lines):
         y = y0 + i * 0.04
-        ax.add_patch(plt.Rectangle((x0, y), 0.02, 0.03, transform=ax.transAxes,
-                                   facecolor=col, edgecolor="black", lw=0.5))
-        ax.text(x0 + 0.025, y + 0.015, lab, transform=ax.transAxes,
-                va="center", fontsize=10)
+        ax.add_patch(
+            plt.Rectangle((x0, y),
+                          0.02,
+                          0.03,
+                          transform=ax.transAxes,
+                          facecolor=col,
+                          edgecolor="black",
+                          lw=0.5))
+        ax.text(x0 + 0.025,
+                y + 0.015,
+                lab,
+                transform=ax.transAxes,
+                va="center",
+                fontsize=10)
 
     plt.tight_layout(pad=1.0)
     plt.savefig(os.path.join(OUT_DIR, out_png), dpi=300)
     plt.close()
 
-save_reg_table_png(
-    tbl_cond, "Condition",
-    "drift_regression_table_by_condition.png",
-    "Drift–symptom regressions by Condition"
-)
 
-save_reg_table_png(
-    tbl_val, "Valence",
-    "drift_regression_table_by_valence.png",
-    "Drift–symptom regressions by Valence"
-)
+save_reg_table_png(tbl_cond, "Condition",
+                   "drift_regression_table_by_condition.png",
+                   "Drift–symptom regressions by Condition")
+
+save_reg_table_png(tbl_val, "Valence", "drift_regression_table_by_valence.png",
+                   "Drift–symptom regressions by Valence")
 
 print(f"All outputs written to: {OUT_DIR}")
